@@ -1,0 +1,11312 @@
+{
+  "北京": {
+    "time": -850,
+    "longitude": 116.46,
+    "latitude": 39.92
+  },
+  "平谷": {
+    "time": -696,
+    "longitude": 117.1,
+    "latitude": 40.13
+  },
+  "密云": {
+    "time": -756,
+    "longitude": 116.85,
+    "latitude": 40.37
+  },
+  "顺义": {
+    "time": -804,
+    "longitude": 116.65,
+    "latitude": 40.13
+  },
+  "通县": {
+    "time": -799,
+    "longitude": 116.67,
+    "latitude": 39.92
+  },
+  "怀柔": {
+    "time": -811,
+    "longitude": 116.62,
+    "latitude": 40.32
+  },
+  "大兴": {
+    "time": -881,
+    "longitude": 116.33,
+    "latitude": 39.73
+  },
+  "房山": {
+    "time": -965,
+    "longitude": 115.98,
+    "latitude": 39.72
+  },
+  "延庆": {
+    "time": -967,
+    "longitude": 115.97,
+    "latitude": 40.47
+  },
+  "昌平": {
+    "time": -912,
+    "longitude": 116.2,
+    "latitude": 40.22
+  },
+  "上海": {
+    "time": 355,
+    "longitude": 121.48,
+    "latitude": 31.22
+  },
+  "嘉定": {
+    "time": 298,
+    "longitude": 121.24,
+    "latitude": 31.4
+  },
+  "宝山": {
+    "time": 355,
+    "longitude": 121.48,
+    "latitude": 31.41
+  },
+  "川沙": {
+    "time": 408,
+    "longitude": 121.7,
+    "latitude": 31.19
+  },
+  "南汇": {
+    "time": 422,
+    "longitude": 121.76,
+    "latitude": 31.05
+  },
+  "奉贤": {
+    "time": 350,
+    "longitude": 121.46,
+    "latitude": 30.92
+  },
+  "松江": {
+    "time": 298,
+    "longitude": 121.24,
+    "latitude": 31.0
+  },
+  "金山": {
+    "time": 278,
+    "longitude": 121.16,
+    "latitude": 30.89
+  },
+  "青浦": {
+    "time": 264,
+    "longitude": 121.1,
+    "latitude": 31.15
+  },
+  "崇明": {
+    "time": 336,
+    "longitude": 121.4,
+    "latitude": 31.73
+  },
+  "天津": {
+    "time": -672,
+    "longitude": 117.2,
+    "latitude": 39.13
+  },
+  "宁河": {
+    "time": -521,
+    "longitude": 117.83,
+    "latitude": 39.33
+  },
+  "静海": {
+    "time": -739,
+    "longitude": 116.92,
+    "latitude": 38.93
+  },
+  "蓟县": {
+    "time": -624,
+    "longitude": 117.4,
+    "latitude": 40.05
+  },
+  "宝坻": {
+    "time": -648,
+    "longitude": 117.3,
+    "latitude": 39.75
+  },
+  "武清": {
+    "time": -708,
+    "longitude": 117.05,
+    "latitude": 39.4
+  },
+  "重庆": {
+    "time": -3230,
+    "longitude": 106.54,
+    "latitude": 29.59
+  },
+  "綦江": {
+    "time": -3226,
+    "longitude": 106.56,
+    "latitude": 29.41
+  },
+  "长寿": {
+    "time": -3206,
+    "longitude": 106.64,
+    "latitude": 29.01
+  },
+  "南桐": {
+    "time": -3110,
+    "longitude": 107.04,
+    "latitude": 29.86
+  },
+  "合川": {
+    "time": -3293,
+    "longitude": 106.28,
+    "latitude": 29.26
+  },
+  "潼南": {
+    "time": -3307,
+    "longitude": 106.22,
+    "latitude": 30.03
+  },
+  "铜梁": {
+    "time": -3408,
+    "longitude": 105.8,
+    "latitude": 30.16
+  },
+  "壁山": {
+    "time": -3353,
+    "longitude": 106.03,
+    "latitude": 29.86
+  },
+  "荣昌": {
+    "time": -3310,
+    "longitude": 106.21,
+    "latitude": 29.62
+  },
+  "大足": {
+    "time": -3458,
+    "longitude": 105.59,
+    "latitude": 29.4
+  },
+  "永川": {
+    "time": -3430,
+    "longitude": 105.71,
+    "latitude": 29.75
+  },
+  "万盛": {
+    "time": -3382,
+    "longitude": 105.91,
+    "latitude": 29.38
+  },
+  "杭州": {
+    "time": 46,
+    "longitude": 120.19,
+    "latitude": 30.26
+  },
+  "余杭": {
+    "time": 72,
+    "longitude": 120.3,
+    "latitude": 30.43
+  },
+  "富阳": {
+    "time": -12,
+    "longitude": 119.95,
+    "latitude": 30.07
+  },
+  "建德": {
+    "time": -175,
+    "longitude": 119.27,
+    "latitude": 29.49
+  },
+  "临安": {
+    "time": -67,
+    "longitude": 119.72,
+    "latitude": 30.23
+  },
+  "萧山": {
+    "time": 60,
+    "longitude": 120.25,
+    "latitude": 30.16
+  },
+  "桐庐": {
+    "time": -86,
+    "longitude": 119.64,
+    "latitude": 29.8
+  },
+  "淳安": {
+    "time": -228,
+    "longitude": 119.05,
+    "latitude": 29.61
+  },
+  "宁波": {
+    "time": 374,
+    "longitude": 121.56,
+    "latitude": 29.86
+  },
+  "镇海": {
+    "time": 413,
+    "longitude": 121.72,
+    "latitude": 29.96
+  },
+  "温州": {
+    "time": 156,
+    "longitude": 120.65,
+    "latitude": 28.01
+  },
+  "瓯海": {
+    "time": 156,
+    "longitude": 120.65,
+    "latitude": 28.01
+  },
+  "永喜": {
+    "time": 163,
+    "longitude": 120.68,
+    "latitude": 28.16
+  },
+  "洞头": {
+    "time": 269,
+    "longitude": 121.12,
+    "latitude": 27.84
+  },
+  "平阳": {
+    "time": 132,
+    "longitude": 120.55,
+    "latitude": 27.68
+  },
+  "泰顺": {
+    "time": -72,
+    "longitude": 119.7,
+    "latitude": 27.57
+  },
+  "乐清": {
+    "time": 226,
+    "longitude": 120.94,
+    "latitude": 28.14
+  },
+  "瑞安": {
+    "time": 149,
+    "longitude": 120.62,
+    "latitude": 27.8
+  },
+  "文成": {
+    "time": 19,
+    "longitude": 120.08,
+    "latitude": 27.08
+  },
+  "苍南": {
+    "time": 86,
+    "longitude": 120.36,
+    "latitude": 27.53
+  },
+  "湖州": {
+    "time": 24,
+    "longitude": 120.1,
+    "latitude": 30.86
+  },
+  "平湖": {
+    "time": 245,
+    "longitude": 121.02,
+    "latitude": 30.7
+  },
+  "桐乡": {
+    "time": 130,
+    "longitude": 120.54,
+    "latitude": 30.64
+  },
+  "安吉": {
+    "time": -77,
+    "longitude": 119.68,
+    "latitude": 30.68
+  },
+  "嘉善": {
+    "time": 221,
+    "longitude": 120.92,
+    "latitude": 30.84
+  },
+  "嘉兴": {
+    "time": 182,
+    "longitude": 120.76,
+    "latitude": 30.77
+  },
+  "海盐": {
+    "time": 221,
+    "longitude": 120.92,
+    "latitude": 30.53
+  },
+  "海宁": {
+    "time": 166,
+    "longitude": 120.69,
+    "latitude": 30.53
+  },
+  "德清": {
+    "time": 19,
+    "longitude": 120.08,
+    "latitude": 30.54
+  },
+  "长兴": {
+    "time": -22,
+    "longitude": 119.91,
+    "latitude": 30.01
+  },
+  "定海": {
+    "time": 506,
+    "longitude": 122.11,
+    "latitude": 30.03
+  },
+  "岱山": {
+    "time": 528,
+    "longitude": 122.2,
+    "latitude": 30.26
+  },
+  "嵊四": {
+    "time": 588,
+    "longitude": 122.45,
+    "latitude": 30.72
+  },
+  "普陀": {
+    "time": 552,
+    "longitude": 122.3,
+    "latitude": 29.97
+  },
+  "鄞县": {
+    "time": 374,
+    "longitude": 121.56,
+    "latitude": 29.86
+  },
+  "象山": {
+    "time": 432,
+    "longitude": 121.8,
+    "latitude": 29.48
+  },
+  "奉化": {
+    "time": 338,
+    "longitude": 121.41,
+    "latitude": 29.66
+  },
+  "慈溪": {
+    "time": 295,
+    "longitude": 121.23,
+    "latitude": 30.18
+  },
+  "宁海": {
+    "time": 341,
+    "longitude": 121.42,
+    "latitude": 29.3
+  },
+  "余姚": {
+    "time": 278,
+    "longitude": 121.16,
+    "latitude": 30.04
+  },
+  "绍兴": {
+    "time": 139,
+    "longitude": 120.58,
+    "latitude": 30.01
+  },
+  "新昌": {
+    "time": 214,
+    "longitude": 120.89,
+    "latitude": 29.49
+  },
+  "诸暨": {
+    "time": 55,
+    "longitude": 120.23,
+    "latitude": 29.71
+  },
+  "上虞": {
+    "time": 209,
+    "longitude": 120.87,
+    "latitude": 30.03
+  },
+  "嵊县": {
+    "time": 194,
+    "longitude": 120.81,
+    "latitude": 29.6
+  },
+  "椒江": {
+    "time": 346,
+    "longitude": 121.44,
+    "latitude": 28.67
+  },
+  "临海": {
+    "time": 271,
+    "longitude": 121.13,
+    "latitude": 28.8
+  },
+  "三门": {
+    "time": 331,
+    "longitude": 121.38,
+    "latitude": 29.11
+  },
+  "温岭": {
+    "time": 326,
+    "longitude": 121.36,
+    "latitude": 28.36
+  },
+  "仙居": {
+    "time": 175,
+    "longitude": 120.73,
+    "latitude": 28.85
+  },
+  "天台": {
+    "time": 247,
+    "longitude": 121.03,
+    "latitude": 29.15
+  },
+  "黄岩": {
+    "time": 305,
+    "longitude": 121.27,
+    "latitude": 28.64
+  },
+  "玉环": {
+    "time": 295,
+    "longitude": 121.23,
+    "latitude": 28.14
+  },
+  "丽水": {
+    "time": -19,
+    "longitude": 119.92,
+    "latitude": 28.45
+  },
+  "青田": {
+    "time": 67,
+    "longitude": 120.28,
+    "latitude": 28.45
+  },
+  "庆无": {
+    "time": -226,
+    "longitude": 119.06,
+    "latitude": 27.61
+  },
+  "遂昌": {
+    "time": -180,
+    "longitude": 119.25,
+    "latitude": 28.59
+  },
+  "缙云": {
+    "time": 144,
+    "longitude": 120.6,
+    "latitude": 28.66
+  },
+  "云和": {
+    "time": -106,
+    "longitude": 119.56,
+    "latitude": 28.12
+  },
+  "龙泉": {
+    "time": -209,
+    "longitude": 119.13,
+    "latitude": 28.08
+  },
+  "松阳": {
+    "time": -125,
+    "longitude": 119.48,
+    "latitude": 28.46
+  },
+  "金华": {
+    "time": -86,
+    "longitude": 119.64,
+    "latitude": 29.12
+  },
+  "浦江": {
+    "time": -29,
+    "longitude": 119.88,
+    "latitude": 29.46
+  },
+  "东阳": {
+    "time": 55,
+    "longitude": 120.23,
+    "latitude": 29.27
+  },
+  "武义": {
+    "time": -46,
+    "longitude": 119.81,
+    "latitude": 28.9
+  },
+  "江山": {
+    "time": -334,
+    "longitude": 118.61,
+    "latitude": 28.74
+  },
+  "开化": {
+    "time": -386,
+    "longitude": 118.39,
+    "latitude": 29.15
+  },
+  "衢州": {
+    "time": -269,
+    "longitude": 118.88,
+    "latitude": 28.97
+  },
+  "兰溪": {
+    "time": -125,
+    "longitude": 119.48,
+    "latitude": 29.19
+  },
+  "义乌": {
+    "time": 14,
+    "longitude": 120.06,
+    "latitude": 29.32
+  },
+  "永康": {
+    "time": 5,
+    "longitude": 120.02,
+    "latitude": 28.92
+  },
+  "常山": {
+    "time": -360,
+    "longitude": 118.5,
+    "latitude": 28.9
+  },
+  "香港": {
+    "time": -1416,
+    "longitude": 114.1,
+    "latitude": 22.2
+  },
+  "澳门": {
+    "time": -1601,
+    "longitude": 113.33,
+    "latitude": 22.13
+  },
+  "台北": {
+    "time": 360,
+    "longitude": 121.5,
+    "latitude": 25.05
+  },
+  "高雄": {
+    "time": 89,
+    "longitude": 120.37,
+    "latitude": 22.64
+  },
+  "基隆": {
+    "time": 415,
+    "longitude": 121.73,
+    "latitude": 25.14
+  },
+  "台中": {
+    "time": 161,
+    "longitude": 120.67,
+    "latitude": 24.15
+  },
+  "台南": {
+    "time": 46,
+    "longitude": 120.19,
+    "latitude": 22.98
+  },
+  "宜兰": {
+    "time": 420,
+    "longitude": 121.75,
+    "latitude": 24.75
+  },
+  "桃园": {
+    "time": 312,
+    "longitude": 121.3,
+    "latitude": 25.0
+  },
+  "新竹": {
+    "time": 230,
+    "longitude": 120.96,
+    "latitude": 24.8
+  },
+  "石家庄": {
+    "time": -1325,
+    "longitude": 114.48,
+    "latitude": 38.03
+  },
+  "唐山": {
+    "time": -475,
+    "longitude": 118.02,
+    "latitude": 39.63
+  },
+  "行唐": {
+    "time": -1310,
+    "longitude": 114.54,
+    "latitude": 38.42
+  },
+  "灵寿": {
+    "time": -1349,
+    "longitude": 114.38,
+    "latitude": 38.31
+  },
+  "束鹿": {
+    "time": -1157,
+    "longitude": 115.18,
+    "latitude": 37.94
+  },
+  "晋县": {
+    "time": -1193,
+    "longitude": 115.03,
+    "latitude": 38.03
+  },
+  "藁城": {
+    "time": -1238,
+    "longitude": 114.84,
+    "latitude": 38.03
+  },
+  "高邑": {
+    "time": -1301,
+    "longitude": 114.58,
+    "latitude": 37.62
+  },
+  "赵县": {
+    "time": -1253,
+    "longitude": 114.78,
+    "latitude": 37.76
+  },
+  "井陉": {
+    "time": -1409,
+    "longitude": 114.13,
+    "latitude": 38.03
+  },
+  "获鹿": {
+    "time": -1433,
+    "longitude": 114.03,
+    "latitude": 38.08
+  },
+  "新乐": {
+    "time": -1279,
+    "longitude": 114.67,
+    "latitude": 38.33
+  },
+  "正定": {
+    "time": -1306,
+    "longitude": 114.56,
+    "latitude": 38.13
+  },
+  "深泽": {
+    "time": -1152,
+    "longitude": 115.2,
+    "latitude": 38.2
+  },
+  "无极": {
+    "time": -1210,
+    "longitude": 114.96,
+    "latitude": 38.16
+  },
+  "赞皇": {
+    "time": -1356,
+    "longitude": 114.35,
+    "latitude": 37.65
+  },
+  "元氏": {
+    "time": -1320,
+    "longitude": 114.5,
+    "latitude": 37.74
+  },
+  "栾城": {
+    "time": -1286,
+    "longitude": 114.64,
+    "latitude": 38.87
+  },
+  "平山": {
+    "time": -1382,
+    "longitude": 114.24,
+    "latitude": 38.2
+  },
+  "邯郸": {
+    "time": -1327,
+    "longitude": 114.47,
+    "latitude": 36.6
+  },
+  "永年": {
+    "time": -1320,
+    "longitude": 114.5,
+    "latitude": 36.77
+  },
+  "曲周": {
+    "time": -1219,
+    "longitude": 114.92,
+    "latitude": 36.78
+  },
+  "馆陶": {
+    "time": -1104,
+    "longitude": 115.4,
+    "latitude": 36.47
+  },
+  "魏县": {
+    "time": -1214,
+    "longitude": 114.94,
+    "latitude": 36.37
+  },
+  "成安": {
+    "time": -1277,
+    "longitude": 114.68,
+    "latitude": 36.43
+  },
+  "大名": {
+    "time": -1166,
+    "longitude": 115.14,
+    "latitude": 36.28
+  },
+  "涉县": {
+    "time": -1519,
+    "longitude": 113.67,
+    "latitude": 36.57
+  },
+  "鸡泽": {
+    "time": -1476,
+    "longitude": 113.85,
+    "latitude": 36.95
+  },
+  "丘县": {
+    "time": -1157,
+    "longitude": 115.18,
+    "latitude": 36.84
+  },
+  "广平": {
+    "time": -1214,
+    "longitude": 114.94,
+    "latitude": 36.49
+  },
+  "肥乡": {
+    "time": -1248,
+    "longitude": 114.8,
+    "latitude": 36.56
+  },
+  "临漳": {
+    "time": -1291,
+    "longitude": 114.62,
+    "latitude": 36.35
+  },
+  "磁县": {
+    "time": -1351,
+    "longitude": 114.37,
+    "latitude": 36.37
+  },
+  "武安": {
+    "time": -1392,
+    "longitude": 114.2,
+    "latitude": 36.7
+  },
+  "邢台": {
+    "time": -1325,
+    "longitude": 114.48,
+    "latitude": 37.05
+  },
+  "柏乡": {
+    "time": -1277,
+    "longitude": 114.68,
+    "latitude": 37.49
+  },
+  "宁普": {
+    "time": -1224,
+    "longitude": 114.9,
+    "latitude": 37.62
+  },
+  "隆尧": {
+    "time": -1260,
+    "longitude": 114.75,
+    "latitude": 37.35
+  },
+  "临西": {
+    "time": -1080,
+    "longitude": 115.5,
+    "latitude": 36.87
+  },
+  "南官": {
+    "time": -1111,
+    "longitude": 115.37,
+    "latitude": 37.37
+  },
+  "巨鹿": {
+    "time": -1193,
+    "longitude": 115.03,
+    "latitude": 37.22
+  },
+  "任县": {
+    "time": -1277,
+    "longitude": 114.68,
+    "latitude": 37.11
+  },
+  "沙河": {
+    "time": -1315,
+    "longitude": 114.52,
+    "latitude": 36.94
+  },
+  "临城": {
+    "time": -1320,
+    "longitude": 114.5,
+    "latitude": 37.43
+  },
+  "内丘": {
+    "time": -1320,
+    "longitude": 114.5,
+    "latitude": 37.28
+  },
+  "新河": {
+    "time": -1147,
+    "longitude": 115.22,
+    "latitude": 37.53
+  },
+  "清河": {
+    "time": -1039,
+    "longitude": 115.67,
+    "latitude": 37.07
+  },
+  "威县": {
+    "time": -1181,
+    "longitude": 115.08,
+    "latitude": 36.97
+  },
+  "广宗": {
+    "time": -1166,
+    "longitude": 115.14,
+    "latitude": 37.06
+  },
+  "平乡": {
+    "time": -1195,
+    "longitude": 115.02,
+    "latitude": 37.06
+  },
+  "南和": {
+    "time": -1270,
+    "longitude": 114.71,
+    "latitude": 37.0
+  },
+  "保定": {
+    "time": -1085,
+    "longitude": 115.48,
+    "latitude": 38.85
+  },
+  "涞水": {
+    "time": -1030,
+    "longitude": 115.71,
+    "latitude": 39.39
+  },
+  "涿县": {
+    "time": -965,
+    "longitude": 115.98,
+    "latitude": 39.48
+  },
+  "定兴": {
+    "time": -1013,
+    "longitude": 115.78,
+    "latitude": 39.28
+  },
+  "容城": {
+    "time": -994,
+    "longitude": 115.86,
+    "latitude": 39.06
+  },
+  "安新": {
+    "time": -979,
+    "longitude": 115.92,
+    "latitude": 38.92
+  },
+  "蠡县": {
+    "time": -1061,
+    "longitude": 115.58,
+    "latitude": 38.49
+  },
+  "博野": {
+    "time": -1090,
+    "longitude": 115.46,
+    "latitude": 38.46
+  },
+  "定县": {
+    "time": -1435,
+    "longitude": 114.02,
+    "latitude": 38.52
+  },
+  "阜平": {
+    "time": -1397,
+    "longitude": 114.18,
+    "latitude": 38.85
+  },
+  "唐县": {
+    "time": -1207,
+    "longitude": 114.97,
+    "latitude": 38.75
+  },
+  "涞源": {
+    "time": -1279,
+    "longitude": 114.67,
+    "latitude": 39.37
+  },
+  "易县": {
+    "time": -1082,
+    "longitude": 115.49,
+    "latitude": 39.35
+  },
+  "新城": {
+    "time": -998,
+    "longitude": 115.84,
+    "latitude": 39.34
+  },
+  "雄县": {
+    "time": -936,
+    "longitude": 116.1,
+    "latitude": 38.98
+  },
+  "徐水": {
+    "time": -1044,
+    "longitude": 115.65,
+    "latitude": 39.02
+  },
+  "高阳": {
+    "time": -1013,
+    "longitude": 115.78,
+    "latitude": 38.68
+  },
+  "安国": {
+    "time": -1128,
+    "longitude": 115.3,
+    "latitude": 38.41
+  },
+  "清苑": {
+    "time": -1087,
+    "longitude": 115.47,
+    "latitude": 38.76
+  },
+  "望都": {
+    "time": -1166,
+    "longitude": 115.14,
+    "latitude": 38.71
+  },
+  "曲阳": {
+    "time": -1277,
+    "longitude": 114.68,
+    "latitude": 38.62
+  },
+  "完县": {
+    "time": -1171,
+    "longitude": 115.12,
+    "latitude": 38.84
+  },
+  "满城": {
+    "time": -1092,
+    "longitude": 115.45,
+    "latitude": 38.95
+  },
+  "张家口": {
+    "time": -1231,
+    "longitude": 114.87,
+    "latitude": 40.82
+  },
+  "康保": {
+    "time": -1296,
+    "longitude": 114.6,
+    "latitude": 41.87
+  },
+  "赤城": {
+    "time": -1003,
+    "longitude": 115.82,
+    "latitude": 40.92
+  },
+  "怀来": {
+    "time": -1070,
+    "longitude": 115.54,
+    "latitude": 40.4
+  },
+  "蔚县": {
+    "time": -1313,
+    "longitude": 114.53,
+    "latitude": 39.83
+  },
+  "宣化": {
+    "time": -1193,
+    "longitude": 115.03,
+    "latitude": 40.63
+  },
+  "张北": {
+    "time": -1272,
+    "longitude": 114.7,
+    "latitude": 41.15
+  },
+  "沽源": {
+    "time": -1037,
+    "longitude": 115.68,
+    "latitude": 41.68
+  },
+  "崇礼": {
+    "time": -1140,
+    "longitude": 115.25,
+    "latitude": 40.98
+  },
+  "涿鹿": {
+    "time": -1152,
+    "longitude": 115.2,
+    "latitude": 40.37
+  },
+  "阳原": {
+    "time": -1404,
+    "longitude": 114.15,
+    "latitude": 40.12
+  },
+  "怀安": {
+    "time": -1349,
+    "longitude": 114.38,
+    "latitude": 40.67
+  },
+  "尚义": {
+    "time": -1452,
+    "longitude": 113.95,
+    "latitude": 41.05
+  },
+  "万全": {
+    "time": -1265,
+    "longitude": 114.73,
+    "latitude": 40.84
+  },
+  "承德": {
+    "time": -497,
+    "longitude": 117.93,
+    "latitude": 40.97
+  },
+  "围场": {
+    "time": -547,
+    "longitude": 117.72,
+    "latitude": 41.95
+  },
+  "平泉": {
+    "time": -317,
+    "longitude": 118.68,
+    "latitude": 41.02
+  },
+  "宽城": {
+    "time": -367,
+    "longitude": 118.47,
+    "latitude": 40.62
+  },
+  "兴隆": {
+    "time": -605,
+    "longitude": 117.48,
+    "latitude": 40.42
+  },
+  "滦平": {
+    "time": -593,
+    "longitude": 117.53,
+    "latitude": 40.95
+  },
+  "隆化": {
+    "time": -552,
+    "longitude": 117.7,
+    "latitude": 41.32
+  },
+  "青龙": {
+    "time": -257,
+    "longitude": 118.93,
+    "latitude": 40.43
+  },
+  "丰宁": {
+    "time": -809,
+    "longitude": 116.63,
+    "latitude": 41.2
+  },
+  "秦皇岛": {
+    "time": -103,
+    "longitude": 119.57,
+    "latitude": 39.95
+  },
+  "迁西": {
+    "time": -408,
+    "longitude": 118.3,
+    "latitude": 40.15
+  },
+  "迁安": {
+    "time": -314,
+    "longitude": 118.69,
+    "latitude": 40.02
+  },
+  "昌黎": {
+    "time": -204,
+    "longitude": 119.15,
+    "latitude": 39.72
+  },
+  "卢龙": {
+    "time": -276,
+    "longitude": 118.85,
+    "latitude": 39.89
+  },
+  "滦南": {
+    "time": -319,
+    "longitude": 118.67,
+    "latitude": 39.49
+  },
+  "玉田": {
+    "time": -504,
+    "longitude": 117.9,
+    "latitude": 39.9
+  },
+  "唐海": {
+    "time": -350,
+    "longitude": 118.54,
+    "latitude": 39.31
+  },
+  "遵化": {
+    "time": -487,
+    "longitude": 117.97,
+    "latitude": 40.2
+  },
+  "抚宁": {
+    "time": -187,
+    "longitude": 119.22,
+    "latitude": 39.88
+  },
+  "乐亭": {
+    "time": -264,
+    "longitude": 118.9,
+    "latitude": 39.43
+  },
+  "滦县": {
+    "time": -305,
+    "longitude": 118.73,
+    "latitude": 39.74
+  },
+  "丰南": {
+    "time": -456,
+    "longitude": 118.1,
+    "latitude": 39.58
+  },
+  "丰润": {
+    "time": -449,
+    "longitude": 118.13,
+    "latitude": 39.82
+  },
+  "廊坊": {
+    "time": -792,
+    "longitude": 116.7,
+    "latitude": 39.53
+  },
+  "安次": {
+    "time": -794,
+    "longitude": 116.69,
+    "latitude": 39.52
+  },
+  "三河": {
+    "time": -706,
+    "longitude": 117.06,
+    "latitude": 39.97
+  },
+  "香河": {
+    "time": -720,
+    "longitude": 117.0,
+    "latitude": 39.76
+  },
+  "霸县": {
+    "time": -869,
+    "longitude": 116.38,
+    "latitude": 39.12
+  },
+  "固安": {
+    "time": -890,
+    "longitude": 116.29,
+    "latitude": 39.44
+  },
+  "大城": {
+    "time": -809,
+    "longitude": 116.63,
+    "latitude": 38.7
+  },
+  "文安": {
+    "time": -852,
+    "longitude": 116.45,
+    "latitude": 38.87
+  },
+  "永清": {
+    "time": -845,
+    "longitude": 116.48,
+    "latitude": 39.32
+  },
+  "大厂": {
+    "time": -725,
+    "longitude": 116.98,
+    "latitude": 39.98
+  },
+  "沧州": {
+    "time": -761,
+    "longitude": 116.83,
+    "latitude": 38.33
+  },
+  "黄骅": {
+    "time": -641,
+    "longitude": 117.33,
+    "latitude": 38.4
+  },
+  "盐山": {
+    "time": -667,
+    "longitude": 117.22,
+    "latitude": 38.07
+  },
+  "吴桥": {
+    "time": -871,
+    "longitude": 116.37,
+    "latitude": 37.65
+  },
+  "东光": {
+    "time": -835,
+    "longitude": 116.52,
+    "latitude": 37.89
+  },
+  "肃宁": {
+    "time": -1003,
+    "longitude": 115.82,
+    "latitude": 38.43
+  },
+  "河间": {
+    "time": -943,
+    "longitude": 116.07,
+    "latitude": 38.45
+  },
+  "泊头": {
+    "time": -826,
+    "longitude": 116.56,
+    "latitude": 38.08
+  },
+  "交河": {
+    "time": -895,
+    "longitude": 116.27,
+    "latitude": 38.02
+  },
+  "青县": {
+    "time": -768,
+    "longitude": 116.8,
+    "latitude": 38.58
+  },
+  "海兴": {
+    "time": -516,
+    "longitude": 117.85,
+    "latitude": 38.17
+  },
+  "南皮": {
+    "time": -792,
+    "longitude": 116.7,
+    "latitude": 38.05
+  },
+  "任丘": {
+    "time": -941,
+    "longitude": 116.08,
+    "latitude": 38.72
+  },
+  "献县": {
+    "time": -931,
+    "longitude": 116.12,
+    "latitude": 38.2
+  },
+  "孟村": {
+    "time": -696,
+    "longitude": 117.1,
+    "latitude": 38.06
+  },
+  "衡水": {
+    "time": -1027,
+    "longitude": 115.72,
+    "latitude": 37.72
+  },
+  "饶阳": {
+    "time": -1022,
+    "longitude": 115.74,
+    "latitude": 38.24
+  },
+  "阜城": {
+    "time": -926,
+    "longitude": 116.14,
+    "latitude": 37.87
+  },
+  "景县": {
+    "time": -898,
+    "longitude": 116.26,
+    "latitude": 37.69
+  },
+  "枣强": {
+    "time": -1027,
+    "longitude": 115.72,
+    "latitude": 37.52
+  },
+  "深县": {
+    "time": -1066,
+    "longitude": 115.56,
+    "latitude": 38.02
+  },
+  "安平": {
+    "time": -1080,
+    "longitude": 115.5,
+    "latitude": 38.22
+  },
+  "武强": {
+    "time": -970,
+    "longitude": 115.96,
+    "latitude": 38.03
+  },
+  "武邑": {
+    "time": -984,
+    "longitude": 115.9,
+    "latitude": 37.81
+  },
+  "故城": {
+    "time": -970,
+    "longitude": 115.96,
+    "latitude": 37.36
+  },
+  "冀县": {
+    "time": -1066,
+    "longitude": 115.56,
+    "latitude": 37.59
+  },
+  "呼和浩特": {
+    "time": -2004,
+    "longitude": 111.65,
+    "latitude": 40.82
+  },
+  "上默特左旗": {
+    "time": -2129,
+    "longitude": 111.13,
+    "latitude": 40.72
+  },
+  "托克托": {
+    "time": -2124,
+    "longitude": 111.15,
+    "latitude": 40.28
+  },
+  "包头": {
+    "time": -2400,
+    "longitude": 110.0,
+    "latitude": 40.58
+  },
+  "上默特右旗": {
+    "time": -2275,
+    "longitude": 110.52,
+    "latitude": 40.55
+  },
+  "固阳": {
+    "time": -2393,
+    "longitude": 110.03,
+    "latitude": 41.03
+  },
+  "乌海": {
+    "time": -3163,
+    "longitude": 106.82,
+    "latitude": 39.67
+  },
+  "集宁": {
+    "time": -1661,
+    "longitude": 113.08,
+    "latitude": 41.03
+  },
+  "兴和": {
+    "time": -1447,
+    "longitude": 113.97,
+    "latitude": 40.88
+  },
+  "清水河": {
+    "time": -2004,
+    "longitude": 111.65,
+    "latitude": 39.92
+  },
+  "武川": {
+    "time": -2059,
+    "longitude": 111.42,
+    "latitude": 41.12
+  },
+  "卓资": {
+    "time": -1795,
+    "longitude": 112.52,
+    "latitude": 40.93
+  },
+  "商都": {
+    "time": -1553,
+    "longitude": 113.53,
+    "latitude": 41.58
+  },
+  "丰镇": {
+    "time": -1644,
+    "longitude": 113.15,
+    "latitude": 40.45
+  },
+  "凉城": {
+    "time": -1805,
+    "longitude": 112.48,
+    "latitude": 40.52
+  },
+  "和林格尔": {
+    "time": -1968,
+    "longitude": 111.8,
+    "latitude": 40.4
+  },
+  "化德": {
+    "time": -1440,
+    "longitude": 114.0,
+    "latitude": 41.9
+  },
+  "察哈尔右翼后旗": {
+    "time": -1644,
+    "longitude": 113.15,
+    "latitude": 41.85
+  },
+  "察哈尔右翼中旗": {
+    "time": -1771,
+    "longitude": 112.62,
+    "latitude": 41.28
+  },
+  "察哈尔右翼前旗": {
+    "time": -1637,
+    "longitude": 113.18,
+    "latitude": 40.78
+  },
+  "四子王旗": {
+    "time": -1997,
+    "longitude": 111.68,
+    "latitude": 41.37
+  },
+  "达尔罕茂明安联合旗": {
+    "time": -2299,
+    "longitude": 110.42,
+    "latitude": 41.72
+  },
+  "二连浩特": {
+    "time": -1930,
+    "longitude": 111.96,
+    "latitude": 43.65
+  },
+  "阿巴哈纳尔旗": {
+    "time": -941,
+    "longitude": 116.08,
+    "latitude": 43.95
+  },
+  "多伦": {
+    "time": -845,
+    "longitude": 116.48,
+    "latitude": 42.18
+  },
+  "阿巴嘎旗": {
+    "time": -1207,
+    "longitude": 114.97,
+    "latitude": 44.03
+  },
+  "西乌珠穆沁旗": {
+    "time": -581,
+    "longitude": 117.58,
+    "latitude": 44.6
+  },
+  "东乌珠穆沁旗": {
+    "time": -727,
+    "longitude": 116.97,
+    "latitude": 45.53
+  },
+  "苏尼特左旗": {
+    "time": -1512,
+    "longitude": 113.7,
+    "latitude": 43.85
+  },
+  "苏尼特右旗": {
+    "time": -1692,
+    "longitude": 112.95,
+    "latitude": 42.47
+  },
+  "太仆寺旗": {
+    "time": -1128,
+    "longitude": 115.3,
+    "latitude": 41.9
+  },
+  "正镶白旗": {
+    "time": -1200,
+    "longitude": 115.0,
+    "latitude": 42.32
+  },
+  "正蓝旗": {
+    "time": -955,
+    "longitude": 116.02,
+    "latitude": 42.25
+  },
+  "镶黄旗": {
+    "time": -1481,
+    "longitude": 113.83,
+    "latitude": 42.25
+  },
+  "海拉尔": {
+    "time": -65,
+    "longitude": 119.73,
+    "latitude": 29.22
+  },
+  "满洲里": {
+    "time": -607,
+    "longitude": 117.47,
+    "latitude": 49.58
+  },
+  "陈巴尔虎旗": {
+    "time": -132,
+    "longitude": 119.45,
+    "latitude": 49.33
+  },
+  "额尔古纳右旗": {
+    "time": 19,
+    "longitude": 120.08,
+    "latitude": 50.45
+  },
+  "额尔古纳左旗": {
+    "time": 365,
+    "longitude": 121.52,
+    "latitude": 50.8
+  },
+  "喜桂图旗": {
+    "time": 175,
+    "longitude": 120.73,
+    "latitude": 49.3
+  },
+  "阿荣旗": {
+    "time": 840,
+    "longitude": 123.5,
+    "latitude": 48.13
+  },
+  "布特哈旗": {
+    "time": 667,
+    "longitude": 122.78,
+    "latitude": 47.98
+  },
+  "新巴尔虎左旗": {
+    "time": -763,
+    "longitude": 116.82,
+    "latitude": 48.67
+  },
+  "新巴尔虎右旗": {
+    "time": -425,
+    "longitude": 118.23,
+    "latitude": 48.22
+  },
+  "鄂伦春自治旗": {
+    "time": 888,
+    "longitude": 123.7,
+    "latitude": 50.58
+  },
+  "莫力达瓦达斡尔族自治旗": {
+    "time": 1080,
+    "longitude": 124.5,
+    "latitude": 48.47
+  },
+  "鄂温克族自治旗": {
+    "time": -60,
+    "longitude": 119.75,
+    "latitude": 49.13
+  },
+  "通辽": {
+    "time": 547,
+    "longitude": 122.28,
+    "latitude": 43.63
+  },
+  "开鲁": {
+    "time": 317,
+    "longitude": 121.32,
+    "latitude": 43.62
+  },
+  "科尔沁左翼后旗": {
+    "time": 564,
+    "longitude": 122.35,
+    "latitude": 42.97
+  },
+  "科尔沁左翼中旗": {
+    "time": 787,
+    "longitude": 123.28,
+    "latitude": 44.13
+  },
+  "库伦旗": {
+    "time": 420,
+    "longitude": 121.75,
+    "latitude": 42.72
+  },
+  "奈曼旗": {
+    "time": 156,
+    "longitude": 120.65,
+    "latitude": 42.85
+  },
+  "扎鲁特旗": {
+    "time": 209,
+    "longitude": 120.87,
+    "latitude": 44.55
+  },
+  "赤峰": {
+    "time": -271,
+    "longitude": 118.87,
+    "latitude": 42.28
+  },
+  "宁城": {
+    "time": -163,
+    "longitude": 119.32,
+    "latitude": 41.62
+  },
+  "林西": {
+    "time": -475,
+    "longitude": 118.02,
+    "latitude": 43.62
+  },
+  "喀喇沁旗": {
+    "time": -319,
+    "longitude": 118.67,
+    "latitude": 41.95
+  },
+  "敖汉旗": {
+    "time": -31,
+    "longitude": 119.87,
+    "latitude": 42.3
+  },
+  "翁牛特旗": {
+    "time": -240,
+    "longitude": 119.0,
+    "latitude": 42.97
+  },
+  "巴林右旗": {
+    "time": -324,
+    "longitude": 118.65,
+    "latitude": 43.52
+  },
+  "巴林左旗": {
+    "time": -156,
+    "longitude": 119.35,
+    "latitude": 43.98
+  },
+  "阿鲁科尔沁旗": {
+    "time": 12,
+    "longitude": 120.05,
+    "latitude": 43.97
+  },
+  "克什克腾旗": {
+    "time": -605,
+    "longitude": 117.48,
+    "latitude": 43.28
+  },
+  "伊克昭盟": {
+    "time": -2400,
+    "longitude": 110.0,
+    "latitude": 39.83
+  },
+  "东胜县": {
+    "time": -2400,
+    "longitude": 110.0,
+    "latitude": 39.83
+  },
+  "准格尔旗": {
+    "time": -2129,
+    "longitude": 111.13,
+    "latitude": 39.68
+  },
+  "乌审旗": {
+    "time": -2633,
+    "longitude": 109.03,
+    "latitude": 38.38
+  },
+  "伊金霍洛旗": {
+    "time": -2455,
+    "longitude": 109.77,
+    "latitude": 39.25
+  },
+  "鄂托克旗": {
+    "time": -2887,
+    "longitude": 107.97,
+    "latitude": 39.12
+  },
+  "鄂托克前旗": {
+    "time": -3017,
+    "longitude": 107.43,
+    "latitude": 38.18
+  },
+  "杭锦旗": {
+    "time": -2712,
+    "longitude": 108.7,
+    "latitude": 39.83
+  },
+  "达拉特旗": {
+    "time": -2395,
+    "longitude": 110.02,
+    "latitude": 40.42
+  },
+  "临河": {
+    "time": -3031,
+    "longitude": 107.37,
+    "latitude": 40.78
+  },
+  "五原": {
+    "time": -2813,
+    "longitude": 108.28,
+    "latitude": 41.12
+  },
+  "磴口": {
+    "time": -3125,
+    "longitude": 106.98,
+    "latitude": 40.33
+  },
+  "杭锦后旗": {
+    "time": -3091,
+    "longitude": 107.12,
+    "latitude": 40.88
+  },
+  "乌拉特中旗": {
+    "time": -2755,
+    "longitude": 108.52,
+    "latitude": 41.55
+  },
+  "乌拉特前旗": {
+    "time": -2724,
+    "longitude": 108.65,
+    "latitude": 40.75
+  },
+  "乌拉特后旗": {
+    "time": -2755,
+    "longitude": 108.52,
+    "latitude": 40.88
+  },
+  "阿拉善左旗": {
+    "time": -3437,
+    "longitude": 105.68,
+    "latitude": 38.85
+  },
+  "阿拉善右旗": {
+    "time": -4397,
+    "longitude": 101.68,
+    "latitude": 39.2
+  },
+  "额济纳旗": {
+    "time": -4589,
+    "longitude": 100.88,
+    "latitude": 41.9
+  },
+  "乌兰浩特": {
+    "time": 499,
+    "longitude": 122.08,
+    "latitude": 46.07
+  },
+  "突泉": {
+    "time": 360,
+    "longitude": 121.5,
+    "latitude": 45.4
+  },
+  "科尔沁右翼前旗": {
+    "time": 487,
+    "longitude": 122.03,
+    "latitude": 46.12
+  },
+  "科尔沁右翼中旗": {
+    "time": 353,
+    "longitude": 121.47,
+    "latitude": 45.05
+  },
+  "沈阳": {
+    "time": 811,
+    "longitude": 123.38,
+    "latitude": 41.8
+  },
+  "新民": {
+    "time": 679,
+    "longitude": 122.83,
+    "latitude": 42.0
+  },
+  "辽中": {
+    "time": 648,
+    "longitude": 122.7,
+    "latitude": 41.52
+  },
+  "大连": {
+    "time": 389,
+    "longitude": 121.62,
+    "latitude": 38.92
+  },
+  "金县": {
+    "time": 408,
+    "longitude": 121.7,
+    "latitude": 39.13
+  },
+  "复县": {
+    "time": 473,
+    "longitude": 121.97,
+    "latitude": 39.63
+  },
+  "新金": {
+    "time": 468,
+    "longitude": 121.95,
+    "latitude": 39.55
+  },
+  "庄河": {
+    "time": -23287,
+    "longitude": 22.97,
+    "latitude": 39.7
+  },
+  "长海": {
+    "time": 619,
+    "longitude": 122.58,
+    "latitude": 39.28
+  },
+  "鞍山": {
+    "time": 684,
+    "longitude": 122.85,
+    "latitude": 41.12
+  },
+  "海城": {
+    "time": 660,
+    "longitude": 122.75,
+    "latitude": 40.85
+  },
+  "台安": {
+    "time": 576,
+    "longitude": 122.4,
+    "latitude": 41.4
+  },
+  "抚顺": {
+    "time": 953,
+    "longitude": 123.97,
+    "latitude": 41.97
+  },
+  "新宾": {
+    "time": 1205,
+    "longitude": 125.02,
+    "latitude": 41.72
+  },
+  "清原": {
+    "time": 1176,
+    "longitude": 124.9,
+    "latitude": 42.13
+  },
+  "本溪": {
+    "time": 895,
+    "longitude": 123.73,
+    "latitude": 41.3
+  },
+  "垣仁": {
+    "time": 1279,
+    "longitude": 125.33,
+    "latitude": 41.28
+  },
+  "锦州": {
+    "time": 276,
+    "longitude": 121.15,
+    "latitude": 41.13
+  },
+  "锦县": {
+    "time": 324,
+    "longitude": 121.35,
+    "latitude": 41.17
+  },
+  "义县": {
+    "time": 293,
+    "longitude": 121.22,
+    "latitude": 41.55
+  },
+  "黑山": {
+    "time": 509,
+    "longitude": 122.12,
+    "latitude": 41.7
+  },
+  "北镇": {
+    "time": 432,
+    "longitude": 121.8,
+    "latitude": 41.6
+  },
+  "锦西": {
+    "time": 199,
+    "longitude": 120.83,
+    "latitude": 40.77
+  },
+  "兴城": {
+    "time": 163,
+    "longitude": 120.68,
+    "latitude": 40.63
+  },
+  "绥中": {
+    "time": 77,
+    "longitude": 120.32,
+    "latitude": 40.35
+  },
+  "丹东": {
+    "time": 1049,
+    "longitude": 124.37,
+    "latitude": 40.13
+  },
+  "东沟": {
+    "time": 991,
+    "longitude": 124.13,
+    "latitude": 39.97
+  },
+  "岫岩": {
+    "time": 780,
+    "longitude": 123.25,
+    "latitude": 40.3
+  },
+  "凤城": {
+    "time": 972,
+    "longitude": 124.05,
+    "latitude": 40.47
+  },
+  "宽甸": {
+    "time": 1145,
+    "longitude": 124.77,
+    "latitude": 40.75
+  },
+  "阜新": {
+    "time": 396,
+    "longitude": 121.65,
+    "latitude": 42.0
+  },
+  "彰武": {
+    "time": 605,
+    "longitude": 122.52,
+    "latitude": 42.42
+  },
+  "营口": {
+    "time": 523,
+    "longitude": 122.18,
+    "latitude": 40.65
+  },
+  "盖县": {
+    "time": 569,
+    "longitude": 122.37,
+    "latitude": 40.42
+  },
+  "盘山": {
+    "time": 487,
+    "longitude": 122.03,
+    "latitude": 41.02
+  },
+  "大洼": {
+    "time": 494,
+    "longitude": 122.06,
+    "latitude": 41.0
+  },
+  "辽阳": {
+    "time": 761,
+    "longitude": 123.17,
+    "latitude": 41.28
+  },
+  "灯塔": {
+    "time": 802,
+    "longitude": 123.34,
+    "latitude": 41.43
+  },
+  "铁岭": {
+    "time": 924,
+    "longitude": 123.85,
+    "latitude": 42.32
+  },
+  "开原": {
+    "time": 967,
+    "longitude": 124.03,
+    "latitude": 42.53
+  },
+  "昌图": {
+    "time": 991,
+    "longitude": 124.13,
+    "latitude": 42.8
+  },
+  "铁法": {
+    "time": 840,
+    "longitude": 123.5,
+    "latitude": 42.48
+  },
+  "康平": {
+    "time": 799,
+    "longitude": 123.33,
+    "latitude": 42.75
+  },
+  "法库": {
+    "time": 809,
+    "longitude": 123.37,
+    "latitude": 42.52
+  },
+  "西丰": {
+    "time": 1128,
+    "longitude": 124.7,
+    "latitude": 42.77
+  },
+  "朝阳": {
+    "time": 101,
+    "longitude": 120.42,
+    "latitude": 41.58
+  },
+  "建昌": {
+    "time": -53,
+    "longitude": 119.78,
+    "latitude": 40.82
+  },
+  "北票": {
+    "time": 180,
+    "longitude": 120.75,
+    "latitude": 41.82
+  },
+  "凌源": {
+    "time": -151,
+    "longitude": 119.37,
+    "latitude": 41.27
+  },
+  "建平": {
+    "time": -89,
+    "longitude": 119.63,
+    "latitude": 41.38
+  },
+  "太原": {
+    "time": -1793,
+    "longitude": 112.53,
+    "latitude": 37.87
+  },
+  "阳曲": {
+    "time": -1764,
+    "longitude": 112.65,
+    "latitude": 38.05
+  },
+  "娄烦": {
+    "time": -1973,
+    "longitude": 111.78,
+    "latitude": 38.05
+  },
+  "清徐": {
+    "time": -1841,
+    "longitude": 112.33,
+    "latitude": 37.62
+  },
+  "大同": {
+    "time": -1608,
+    "longitude": 113.3,
+    "latitude": 40.12
+  },
+  "阳泉": {
+    "time": -1543,
+    "longitude": 113.57,
+    "latitude": 37.85
+  },
+  "长治": {
+    "time": -1661,
+    "longitude": 113.08,
+    "latitude": 36.18
+  },
+  "天镇": {
+    "time": -1421,
+    "longitude": 114.08,
+    "latitude": 40.42
+  },
+  "灵丘": {
+    "time": -1392,
+    "longitude": 114.2,
+    "latitude": 39.47
+  },
+  "怀仁": {
+    "time": -1656,
+    "longitude": 113.1,
+    "latitude": 39.82
+  },
+  "山阴": {
+    "time": -1723,
+    "longitude": 112.82,
+    "latitude": 39.52
+  },
+  "平鲁": {
+    "time": -1891,
+    "longitude": 112.12,
+    "latitude": 39.53
+  },
+  "右玉": {
+    "time": -1841,
+    "longitude": 112.33,
+    "latitude": 40.18
+  },
+  "阳高": {
+    "time": -1507,
+    "longitude": 113.72,
+    "latitude": 40.38
+  },
+  "广灵": {
+    "time": -1615,
+    "longitude": 113.27,
+    "latitude": 39.75
+  },
+  "浑源": {
+    "time": -1517,
+    "longitude": 113.68,
+    "latitude": 39.7
+  },
+  "应县": {
+    "time": -1637,
+    "longitude": 113.18,
+    "latitude": 39.58
+  },
+  "朔县": {
+    "time": -1819,
+    "longitude": 112.42,
+    "latitude": 39.32
+  },
+  "左云": {
+    "time": -1759,
+    "longitude": 112.67,
+    "latitude": 40.02
+  },
+  "忻县": {
+    "time": -1752,
+    "longitude": 112.7,
+    "latitude": 38.38
+  },
+  "代县": {
+    "time": -1687,
+    "longitude": 112.97,
+    "latitude": 39.07
+  },
+  "五台": {
+    "time": -1603,
+    "longitude": 113.32,
+    "latitude": 38.72
+  },
+  "静乐": {
+    "time": -1944,
+    "longitude": 111.9,
+    "latitude": 38.37
+  },
+  "保德": {
+    "time": -2138,
+    "longitude": 111.09,
+    "latitude": 38.01
+  },
+  "河曲": {
+    "time": -2119,
+    "longitude": 111.17,
+    "latitude": 39.38
+  },
+  "神池": {
+    "time": -1879,
+    "longitude": 112.17,
+    "latitude": 39.1
+  },
+  "原平": {
+    "time": -1752,
+    "longitude": 112.7,
+    "latitude": 38.73
+  },
+  "繁峙": {
+    "time": -1613,
+    "longitude": 113.28,
+    "latitude": 39.2
+  },
+  "定襄": {
+    "time": -1692,
+    "longitude": 112.95,
+    "latitude": 38.5
+  },
+  "岢岚": {
+    "time": -2021,
+    "longitude": 111.58,
+    "latitude": 38.7
+  },
+  "五寨": {
+    "time": -1963,
+    "longitude": 111.82,
+    "latitude": 38.93
+  },
+  "偏关": {
+    "time": -2047,
+    "longitude": 111.47,
+    "latitude": 39.45
+  },
+  "宁武": {
+    "time": -1853,
+    "longitude": 112.28,
+    "latitude": 39.0
+  },
+  "榆次": {
+    "time": -1747,
+    "longitude": 112.72,
+    "latitude": 37.68
+  },
+  "孟县": {
+    "time": -1735,
+    "longitude": 112.77,
+    "latitude": 34.92
+  },
+  "昔阳": {
+    "time": -1517,
+    "longitude": 113.68,
+    "latitude": 37.62
+  },
+  "左权": {
+    "time": -1596,
+    "longitude": 113.35,
+    "latitude": 37.07
+  },
+  "太谷": {
+    "time": -1793,
+    "longitude": 112.53,
+    "latitude": 37.42
+  },
+  "平遥": {
+    "time": -1877,
+    "longitude": 112.18,
+    "latitude": 37.2
+  },
+  "灵石": {
+    "time": -1975,
+    "longitude": 111.77,
+    "latitude": 36.83
+  },
+  "寿阳": {
+    "time": -1639,
+    "longitude": 113.17,
+    "latitude": 37.88
+  },
+  "平定": {
+    "time": -1531,
+    "longitude": 113.62,
+    "latitude": 37.79
+  },
+  "和顺": {
+    "time": -1548,
+    "longitude": 113.55,
+    "latitude": 37.33
+  },
+  "榆社": {
+    "time": -1687,
+    "longitude": 112.97,
+    "latitude": 37.08
+  },
+  "祁县": {
+    "time": -1841,
+    "longitude": 112.33,
+    "latitude": 37.36
+  },
+  "介休": {
+    "time": -1949,
+    "longitude": 111.88,
+    "latitude": 37.03
+  },
+  "离石": {
+    "time": -2129,
+    "longitude": 111.13,
+    "latitude": 37.53
+  },
+  "兴县": {
+    "time": -2107,
+    "longitude": 111.22,
+    "latitude": 38.47
+  },
+  "方由": {
+    "time": -2102,
+    "longitude": 111.24,
+    "latitude": 37.86
+  },
+  "岚县": {
+    "time": -2011,
+    "longitude": 111.62,
+    "latitude": 38.28
+  },
+  "交城": {
+    "time": -1886,
+    "longitude": 112.14,
+    "latitude": 37.55
+  },
+  "文水": {
+    "time": -1915,
+    "longitude": 112.02,
+    "latitude": 37.42
+  },
+  "汾阳": {
+    "time": -1980,
+    "longitude": 111.75,
+    "latitude": 37.27
+  },
+  "孝义": {
+    "time": -1968,
+    "longitude": 111.8,
+    "latitude": 37.12
+  },
+  "交口": {
+    "time": -2112,
+    "longitude": 111.2,
+    "latitude": 36.97
+  },
+  "石楼": {
+    "time": -2201,
+    "longitude": 110.83,
+    "latitude": 37.0
+  },
+  "中阳": {
+    "time": -2119,
+    "longitude": 111.17,
+    "latitude": 37.37
+  },
+  "临县": {
+    "time": -2172,
+    "longitude": 110.95,
+    "latitude": 37.95
+  },
+  "柳林": {
+    "time": -2196,
+    "longitude": 110.85,
+    "latitude": 37.45
+  },
+  "襄垣": {
+    "time": -1675,
+    "longitude": 113.02,
+    "latitude": 36.55
+  },
+  "黎城": {
+    "time": -1584,
+    "longitude": 113.4,
+    "latitude": 36.56
+  },
+  "壶关": {
+    "time": -1625,
+    "longitude": 113.23,
+    "latitude": 35.11
+  },
+  "高平": {
+    "time": -1709,
+    "longitude": 112.88,
+    "latitude": 35.48
+  },
+  "阳城": {
+    "time": -1829,
+    "longitude": 112.38,
+    "latitude": 35.84
+  },
+  "长子": {
+    "time": -1711,
+    "longitude": 112.87,
+    "latitude": 36.13
+  },
+  "沁源": {
+    "time": -1843,
+    "longitude": 112.32,
+    "latitude": 36.5
+  },
+  "潞城": {
+    "time": -1627,
+    "longitude": 113.22,
+    "latitude": 36.33
+  },
+  "武乡": {
+    "time": -1721,
+    "longitude": 112.83,
+    "latitude": 36.83
+  },
+  "平顺": {
+    "time": -1577,
+    "longitude": 113.43,
+    "latitude": 36.19
+  },
+  "陵川": {
+    "time": -1615,
+    "longitude": 113.27,
+    "latitude": 35.78
+  },
+  "晋城": {
+    "time": -1721,
+    "longitude": 112.83,
+    "latitude": 35.52
+  },
+  "沁水": {
+    "time": -1884,
+    "longitude": 112.15,
+    "latitude": 35.67
+  },
+  "屯留": {
+    "time": -1711,
+    "longitude": 112.87,
+    "latitude": 36.32
+  },
+  "沁县": {
+    "time": -1757,
+    "longitude": 112.68,
+    "latitude": 36.75
+  },
+  "临汾": {
+    "time": -2040,
+    "longitude": 111.5,
+    "latitude": 36.08
+  },
+  "汾西": {
+    "time": -2033,
+    "longitude": 111.53,
+    "latitude": 36.63
+  },
+  "安泽": {
+    "time": -1872,
+    "longitude": 112.2,
+    "latitude": 36.15
+  },
+  "古县": {
+    "time": -1944,
+    "longitude": 111.9,
+    "latitude": 36.29
+  },
+  "翼城": {
+    "time": -1997,
+    "longitude": 111.68,
+    "latitude": 35.73
+  },
+  "曲沃": {
+    "time": -2081,
+    "longitude": 111.33,
+    "latitude": 35.63
+  },
+  "吉县": {
+    "time": -2244,
+    "longitude": 110.65,
+    "latitude": 36.12
+  },
+  "大宁": {
+    "time": -2227,
+    "longitude": 110.72,
+    "latitude": 36.47
+  },
+  "侯马": {
+    "time": -2052,
+    "longitude": 111.45,
+    "latitude": 35.03
+  },
+  "永和": {
+    "time": -2246,
+    "longitude": 110.64,
+    "latitude": 36.62
+  },
+  "洪洞": {
+    "time": -1997,
+    "longitude": 111.68,
+    "latitude": 36.25
+  },
+  "霍县": {
+    "time": -1987,
+    "longitude": 111.72,
+    "latitude": 36.57
+  },
+  "浮山": {
+    "time": -1961,
+    "longitude": 111.83,
+    "latitude": 35.97
+  },
+  "襄汾": {
+    "time": -2057,
+    "longitude": 111.43,
+    "latitude": 35.86
+  },
+  "乡宁": {
+    "time": -2208,
+    "longitude": 110.8,
+    "latitude": 35.97
+  },
+  "蒲县": {
+    "time": -2143,
+    "longitude": 111.07,
+    "latitude": 36.42
+  },
+  "运城": {
+    "time": -2167,
+    "longitude": 110.97,
+    "latitude": 35.03
+  },
+  "闻喜": {
+    "time": -2112,
+    "longitude": 111.2,
+    "latitude": 35.37
+  },
+  "垣曲": {
+    "time": -2009,
+    "longitude": 111.63,
+    "latitude": 35.3
+  },
+  "芮城": {
+    "time": -2237,
+    "longitude": 110.68,
+    "latitude": 34.71
+  },
+  "临猗": {
+    "time": -2213,
+    "longitude": 110.78,
+    "latitude": 35.15
+  },
+  "新绛": {
+    "time": -2107,
+    "longitude": 111.22,
+    "latitude": 35.62
+  },
+  "河津": {
+    "time": -2232,
+    "longitude": 110.7,
+    "latitude": 35.58
+  },
+  "夏县": {
+    "time": -2107,
+    "longitude": 111.22,
+    "latitude": 35.12
+  },
+  "绛县": {
+    "time": -2021,
+    "longitude": 111.58,
+    "latitude": 35.48
+  },
+  "平陆": {
+    "time": -2112,
+    "longitude": 111.2,
+    "latitude": 34.12
+  },
+  "永济": {
+    "time": -2299,
+    "longitude": 110.42,
+    "latitude": 34.88
+  },
+  "万荣": {
+    "time": -2201,
+    "longitude": 110.83,
+    "latitude": 110.83
+  },
+  "稷山": {
+    "time": -2167,
+    "longitude": 110.97,
+    "latitude": 35.6
+  },
+  "长春": {
+    "time": 1284,
+    "longitude": 125.35,
+    "latitude": 43.88
+  },
+  "吉林": {
+    "time": 1577,
+    "longitude": 126.57,
+    "latitude": 43.87
+  },
+  "农安": {
+    "time": 1236,
+    "longitude": 125.15,
+    "latitude": 44.45
+  },
+  "德惠": {
+    "time": 1363,
+    "longitude": 125.68,
+    "latitude": 44.52
+  },
+  "榆树": {
+    "time": 1572,
+    "longitude": 126.55,
+    "latitude": 44.83
+  },
+  "九台": {
+    "time": 1639,
+    "longitude": 126.83,
+    "latitude": 44.15
+  },
+  "双阳": {
+    "time": 1363,
+    "longitude": 125.68,
+    "latitude": 43.53
+  },
+  "永吉": {
+    "time": 1577,
+    "longitude": 126.57,
+    "latitude": 43.87
+  },
+  "舒兰": {
+    "time": 1673,
+    "longitude": 126.97,
+    "latitude": 44.4
+  },
+  "蛟河": {
+    "time": 1759,
+    "longitude": 127.33,
+    "latitude": 43.75
+  },
+  "桦甸": {
+    "time": 1613,
+    "longitude": 126.72,
+    "latitude": 42.97
+  },
+  "磐石": {
+    "time": 1447,
+    "longitude": 126.03,
+    "latitude": 42.93
+  },
+  "延吉": {
+    "time": 2285,
+    "longitude": 129.52,
+    "latitude": 42.93
+  },
+  "汪清": {
+    "time": 2340,
+    "longitude": 129.75,
+    "latitude": 43.32
+  },
+  "珲春": {
+    "time": 2484,
+    "longitude": 130.35,
+    "latitude": 42.85
+  },
+  "图们": {
+    "time": 2359,
+    "longitude": 129.83,
+    "latitude": 42.98
+  },
+  "和龙": {
+    "time": 2160,
+    "longitude": 129.0,
+    "latitude": 42.52
+  },
+  "安图": {
+    "time": 1992,
+    "longitude": 128.3,
+    "latitude": 42.58
+  },
+  "敦化": {
+    "time": 1963,
+    "longitude": 128.18,
+    "latitude": 43.35
+  },
+  "通化": {
+    "time": 1421,
+    "longitude": 125.92,
+    "latitude": 41.49
+  },
+  "柳河": {
+    "time": 1368,
+    "longitude": 125.7,
+    "latitude": 40.88
+  },
+  "海龙": {
+    "time": 1356,
+    "longitude": 125.65,
+    "latitude": 42.53
+  },
+  "辉南": {
+    "time": 1447,
+    "longitude": 126.03,
+    "latitude": 42.68
+  },
+  "靖宇": {
+    "time": 1632,
+    "longitude": 126.8,
+    "latitude": 42.38
+  },
+  "浑江": {
+    "time": 1536,
+    "longitude": 126.4,
+    "latitude": 41.97
+  },
+  "抚松": {
+    "time": 1745,
+    "longitude": 127.27,
+    "latitude": 42.33
+  },
+  "集安": {
+    "time": 1481,
+    "longitude": 126.17,
+    "latitude": 41.15
+  },
+  "长白": {
+    "time": 1961,
+    "longitude": 128.17,
+    "latitude": 41.43
+  },
+  "四平": {
+    "time": 1049,
+    "longitude": 124.37,
+    "latitude": 43.17
+  },
+  "梨树": {
+    "time": 1039,
+    "longitude": 124.33,
+    "latitude": 43.32
+  },
+  "怀德": {
+    "time": 1157,
+    "longitude": 124.82,
+    "latitude": 43.5
+  },
+  "伊通": {
+    "time": 1277,
+    "longitude": 125.32,
+    "latitude": 43.33
+  },
+  "辽源": {
+    "time": 1236,
+    "longitude": 125.15,
+    "latitude": 42.97
+  },
+  "东丰": {
+    "time": 1320,
+    "longitude": 125.5,
+    "latitude": 42.68
+  },
+  "双辽": {
+    "time": 840,
+    "longitude": 123.5,
+    "latitude": 43.52
+  },
+  "白城": {
+    "time": 677,
+    "longitude": 122.82,
+    "latitude": 45.63
+  },
+  "大安": {
+    "time": 1003,
+    "longitude": 124.18,
+    "latitude": 45.5
+  },
+  "扶余": {
+    "time": 1157,
+    "longitude": 124.82,
+    "latitude": 45.2
+  },
+  "乾安": {
+    "time": 965,
+    "longitude": 124.02,
+    "latitude": 45.0
+  },
+  "长岭": {
+    "time": 953,
+    "longitude": 123.97,
+    "latitude": 44.3
+  },
+  "通榆": {
+    "time": 751,
+    "longitude": 123.13,
+    "latitude": 44.82
+  },
+  "洮安": {
+    "time": 660,
+    "longitude": 122.75,
+    "latitude": 45.35
+  },
+  "哈尔滨": {
+    "time": 1591,
+    "longitude": 126.63,
+    "latitude": 45.75
+  },
+  "齐齐哈尔": {
+    "time": 953,
+    "longitude": 123.97,
+    "latitude": 47.33
+  },
+  "鹤岗": {
+    "time": 2472,
+    "longitude": 130.3,
+    "latitude": 47.33
+  },
+  "双鸭山": {
+    "time": 2681,
+    "longitude": 131.17,
+    "latitude": 46.65
+  },
+  "鸡四": {
+    "time": 2633,
+    "longitude": 130.97,
+    "latitude": 45.3
+  },
+  "大庆": {
+    "time": 1207,
+    "longitude": 125.03,
+    "latitude": 46.58
+  },
+  "伊春": {
+    "time": 2141,
+    "longitude": 128.92,
+    "latitude": 47.73
+  },
+  "嘉荫": {
+    "time": 2400,
+    "longitude": 130.0,
+    "latitude": 48.93
+  },
+  "铁力": {
+    "time": 1939,
+    "longitude": 128.08,
+    "latitude": 47.98
+  },
+  "绥化": {
+    "time": 1680,
+    "longitude": 127.0,
+    "latitude": 46.63
+  },
+  "绥棱": {
+    "time": 1709,
+    "longitude": 127.12,
+    "latitude": 47.22
+  },
+  "海伦": {
+    "time": 1673,
+    "longitude": 126.97,
+    "latitude": 47.47
+  },
+  "庆安": {
+    "time": 1800,
+    "longitude": 127.5,
+    "latitude": 46.87
+  },
+  "兰西": {
+    "time": 1512,
+    "longitude": 126.3,
+    "latitude": 46.28
+  },
+  "肇东": {
+    "time": 1435,
+    "longitude": 125.98,
+    "latitude": 46.07
+  },
+  "肇州": {
+    "time": 1260,
+    "longitude": 125.25,
+    "latitude": 45.72
+  },
+  "肇源": {
+    "time": 1217,
+    "longitude": 125.07,
+    "latitude": 45.53
+  },
+  "安达": {
+    "time": 1279,
+    "longitude": 125.33,
+    "latitude": 46.42
+  },
+  "明水": {
+    "time": 1411,
+    "longitude": 125.88,
+    "latitude": 47.18
+  },
+  "青岗": {
+    "time": 1471,
+    "longitude": 126.13,
+    "latitude": 46.68
+  },
+  "望奎": {
+    "time": 1560,
+    "longitude": 126.5,
+    "latitude": 46.83
+  },
+  "黑河": {
+    "time": 1807,
+    "longitude": 127.53,
+    "latitude": 50.22
+  },
+  "爱辉": {
+    "time": 1807,
+    "longitude": 127.53,
+    "latitude": 50.22
+  },
+  "德都": {
+    "time": 1481,
+    "longitude": 126.17,
+    "latitude": 48.5
+  },
+  "通北": {
+    "time": 1632,
+    "longitude": 126.8,
+    "latitude": 49.76
+  },
+  "北安": {
+    "time": 1560,
+    "longitude": 126.5,
+    "latitude": 48.22
+  },
+  "孙吴": {
+    "time": 1800,
+    "longitude": 127.5,
+    "latitude": 49.22
+  },
+  "逊克": {
+    "time": 2021,
+    "longitude": 128.42,
+    "latitude": 49.57
+  },
+  "嫩江": {
+    "time": 1248,
+    "longitude": 125.2,
+    "latitude": 49.17
+  },
+  "佳木斯": {
+    "time": 2484,
+    "longitude": 130.35,
+    "latitude": 46.83
+  },
+  "桦川": {
+    "time": 2563,
+    "longitude": 130.68,
+    "latitude": 47.02
+  },
+  "萝北": {
+    "time": 2599,
+    "longitude": 130.83,
+    "latitude": 47.58
+  },
+  "绥滨": {
+    "time": 2839,
+    "longitude": 131.83,
+    "latitude": 47.3
+  },
+  "富锦": {
+    "time": 2885,
+    "longitude": 132.02,
+    "latitude": 47.23
+  },
+  "同江": {
+    "time": 3000,
+    "longitude": 132.5,
+    "latitude": 47.67
+  },
+  "抚远": {
+    "time": 3396,
+    "longitude": 134.15,
+    "latitude": 48.33
+  },
+  "饶河": {
+    "time": 3360,
+    "longitude": 134.0,
+    "latitude": 46.78
+  },
+  "七台河": {
+    "time": 2599,
+    "longitude": 130.83,
+    "latitude": 45.82
+  },
+  "宝清": {
+    "time": 2921,
+    "longitude": 132.17,
+    "latitude": 46.33
+  },
+  "集贤": {
+    "time": 2671,
+    "longitude": 131.13,
+    "latitude": 46.7
+  },
+  "勃利": {
+    "time": 2527,
+    "longitude": 130.53,
+    "latitude": 45.75
+  },
+  "桦南": {
+    "time": 2527,
+    "longitude": 130.53,
+    "latitude": 46.25
+  },
+  "依兰": {
+    "time": 2292,
+    "longitude": 129.55,
+    "latitude": 46.33
+  },
+  "汤源": {
+    "time": 2381,
+    "longitude": 129.92,
+    "latitude": 46.73
+  },
+  "牡丹江": {
+    "time": 2299,
+    "longitude": 129.58,
+    "latitude": 44.6
+  },
+  "林口": {
+    "time": 2455,
+    "longitude": 130.23,
+    "latitude": 45.3
+  },
+  "鸡东": {
+    "time": 2650,
+    "longitude": 131.04,
+    "latitude": 45.27
+  },
+  "密山": {
+    "time": 2844,
+    "longitude": 131.85,
+    "latitude": 45.53
+  },
+  "虎林": {
+    "time": 3353,
+    "longitude": 133.97,
+    "latitude": 45.75
+  },
+  "绥芬河": {
+    "time": 2681,
+    "longitude": 131.17,
+    "latitude": 44.38
+  },
+  "东宁": {
+    "time": 2669,
+    "longitude": 131.12,
+    "latitude": 44.07
+  },
+  "穆棱": {
+    "time": 2520,
+    "longitude": 130.5,
+    "latitude": 44.9
+  },
+  "宁安": {
+    "time": 2273,
+    "longitude": 129.47,
+    "latitude": 44.35
+  },
+  "海林": {
+    "time": 2244,
+    "longitude": 129.35,
+    "latitude": 44.57
+  },
+  "阿城": {
+    "time": 1668,
+    "longitude": 126.95,
+    "latitude": 45.52
+  },
+  "呼兰": {
+    "time": 1579,
+    "longitude": 126.58,
+    "latitude": 46.0
+  },
+  "巴彦": {
+    "time": 1771,
+    "longitude": 127.38,
+    "latitude": 46.08
+  },
+  "宾县": {
+    "time": 1795,
+    "longitude": 127.48,
+    "latitude": 45.75
+  },
+  "木兰": {
+    "time": 1927,
+    "longitude": 128.03,
+    "latitude": 45.95
+  },
+  "通河": {
+    "time": 2088,
+    "longitude": 128.7,
+    "latitude": 45.98
+  },
+  "方正": {
+    "time": 2112,
+    "longitude": 128.8,
+    "latitude": 45.83
+  },
+  "延寿": {
+    "time": 2004,
+    "longitude": 128.35,
+    "latitude": 45.47
+  },
+  "尚志": {
+    "time": 1908,
+    "longitude": 127.95,
+    "latitude": 45.22
+  },
+  "五常": {
+    "time": 1721,
+    "longitude": 127.17,
+    "latitude": 44.93
+  },
+  "双城": {
+    "time": 1517,
+    "longitude": 126.32,
+    "latitude": 45.53
+  },
+  "富裕": {
+    "time": 1056,
+    "longitude": 124.4,
+    "latitude": 47.8
+  },
+  "讷河": {
+    "time": 1164,
+    "longitude": 124.85,
+    "latitude": 48.48
+  },
+  "克山": {
+    "time": 1409,
+    "longitude": 125.87,
+    "latitude": 48.03
+  },
+  "克东": {
+    "time": 1493,
+    "longitude": 126.22,
+    "latitude": 48.03
+  },
+  "拜泉": {
+    "time": 1457,
+    "longitude": 126.07,
+    "latitude": 47.62
+  },
+  "依安": {
+    "time": 1272,
+    "longitude": 125.3,
+    "latitude": 47.92
+  },
+  "林甸": {
+    "time": 1169,
+    "longitude": 124.87,
+    "latitude": 47.18
+  },
+  "泰来": {
+    "time": 828,
+    "longitude": 123.45,
+    "latitude": 46.4
+  },
+  "龙江": {
+    "time": 763,
+    "longitude": 123.18,
+    "latitude": 47.35
+  },
+  "甘南": {
+    "time": 835,
+    "longitude": 123.48,
+    "latitude": 47.9
+  },
+  "杜尔伯特": {
+    "time": 1066,
+    "longitude": 124.44,
+    "latitude": 46.86
+  },
+  "加格达奇": {
+    "time": 977,
+    "longitude": 124.07,
+    "latitude": 50.42
+  },
+  "呼玛": {
+    "time": 1584,
+    "longitude": 126.6,
+    "latitude": 51.72
+  },
+  "塔河": {
+    "time": 1128,
+    "longitude": 124.7,
+    "latitude": 52.32
+  },
+  "漠河": {
+    "time": 569,
+    "longitude": 122.37,
+    "latitude": 53.48
+  },
+  "南京": {
+    "time": -293,
+    "longitude": 118.78,
+    "latitude": 32.04
+  },
+  "江宁": {
+    "time": -281,
+    "longitude": 118.83,
+    "latitude": 31.95
+  },
+  "六合": {
+    "time": -281,
+    "longitude": 118.83,
+    "latitude": 32.36
+  },
+  "江浦": {
+    "time": -331,
+    "longitude": 118.62,
+    "latitude": 32.07
+  },
+  "徐州": {
+    "time": -672,
+    "longitude": 117.2,
+    "latitude": 34.26
+  },
+  "连云港": {
+    "time": -202,
+    "longitude": 119.16,
+    "latitude": 34.59
+  },
+  "南通": {
+    "time": 252,
+    "longitude": 121.05,
+    "latitude": 32.08
+  },
+  "苏州": {
+    "time": 149,
+    "longitude": 120.62,
+    "latitude": 31.32
+  },
+  "无锡": {
+    "time": 70,
+    "longitude": 120.29,
+    "latitude": 31.59
+  },
+  "常州": {
+    "time": -12,
+    "longitude": 119.95,
+    "latitude": 31.79
+  },
+  "丰县": {
+    "time": -823,
+    "longitude": 116.57,
+    "latitude": 34.79
+  },
+  "沛县": {
+    "time": -737,
+    "longitude": 116.93,
+    "latitude": 34.73
+  },
+  "赣榆": {
+    "time": -214,
+    "longitude": 119.11,
+    "latitude": 34.83
+  },
+  "东海": {
+    "time": -300,
+    "longitude": 118.75,
+    "latitude": 34.54
+  },
+  "新沂": {
+    "time": -401,
+    "longitude": 118.33,
+    "latitude": 34.38
+  },
+  "邳县": {
+    "time": -487,
+    "longitude": 117.97,
+    "latitude": 34.3
+  },
+  "睢宁": {
+    "time": -494,
+    "longitude": 117.94,
+    "latitude": 33.89
+  },
+  "铜山": {
+    "time": -672,
+    "longitude": 117.2,
+    "latitude": 34.26
+  },
+  "清江": {
+    "time": -1070,
+    "longitude": 115.54,
+    "latitude": 28.07
+  },
+  "灌云": {
+    "time": -185,
+    "longitude": 119.23,
+    "latitude": 34.3
+  },
+  "灌南": {
+    "time": -154,
+    "longitude": 119.36,
+    "latitude": 34.09
+  },
+  "沭阳": {
+    "time": -290,
+    "longitude": 118.79,
+    "latitude": 34.12
+  },
+  "宿迁": {
+    "time": -408,
+    "longitude": 118.3,
+    "latitude": 33.96
+  },
+  "泗阳": {
+    "time": -317,
+    "longitude": 118.68,
+    "latitude": 33.73
+  },
+  "盱眙": {
+    "time": -468,
+    "longitude": 118.05,
+    "latitude": 33.0
+  },
+  "涟水": {
+    "time": -178,
+    "longitude": 119.26,
+    "latitude": 33.77
+  },
+  "淮阴": {
+    "time": -235,
+    "longitude": 119.02,
+    "latitude": 33.62
+  },
+  "淮安": {
+    "time": -204,
+    "longitude": 119.15,
+    "latitude": 33.5
+  },
+  "洪泽": {
+    "time": -276,
+    "longitude": 118.85,
+    "latitude": 33.28
+  },
+  "泗洪": {
+    "time": -425,
+    "longitude": 118.23,
+    "latitude": 33.46
+  },
+  "金湖": {
+    "time": -235,
+    "longitude": 119.02,
+    "latitude": 33.01
+  },
+  "盐城": {
+    "time": 31,
+    "longitude": 120.13,
+    "latitude": 33.38
+  },
+  "滨海": {
+    "time": -38,
+    "longitude": 119.84,
+    "latitude": 34.01
+  },
+  "阜宁": {
+    "time": -50,
+    "longitude": 119.79,
+    "latitude": 33.78
+  },
+  "射阳": {
+    "time": 62,
+    "longitude": 120.26,
+    "latitude": 33.77
+  },
+  "建湖": {
+    "time": -55,
+    "longitude": 119.77,
+    "latitude": 33.46
+  },
+  "响水": {
+    "time": -106,
+    "longitude": 119.56,
+    "latitude": 34.2
+  },
+  "大丰": {
+    "time": 108,
+    "longitude": 120.45,
+    "latitude": 33.19
+  },
+  "东台": {
+    "time": 74,
+    "longitude": 120.31,
+    "latitude": 32.84
+  },
+  "海安": {
+    "time": 108,
+    "longitude": 120.45,
+    "latitude": 32.57
+  },
+  "如皋": {
+    "time": 134,
+    "longitude": 120.56,
+    "latitude": 32.39
+  },
+  "如东": {
+    "time": 283,
+    "longitude": 121.18,
+    "latitude": 32.33
+  },
+  "启东": {
+    "time": 398,
+    "longitude": 121.66,
+    "latitude": 31.8
+  },
+  "海门": {
+    "time": 276,
+    "longitude": 121.15,
+    "latitude": 31.89
+  },
+  "扬州": {
+    "time": -139,
+    "longitude": 119.42,
+    "latitude": 32.39
+  },
+  "宝应": {
+    "time": -163,
+    "longitude": 119.32,
+    "latitude": 33.23
+  },
+  "兴化": {
+    "time": -43,
+    "longitude": 119.82,
+    "latitude": 32.93
+  },
+  "高邮": {
+    "time": -132,
+    "longitude": 119.45,
+    "latitude": 32.78
+  },
+  "泰兴": {
+    "time": 5,
+    "longitude": 120.02,
+    "latitude": 32.16
+  },
+  "泰县": {
+    "time": 36,
+    "longitude": 120.15,
+    "latitude": 32.51
+  },
+  "泰州": {
+    "time": -24,
+    "longitude": 119.9,
+    "latitude": 32.49
+  },
+  "靖江": {
+    "time": 62,
+    "longitude": 120.26,
+    "latitude": 32.03
+  },
+  "江都": {
+    "time": -108,
+    "longitude": 119.55,
+    "latitude": 32.43
+  },
+  "邗江": {
+    "time": -139,
+    "longitude": 119.42,
+    "latitude": 32.39
+  },
+  "仪征": {
+    "time": -202,
+    "longitude": 119.16,
+    "latitude": 32.27
+  },
+  "镇江": {
+    "time": -134,
+    "longitude": 119.44,
+    "latitude": 32.2
+  },
+  "丹徒": {
+    "time": -134,
+    "longitude": 119.44,
+    "latitude": 32.2
+  },
+  "扬中": {
+    "time": -46,
+    "longitude": 119.81,
+    "latitude": 32.24
+  },
+  "丹阳": {
+    "time": -108,
+    "longitude": 119.55,
+    "latitude": 32.0
+  },
+  "武进": {
+    "time": -12,
+    "longitude": 119.95,
+    "latitude": 31.78
+  },
+  "宜兴": {
+    "time": -43,
+    "longitude": 119.82,
+    "latitude": 31.36
+  },
+  "金坛": {
+    "time": -106,
+    "longitude": 119.56,
+    "latitude": 31.74
+  },
+  "溧阳": {
+    "time": -125,
+    "longitude": 119.48,
+    "latitude": 31.43
+  },
+  "句容": {
+    "time": -202,
+    "longitude": 119.16,
+    "latitude": 31.95
+  },
+  "溧水": {
+    "time": -235,
+    "longitude": 119.02,
+    "latitude": 31.65
+  },
+  "高淳": {
+    "time": -271,
+    "longitude": 118.87,
+    "latitude": 31.32
+  },
+  "江阴": {
+    "time": 62,
+    "longitude": 120.26,
+    "latitude": 31.91
+  },
+  "沙洲": {
+    "time": 132,
+    "longitude": 120.55,
+    "latitude": 31.86
+  },
+  "常熟": {
+    "time": 178,
+    "longitude": 120.74,
+    "latitude": 31.64
+  },
+  "太仓": {
+    "time": 264,
+    "longitude": 121.1,
+    "latitude": 31.45
+  },
+  "昆山": {
+    "time": 228,
+    "longitude": 120.95,
+    "latitude": 31.39
+  },
+  "吴县": {
+    "time": 149,
+    "longitude": 120.62,
+    "latitude": 31.32
+  },
+  "吴江": {
+    "time": 151,
+    "longitude": 120.63,
+    "latitude": 31.16
+  },
+  "合肥": {
+    "time": -655,
+    "longitude": 117.27,
+    "latitude": 31.86
+  },
+  "长丰": {
+    "time": -682,
+    "longitude": 117.16,
+    "latitude": 32.47
+  },
+  "淮南": {
+    "time": -725,
+    "longitude": 116.98,
+    "latitude": 32.62
+  },
+  "凤台": {
+    "time": -790,
+    "longitude": 116.71,
+    "latitude": 32.68
+  },
+  "淮北": {
+    "time": -775,
+    "longitude": 116.77,
+    "latitude": 33.97
+  },
+  "濉溪": {
+    "time": -778,
+    "longitude": 116.76,
+    "latitude": 33.92
+  },
+  "芜湖": {
+    "time": -389,
+    "longitude": 118.38,
+    "latitude": 31.33
+  },
+  "铜陵": {
+    "time": -523,
+    "longitude": 117.82,
+    "latitude": 30.93
+  },
+  "蚌埠": {
+    "time": -638,
+    "longitude": 117.34,
+    "latitude": 32.93
+  },
+  "马鞍山": {
+    "time": -365,
+    "longitude": 118.48,
+    "latitude": 31.56
+  },
+  "安庆": {
+    "time": -713,
+    "longitude": 117.03,
+    "latitude": 30.52
+  },
+  "宿州": {
+    "time": -727,
+    "longitude": 116.97,
+    "latitude": 33.63
+  },
+  "宿县": {
+    "time": -727,
+    "longitude": 116.97,
+    "latitude": 33.63
+  },
+  "砀山": {
+    "time": -878,
+    "longitude": 116.34,
+    "latitude": 34.42
+  },
+  "萧县": {
+    "time": -737,
+    "longitude": 116.93,
+    "latitude": 34.19
+  },
+  "吴壁": {
+    "time": -588,
+    "longitude": 117.55,
+    "latitude": 33.55
+  },
+  "泗县": {
+    "time": -506,
+    "longitude": 117.89,
+    "latitude": 33.49
+  },
+  "五河": {
+    "time": -511,
+    "longitude": 117.87,
+    "latitude": 33.14
+  },
+  "固镇": {
+    "time": -643,
+    "longitude": 117.32,
+    "latitude": 33.33
+  },
+  "怀远": {
+    "time": -674,
+    "longitude": 117.19,
+    "latitude": 32.95
+  },
+  "滁州": {
+    "time": -406,
+    "longitude": 118.31,
+    "latitude": 32.33
+  },
+  "嘉山": {
+    "time": -485,
+    "longitude": 117.98,
+    "latitude": 32.78
+  },
+  "天长": {
+    "time": -240,
+    "longitude": 119.0,
+    "latitude": 32.68
+  },
+  "来安": {
+    "time": -374,
+    "longitude": 118.44,
+    "latitude": 32.44
+  },
+  "全椒": {
+    "time": -415,
+    "longitude": 118.27,
+    "latitude": 32.1
+  },
+  "定远": {
+    "time": -557,
+    "longitude": 117.68,
+    "latitude": 32.52
+  },
+  "凤阳": {
+    "time": -624,
+    "longitude": 117.4,
+    "latitude": 32.86
+  },
+  "巢湖": {
+    "time": -511,
+    "longitude": 117.87,
+    "latitude": 31.62
+  },
+  "巢县": {
+    "time": -511,
+    "longitude": 117.87,
+    "latitude": 31.62
+  },
+  "肥东": {
+    "time": -607,
+    "longitude": 117.47,
+    "latitude": 31.89
+  },
+  "含山": {
+    "time": -454,
+    "longitude": 118.11,
+    "latitude": 31.7
+  },
+  "和县": {
+    "time": -391,
+    "longitude": 118.37,
+    "latitude": 31.7
+  },
+  "无为": {
+    "time": -540,
+    "longitude": 117.75,
+    "latitude": 31.3
+  },
+  "卢江": {
+    "time": -650,
+    "longitude": 117.29,
+    "latitude": 31.23
+  },
+  "宣城": {
+    "time": -305,
+    "longitude": 118.73,
+    "latitude": 31.95
+  },
+  "当涂": {
+    "time": -362,
+    "longitude": 118.49,
+    "latitude": 31.55
+  },
+  "郎溪": {
+    "time": -199,
+    "longitude": 119.17,
+    "latitude": 31.14
+  },
+  "广德": {
+    "time": -142,
+    "longitude": 119.41,
+    "latitude": 30.89
+  },
+  "泾县": {
+    "time": -382,
+    "longitude": 118.41,
+    "latitude": 30.68
+  },
+  "南陵": {
+    "time": -403,
+    "longitude": 118.32,
+    "latitude": 30.91
+  },
+  "繁昌": {
+    "time": -430,
+    "longitude": 118.21,
+    "latitude": 31.07
+  },
+  "宁国": {
+    "time": -252,
+    "longitude": 118.95,
+    "latitude": 30.62
+  },
+  "青阳": {
+    "time": -518,
+    "longitude": 117.84,
+    "latitude": 30.64
+  },
+  "屯溪": {
+    "time": -406,
+    "longitude": 118.31,
+    "latitude": 29.72
+  },
+  "休宁": {
+    "time": -434,
+    "longitude": 118.19,
+    "latitude": 29.81
+  },
+  "旌得": {
+    "time": -353,
+    "longitude": 118.53,
+    "latitude": 30.28
+  },
+  "绩溪": {
+    "time": -343,
+    "longitude": 118.57,
+    "latitude": 30.07
+  },
+  "歙县": {
+    "time": -374,
+    "longitude": 118.44,
+    "latitude": 29.88
+  },
+  "祁门": {
+    "time": -552,
+    "longitude": 117.7,
+    "latitude": 29.86
+  },
+  "黟县": {
+    "time": -499,
+    "longitude": 117.92,
+    "latitude": 29.93
+  },
+  "太平": {
+    "time": -449,
+    "longitude": 118.13,
+    "latitude": 30.28
+  },
+  "石台": {
+    "time": -605,
+    "longitude": 117.48,
+    "latitude": 30.19
+  },
+  "桐城": {
+    "time": -734,
+    "longitude": 116.94,
+    "latitude": 31.04
+  },
+  "纵阳": {
+    "time": -670,
+    "longitude": 117.21,
+    "latitude": 30.69
+  },
+  "怀宁": {
+    "time": -809,
+    "longitude": 116.63,
+    "latitude": 30.41
+  },
+  "望江": {
+    "time": -794,
+    "longitude": 116.69,
+    "latitude": 30.12
+  },
+  "宿松": {
+    "time": -929,
+    "longitude": 116.13,
+    "latitude": 30.15
+  },
+  "太湖": {
+    "time": -895,
+    "longitude": 116.27,
+    "latitude": 30.42
+  },
+  "岳西": {
+    "time": -874,
+    "longitude": 116.36,
+    "latitude": 30.84
+  },
+  "潜山": {
+    "time": -833,
+    "longitude": 116.53,
+    "latitude": 30.62
+  },
+  "东至": {
+    "time": -722,
+    "longitude": 116.99,
+    "latitude": 30.08
+  },
+  "贵池": {
+    "time": -605,
+    "longitude": 117.48,
+    "latitude": 30.66
+  },
+  "六安": {
+    "time": -842,
+    "longitude": 116.49,
+    "latitude": 31.73
+  },
+  "霍丘": {
+    "time": -895,
+    "longitude": 116.27,
+    "latitude": 32.32
+  },
+  "寿县": {
+    "time": -773,
+    "longitude": 116.78,
+    "latitude": 32.57
+  },
+  "肥西": {
+    "time": -684,
+    "longitude": 117.15,
+    "latitude": 31.7
+  },
+  "舒城": {
+    "time": -734,
+    "longitude": 116.94,
+    "latitude": 31.45
+  },
+  "霍山": {
+    "time": -883,
+    "longitude": 116.32,
+    "latitude": 31.38
+  },
+  "金寨": {
+    "time": -991,
+    "longitude": 115.87,
+    "latitude": 31.67
+  },
+  "阜阳": {
+    "time": -1006,
+    "longitude": 115.81,
+    "latitude": 32.89
+  },
+  "毫县": {
+    "time": -778,
+    "longitude": 116.76,
+    "latitude": 33.86
+  },
+  "涡阳": {
+    "time": -910,
+    "longitude": 116.21,
+    "latitude": 33.49
+  },
+  "蒙城": {
+    "time": -828,
+    "longitude": 116.55,
+    "latitude": 33.25
+  },
+  "利辛": {
+    "time": -914,
+    "longitude": 116.19,
+    "latitude": 33.12
+  },
+  "颖上": {
+    "time": -898,
+    "longitude": 116.26,
+    "latitude": 32.62
+  },
+  "阜南": {
+    "time": -1056,
+    "longitude": 115.6,
+    "latitude": 32.63
+  },
+  "临泉": {
+    "time": -1142,
+    "longitude": 115.24,
+    "latitude": 33.06
+  },
+  "界首": {
+    "time": -1118,
+    "longitude": 115.34,
+    "latitude": 33.24
+  },
+  "太和": {
+    "time": -1054,
+    "longitude": 115.61,
+    "latitude": 33.16
+  },
+  "福州": {
+    "time": -168,
+    "longitude": 119.3,
+    "latitude": 26.08
+  },
+  "闽侯": {
+    "time": -206,
+    "longitude": 119.14,
+    "latitude": 26.16
+  },
+  "厦门": {
+    "time": -456,
+    "longitude": 118.1,
+    "latitude": 24.46
+  },
+  "同安": {
+    "time": -444,
+    "longitude": 118.15,
+    "latitude": 24.74
+  },
+  "南平": {
+    "time": -454,
+    "longitude": 118.11,
+    "latitude": 27.34
+  },
+  "建瓯": {
+    "time": -403,
+    "longitude": 118.32,
+    "latitude": 27.05
+  },
+  "浦城": {
+    "time": -348,
+    "longitude": 118.55,
+    "latitude": 27.92
+  },
+  "邵武": {
+    "time": -605,
+    "longitude": 117.48,
+    "latitude": 27.34
+  },
+  "顺昌": {
+    "time": -528,
+    "longitude": 117.8,
+    "latitude": 26.8
+  },
+  "崇安": {
+    "time": -475,
+    "longitude": 118.02,
+    "latitude": 27.76
+  },
+  "光泽": {
+    "time": -638,
+    "longitude": 117.34,
+    "latitude": 27.54
+  },
+  "松溪": {
+    "time": -295,
+    "longitude": 118.77,
+    "latitude": 27.53
+  },
+  "政和": {
+    "time": -276,
+    "longitude": 118.85,
+    "latitude": 27.38
+  },
+  "宁德": {
+    "time": -115,
+    "longitude": 119.52,
+    "latitude": 26.65
+  },
+  "福安": {
+    "time": -84,
+    "longitude": 119.65,
+    "latitude": 27.09
+  },
+  "连江": {
+    "time": -113,
+    "longitude": 119.53,
+    "latitude": 26.2
+  },
+  "福鼎": {
+    "time": 48,
+    "longitude": 120.2,
+    "latitude": 27.34
+  },
+  "霞浦": {
+    "time": 0,
+    "longitude": 120.0,
+    "latitude": 26.89
+  },
+  "吉田": {
+    "time": -302,
+    "longitude": 118.74,
+    "latitude": 26.59
+  },
+  "罗源": {
+    "time": -108,
+    "longitude": 119.55,
+    "latitude": 26.49
+  },
+  "寿宁": {
+    "time": -120,
+    "longitude": 119.5,
+    "latitude": 27.47
+  },
+  "周宁": {
+    "time": -154,
+    "longitude": 119.36,
+    "latitude": 27.12
+  },
+  "屏南": {
+    "time": -245,
+    "longitude": 118.98,
+    "latitude": 26.92
+  },
+  "柘荣": {
+    "time": -26,
+    "longitude": 119.89,
+    "latitude": 27.25
+  },
+  "莆田": {
+    "time": -240,
+    "longitude": 119.0,
+    "latitude": 25.44
+  },
+  "仙游": {
+    "time": -312,
+    "longitude": 118.7,
+    "latitude": 25.37
+  },
+  "福清": {
+    "time": -146,
+    "longitude": 119.39,
+    "latitude": 25.73
+  },
+  "长乐": {
+    "time": -115,
+    "longitude": 119.52,
+    "latitude": 25.96
+  },
+  "永泰": {
+    "time": -252,
+    "longitude": 118.95,
+    "latitude": 25.88
+  },
+  "平潭": {
+    "time": -53,
+    "longitude": 119.78,
+    "latitude": 25.51
+  },
+  "闽清": {
+    "time": -274,
+    "longitude": 118.86,
+    "latitude": 26.21
+  },
+  "泉州": {
+    "time": -341,
+    "longitude": 118.58,
+    "latitude": 24.93
+  },
+  "晋江": {
+    "time": -343,
+    "longitude": 118.57,
+    "latitude": 24.82
+  },
+  "南安": {
+    "time": -386,
+    "longitude": 118.39,
+    "latitude": 24.96
+  },
+  "惠安": {
+    "time": -293,
+    "longitude": 118.78,
+    "latitude": 25.04
+  },
+  "安溪": {
+    "time": -437,
+    "longitude": 118.18,
+    "latitude": 25.07
+  },
+  "永春": {
+    "time": -408,
+    "longitude": 118.3,
+    "latitude": 25.34
+  },
+  "德化": {
+    "time": -422,
+    "longitude": 118.24,
+    "latitude": 25.5
+  },
+  "金门": {
+    "time": -398,
+    "longitude": 118.34,
+    "latitude": 24.43
+  },
+  "漳州": {
+    "time": -636,
+    "longitude": 117.35,
+    "latitude": 24.52
+  },
+  "龙海": {
+    "time": -530,
+    "longitude": 117.79,
+    "latitude": 24.44
+  },
+  "漳浦": {
+    "time": -574,
+    "longitude": 117.61,
+    "latitude": 24.12
+  },
+  "诏安": {
+    "time": -682,
+    "longitude": 117.16,
+    "latitude": 23.73
+  },
+  "平和": {
+    "time": -648,
+    "longitude": 117.3,
+    "latitude": 24.38
+  },
+  "云霄": {
+    "time": -638,
+    "longitude": 117.34,
+    "latitude": 23.99
+  },
+  "南靖": {
+    "time": -636,
+    "longitude": 117.35,
+    "latitude": 24.51
+  },
+  "长泰": {
+    "time": -540,
+    "longitude": 117.75,
+    "latitude": 24.62
+  },
+  "东山": {
+    "time": -624,
+    "longitude": 117.4,
+    "latitude": 23.72
+  },
+  "华安": {
+    "time": -593,
+    "longitude": 117.53,
+    "latitude": 25.0
+  },
+  "龙岩": {
+    "time": -718,
+    "longitude": 117.01,
+    "latitude": 25.12
+  },
+  "上杭": {
+    "time": -862,
+    "longitude": 116.41,
+    "latitude": 25.43
+  },
+  "永定": {
+    "time": -766,
+    "longitude": 116.81,
+    "latitude": 24.76
+  },
+  "长汀": {
+    "time": -871,
+    "longitude": 116.37,
+    "latitude": 25.85
+  },
+  "武平": {
+    "time": -936,
+    "longitude": 116.1,
+    "latitude": 25.11
+  },
+  "连城": {
+    "time": -780,
+    "longitude": 116.75,
+    "latitude": 25.72
+  },
+  "漳平": {
+    "time": -624,
+    "longitude": 117.4,
+    "latitude": 25.3
+  },
+  "三明": {
+    "time": -574,
+    "longitude": 117.61,
+    "latitude": 26.23
+  },
+  "龙溪": {
+    "time": -439,
+    "longitude": 118.17,
+    "latitude": 26.18
+  },
+  "宁化": {
+    "time": -806,
+    "longitude": 116.64,
+    "latitude": 26.26
+  },
+  "大田": {
+    "time": -521,
+    "longitude": 117.83,
+    "latitude": 25.69
+  },
+  "永安": {
+    "time": -631,
+    "longitude": 117.37,
+    "latitude": 25.97
+  },
+  "沙县": {
+    "time": -535,
+    "longitude": 117.77,
+    "latitude": 26.41
+  },
+  "将乐": {
+    "time": -612,
+    "longitude": 117.45,
+    "latitude": 26.73
+  },
+  "清流": {
+    "time": -766,
+    "longitude": 116.81,
+    "latitude": 26.12
+  },
+  "建宁": {
+    "time": -763,
+    "longitude": 116.82,
+    "latitude": 26.85
+  },
+  "泰宁": {
+    "time": -684,
+    "longitude": 117.15,
+    "latitude": 26.92
+  },
+  "明溪": {
+    "time": -677,
+    "longitude": 117.18,
+    "latitude": 26.36
+  },
+  "南昌": {
+    "time": -986,
+    "longitude": 115.89,
+    "latitude": 28.68
+  },
+  "新建": {
+    "time": -1008,
+    "longitude": 115.8,
+    "latitude": 28.69
+  },
+  "景德镇": {
+    "time": -667,
+    "longitude": 117.22,
+    "latitude": 29.3
+  },
+  "萍乡": {
+    "time": -1476,
+    "longitude": 113.85,
+    "latitude": 27.6
+  },
+  "九江": {
+    "time": -967,
+    "longitude": 115.97,
+    "latitude": 29.71
+  },
+  "彭泽": {
+    "time": -826,
+    "longitude": 116.56,
+    "latitude": 29.9
+  },
+  "湖口": {
+    "time": -905,
+    "longitude": 116.23,
+    "latitude": 29.75
+  },
+  "都昌": {
+    "time": -914,
+    "longitude": 116.19,
+    "latitude": 29.29
+  },
+  "星子": {
+    "time": -953,
+    "longitude": 116.03,
+    "latitude": 29.47
+  },
+  "永修": {
+    "time": -1003,
+    "longitude": 115.82,
+    "latitude": 29.04
+  },
+  "德安": {
+    "time": -1020,
+    "longitude": 115.75,
+    "latitude": 29.33
+  },
+  "瑞昌": {
+    "time": -1044,
+    "longitude": 115.65,
+    "latitude": 29.68
+  },
+  "武宁": {
+    "time": -1178,
+    "longitude": 115.09,
+    "latitude": 29.26
+  },
+  "修永": {
+    "time": -1308,
+    "longitude": 114.55,
+    "latitude": 29.04
+  },
+  "上饶": {
+    "time": -487,
+    "longitude": 117.97,
+    "latitude": 28.47
+  },
+  "婺源": {
+    "time": -521,
+    "longitude": 117.83,
+    "latitude": 29.25
+  },
+  "德兴": {
+    "time": -581,
+    "longitude": 117.58,
+    "latitude": 28.96
+  },
+  "玉山": {
+    "time": -420,
+    "longitude": 118.25,
+    "latitude": 28.68
+  },
+  "广丰": {
+    "time": -432,
+    "longitude": 118.2,
+    "latitude": 28.45
+  },
+  "铅山": {
+    "time": -550,
+    "longitude": 117.71,
+    "latitude": 28.32
+  },
+  "横峰": {
+    "time": -571,
+    "longitude": 117.62,
+    "latitude": 28.42
+  },
+  "鹰潭": {
+    "time": -715,
+    "longitude": 117.02,
+    "latitude": 28.23
+  },
+  "贵溪": {
+    "time": -672,
+    "longitude": 117.2,
+    "latitude": 28.3
+  },
+  "余江": {
+    "time": -763,
+    "longitude": 116.82,
+    "latitude": 28.22
+  },
+  "万年": {
+    "time": -701,
+    "longitude": 117.08,
+    "latitude": 28.7
+  },
+  "乐平": {
+    "time": -691,
+    "longitude": 117.12,
+    "latitude": 28.97
+  },
+  "波阳": {
+    "time": -797,
+    "longitude": 116.68,
+    "latitude": 29.0
+  },
+  "于干": {
+    "time": -794,
+    "longitude": 116.69,
+    "latitude": 28.7
+  },
+  "弋阳": {
+    "time": -617,
+    "longitude": 117.43,
+    "latitude": 28.42
+  },
+  "宜春": {
+    "time": -1349,
+    "longitude": 114.38,
+    "latitude": 27.81
+  },
+  "万载": {
+    "time": -1334,
+    "longitude": 114.44,
+    "latitude": 28.11
+  },
+  "铜鼓": {
+    "time": -1351,
+    "longitude": 114.37,
+    "latitude": 28.53
+  },
+  "宜丰": {
+    "time": -1253,
+    "longitude": 114.78,
+    "latitude": 28.4
+  },
+  "上高": {
+    "time": -1222,
+    "longitude": 114.91,
+    "latitude": 28.25
+  },
+  "安义": {
+    "time": -1068,
+    "longitude": 115.55,
+    "latitude": 28.86
+  },
+  "奉新": {
+    "time": -1109,
+    "longitude": 115.38,
+    "latitude": 28.71
+  },
+  "高安": {
+    "time": -1109,
+    "longitude": 115.38,
+    "latitude": 28.42
+  },
+  "丰城": {
+    "time": -1032,
+    "longitude": 115.7,
+    "latitude": 28.19
+  },
+  "新余": {
+    "time": -1219,
+    "longitude": 114.92,
+    "latitude": 27.81
+  },
+  "分宜": {
+    "time": -1277,
+    "longitude": 114.68,
+    "latitude": 27.82
+  },
+  "靖安": {
+    "time": -1111,
+    "longitude": 115.37,
+    "latitude": 28.88
+  },
+  "抚州": {
+    "time": -878,
+    "longitude": 116.34,
+    "latitude": 28.0
+  },
+  "临川": {
+    "time": -890,
+    "longitude": 116.29,
+    "latitude": 27.95
+  },
+  "金溪": {
+    "time": -775,
+    "longitude": 116.77,
+    "latitude": 27.92
+  },
+  "资溪": {
+    "time": -706,
+    "longitude": 117.06,
+    "latitude": 27.7
+  },
+  "黎川": {
+    "time": -742,
+    "longitude": 116.91,
+    "latitude": 27.3
+  },
+  "南丰": {
+    "time": -835,
+    "longitude": 116.52,
+    "latitude": 27.22
+  },
+  "南城": {
+    "time": -811,
+    "longitude": 116.62,
+    "latitude": 27.56
+  },
+  "宜黄": {
+    "time": -912,
+    "longitude": 116.2,
+    "latitude": 27.55
+  },
+  "崇仁": {
+    "time": -948,
+    "longitude": 116.05,
+    "latitude": 27.75
+  },
+  "乐安": {
+    "time": -1003,
+    "longitude": 115.82,
+    "latitude": 27.44
+  },
+  "东乡": {
+    "time": -3986,
+    "longitude": 103.39,
+    "latitude": 35.68
+  },
+  "进贤": {
+    "time": -898,
+    "longitude": 116.26,
+    "latitude": 28.37
+  },
+  "吉安": {
+    "time": -1207,
+    "longitude": 114.97,
+    "latitude": 27.12
+  },
+  "新干": {
+    "time": -1104,
+    "longitude": 115.4,
+    "latitude": 27.77
+  },
+  "峡江": {
+    "time": -1164,
+    "longitude": 115.15,
+    "latitude": 27.56
+  },
+  "吉水": {
+    "time": -1166,
+    "longitude": 115.14,
+    "latitude": 27.22
+  },
+  "永丰": {
+    "time": -1099,
+    "longitude": 115.42,
+    "latitude": 27.33
+  },
+  "泰和": {
+    "time": -1229,
+    "longitude": 114.88,
+    "latitude": 26.81
+  },
+  "万安": {
+    "time": -1255,
+    "longitude": 114.77,
+    "latitude": 26.47
+  },
+  "遂川": {
+    "time": -1320,
+    "longitude": 114.5,
+    "latitude": 26.33
+  },
+  "宁冈": {
+    "time": -1447,
+    "longitude": 113.97,
+    "latitude": 26.71
+  },
+  "永新": {
+    "time": -1385,
+    "longitude": 114.23,
+    "latitude": 26.96
+  },
+  "莲花": {
+    "time": -1454,
+    "longitude": 113.94,
+    "latitude": 27.14
+  },
+  "安福": {
+    "time": -1291,
+    "longitude": 114.62,
+    "latitude": 27.39
+  },
+  "井冈山": {
+    "time": -1399,
+    "longitude": 114.17,
+    "latitude": 26.57
+  },
+  "赣州": {
+    "time": -1219,
+    "longitude": 114.92,
+    "latitude": 25.85
+  },
+  "广昌": {
+    "time": -883,
+    "longitude": 116.32,
+    "latitude": 26.84
+  },
+  "石城": {
+    "time": -883,
+    "longitude": 116.32,
+    "latitude": 26.34
+  },
+  "宁都": {
+    "time": -960,
+    "longitude": 116.0,
+    "latitude": 26.46
+  },
+  "兴国": {
+    "time": -1121,
+    "longitude": 115.33,
+    "latitude": 26.32
+  },
+  "于都": {
+    "time": -1106,
+    "longitude": 115.39,
+    "latitude": 25.96
+  },
+  "瑞金": {
+    "time": -955,
+    "longitude": 116.02,
+    "latitude": 25.89
+  },
+  "会昌": {
+    "time": -1010,
+    "longitude": 115.79,
+    "latitude": 25.58
+  },
+  "安远": {
+    "time": -1102,
+    "longitude": 115.41,
+    "latitude": 25.15
+  },
+  "寻乌": {
+    "time": -1046,
+    "longitude": 115.64,
+    "latitude": 24.96
+  },
+  "定南": {
+    "time": -1195,
+    "longitude": 115.02,
+    "latitude": 24.7
+  },
+  "龙南": {
+    "time": -1250,
+    "longitude": 114.79,
+    "latitude": 24.91
+  },
+  "全南": {
+    "time": -1313,
+    "longitude": 114.53,
+    "latitude": 24.76
+  },
+  "信丰": {
+    "time": -1214,
+    "longitude": 114.94,
+    "latitude": 25.39
+  },
+  "赣县": {
+    "time": -1435,
+    "longitude": 114.02,
+    "latitude": 25.85
+  },
+  "南康": {
+    "time": -1260,
+    "longitude": 114.75,
+    "latitude": 25.66
+  },
+  "上犹": {
+    "time": -1308,
+    "longitude": 114.55,
+    "latitude": 25.8
+  },
+  "崇义": {
+    "time": -1366,
+    "longitude": 114.31,
+    "latitude": 25.69
+  },
+  "大余": {
+    "time": -1354,
+    "longitude": 114.36,
+    "latitude": 25.39
+  },
+  "济南": {
+    "time": -720,
+    "longitude": 117.0,
+    "latitude": 36.65
+  },
+  "历城": {
+    "time": -703,
+    "longitude": 117.07,
+    "latitude": 36.69
+  },
+  "长清": {
+    "time": -785,
+    "longitude": 116.73,
+    "latitude": 36.55
+  },
+  "章丘": {
+    "time": -593,
+    "longitude": 117.53,
+    "latitude": 36.72
+  },
+  "青岛": {
+    "time": 79,
+    "longitude": 120.33,
+    "latitude": 36.07
+  },
+  "崂山": {
+    "time": 101,
+    "longitude": 120.42,
+    "latitude": 36.15
+  },
+  "胶南": {
+    "time": -7,
+    "longitude": 119.97,
+    "latitude": 35.88
+  },
+  "即墨": {
+    "time": 108,
+    "longitude": 120.45,
+    "latitude": 36.38
+  },
+  "胶县": {
+    "time": 0,
+    "longitude": 120.0,
+    "latitude": 36.28
+  },
+  "淄博": {
+    "time": -468,
+    "longitude": 118.05,
+    "latitude": 36.78
+  },
+  "枣庄": {
+    "time": -583,
+    "longitude": 117.57,
+    "latitude": 34.86
+  },
+  "滕县": {
+    "time": -679,
+    "longitude": 117.17,
+    "latitude": 35.09
+  },
+  "东营": {
+    "time": -362,
+    "longitude": 118.49,
+    "latitude": 37.46
+  },
+  "垦利": {
+    "time": -350,
+    "longitude": 118.54,
+    "latitude": 37.59
+  },
+  "利津": {
+    "time": -420,
+    "longitude": 118.25,
+    "latitude": 37.49
+  },
+  "德州": {
+    "time": -890,
+    "longitude": 116.29,
+    "latitude": 37.45
+  },
+  "宁津": {
+    "time": -768,
+    "longitude": 116.8,
+    "latitude": 37.64
+  },
+  "乐陵": {
+    "time": -667,
+    "longitude": 117.22,
+    "latitude": 37.74
+  },
+  "商河": {
+    "time": -684,
+    "longitude": 117.15,
+    "latitude": 37.31
+  },
+  "济阳": {
+    "time": -672,
+    "longitude": 117.2,
+    "latitude": 36.97
+  },
+  "禹城": {
+    "time": -802,
+    "longitude": 116.66,
+    "latitude": 36.95
+  },
+  "夏津": {
+    "time": -960,
+    "longitude": 116.0,
+    "latitude": 36.95
+  },
+  "陵县": {
+    "time": -821,
+    "longitude": 116.58,
+    "latitude": 37.34
+  },
+  "庆云": {
+    "time": -631,
+    "longitude": 117.37,
+    "latitude": 37.37
+  },
+  "临邑": {
+    "time": -754,
+    "longitude": 116.86,
+    "latitude": 37.2
+  },
+  "齐河": {
+    "time": -778,
+    "longitude": 116.76,
+    "latitude": 36.79
+  },
+  "平原": {
+    "time": -854,
+    "longitude": 116.44,
+    "latitude": 37.16
+  },
+  "武城": {
+    "time": -941,
+    "longitude": 116.08,
+    "latitude": 37.2
+  },
+  "滨州": {
+    "time": -473,
+    "longitude": 118.03,
+    "latitude": 37.36
+  },
+  "滨县": {
+    "time": -487,
+    "longitude": 117.97,
+    "latitude": 37.47
+  },
+  "广饶": {
+    "time": -382,
+    "longitude": 118.41,
+    "latitude": 37.04
+  },
+  "桓台": {
+    "time": -451,
+    "longitude": 118.12,
+    "latitude": 36.95
+  },
+  "邹平": {
+    "time": -540,
+    "longitude": 117.75,
+    "latitude": 36.89
+  },
+  "阳信": {
+    "time": -581,
+    "longitude": 117.58,
+    "latitude": 37.65
+  },
+  "沾化": {
+    "time": -446,
+    "longitude": 118.14,
+    "latitude": 37.7
+  },
+  "博兴": {
+    "time": -451,
+    "longitude": 118.12,
+    "latitude": 37.12
+  },
+  "高青": {
+    "time": -562,
+    "longitude": 117.66,
+    "latitude": 37.18
+  },
+  "惠民": {
+    "time": -598,
+    "longitude": 117.51,
+    "latitude": 17.49
+  },
+  "无棣": {
+    "time": -581,
+    "longitude": 117.58,
+    "latitude": 37.73
+  },
+  "潍坊": {
+    "time": -216,
+    "longitude": 119.1,
+    "latitude": 36.62
+  },
+  "潍县": {
+    "time": -187,
+    "longitude": 119.22,
+    "latitude": 36.77
+  },
+  "平度": {
+    "time": -7,
+    "longitude": 119.97,
+    "latitude": 36.77
+  },
+  "诸城": {
+    "time": -139,
+    "longitude": 119.42,
+    "latitude": 35.99
+  },
+  "安丘": {
+    "time": -192,
+    "longitude": 119.2,
+    "latitude": 36.42
+  },
+  "临朐": {
+    "time": -353,
+    "longitude": 118.53,
+    "latitude": 36.5
+  },
+  "寿光": {
+    "time": -305,
+    "longitude": 118.73,
+    "latitude": 36.86
+  },
+  "昌邑": {
+    "time": -142,
+    "longitude": 119.41,
+    "latitude": 36.86
+  },
+  "高密": {
+    "time": -60,
+    "longitude": 119.75,
+    "latitude": 36.38
+  },
+  "五莲": {
+    "time": -192,
+    "longitude": 119.2,
+    "latitude": 35.74
+  },
+  "昌乐": {
+    "time": -281,
+    "longitude": 118.83,
+    "latitude": 36.69
+  },
+  "高都": {
+    "time": -367,
+    "longitude": 118.47,
+    "latitude": 36.69
+  },
+  "烟台": {
+    "time": 334,
+    "longitude": 121.39,
+    "latitude": 37.52
+  },
+  "牟平": {
+    "time": 382,
+    "longitude": 121.59,
+    "latitude": 37.38
+  },
+  "文登": {
+    "time": 492,
+    "longitude": 122.05,
+    "latitude": 37.2
+  },
+  "海阳": {
+    "time": 281,
+    "longitude": 121.17,
+    "latitude": 36.76
+  },
+  "莱阳": {
+    "time": 170,
+    "longitude": 120.71,
+    "latitude": 36.97
+  },
+  "栖霞": {
+    "time": 199,
+    "longitude": 120.83,
+    "latitude": 37.28
+  },
+  "掖县": {
+    "time": -17,
+    "longitude": 119.93,
+    "latitude": 37.18
+  },
+  "长岛": {
+    "time": 175,
+    "longitude": 120.73,
+    "latitude": 37.91
+  },
+  "威海": {
+    "time": 504,
+    "longitude": 122.1,
+    "latitude": 37.5
+  },
+  "福山": {
+    "time": 305,
+    "longitude": 121.27,
+    "latitude": 37.49
+  },
+  "荣成": {
+    "time": 578,
+    "longitude": 122.41,
+    "latitude": 37.16
+  },
+  "乳山": {
+    "time": 365,
+    "longitude": 121.52,
+    "latitude": 36.89
+  },
+  "莱西": {
+    "time": 127,
+    "longitude": 120.53,
+    "latitude": 36.86
+  },
+  "招远": {
+    "time": 91,
+    "longitude": 120.38,
+    "latitude": 37.35
+  },
+  "黄县": {
+    "time": 122,
+    "longitude": 120.51,
+    "latitude": 37.64
+  },
+  "蓬莱": {
+    "time": 180,
+    "longitude": 120.75,
+    "latitude": 37.8
+  },
+  "临沂": {
+    "time": -396,
+    "longitude": 118.35,
+    "latitude": 35.05
+  },
+  "沂水": {
+    "time": -326,
+    "longitude": 118.64,
+    "latitude": 35.78
+  },
+  "日照": {
+    "time": -130,
+    "longitude": 119.46,
+    "latitude": 35.42
+  },
+  "临沭": {
+    "time": -305,
+    "longitude": 118.73,
+    "latitude": 34.89
+  },
+  "仓山": {
+    "time": -473,
+    "longitude": 118.03,
+    "latitude": 34.84
+  },
+  "平邑": {
+    "time": -569,
+    "longitude": 117.63,
+    "latitude": 35.49
+  },
+  "沂源": {
+    "time": -439,
+    "longitude": 118.17,
+    "latitude": 36.18
+  },
+  "沂南": {
+    "time": -367,
+    "longitude": 118.47,
+    "latitude": 35.54
+  },
+  "营县": {
+    "time": -281,
+    "longitude": 118.83,
+    "latitude": 35.57
+  },
+  "莒南": {
+    "time": -281,
+    "longitude": 118.83,
+    "latitude": 35.17
+  },
+  "郯城": {
+    "time": -396,
+    "longitude": 118.35,
+    "latitude": 34.61
+  },
+  "费县": {
+    "time": -487,
+    "longitude": 117.97,
+    "latitude": 35.26
+  },
+  "蒙阴": {
+    "time": -492,
+    "longitude": 117.95,
+    "latitude": 35.7
+  },
+  "泰安": {
+    "time": -689,
+    "longitude": 117.13,
+    "latitude": 36.18
+  },
+  "莱芜": {
+    "time": -559,
+    "longitude": 117.67,
+    "latitude": 36.19
+  },
+  "肥城": {
+    "time": -778,
+    "longitude": 116.76,
+    "latitude": 36.24
+  },
+  "平阴": {
+    "time": -850,
+    "longitude": 116.46,
+    "latitude": 36.29
+  },
+  "新汶": {
+    "time": -559,
+    "longitude": 117.67,
+    "latitude": 35.86
+  },
+  "新泰": {
+    "time": -538,
+    "longitude": 117.76,
+    "latitude": 35.91
+  },
+  "宁阳": {
+    "time": -768,
+    "longitude": 116.8,
+    "latitude": 35.76
+  },
+  "东平": {
+    "time": -888,
+    "longitude": 116.3,
+    "latitude": 35.91
+  },
+  "济宁": {
+    "time": -818,
+    "longitude": 116.59,
+    "latitude": 35.38
+  },
+  "兖州": {
+    "time": -761,
+    "longitude": 116.83,
+    "latitude": 35.54
+  },
+  "泗水": {
+    "time": -655,
+    "longitude": 117.27,
+    "latitude": 35.65
+  },
+  "鱼台": {
+    "time": -804,
+    "longitude": 116.65,
+    "latitude": 35.0
+  },
+  "嘉祥": {
+    "time": -878,
+    "longitude": 116.34,
+    "latitude": 35.41
+  },
+  "汶上": {
+    "time": -842,
+    "longitude": 116.49,
+    "latitude": 35.71
+  },
+  "曲阜": {
+    "time": -725,
+    "longitude": 116.98,
+    "latitude": 35.59
+  },
+  "邹县": {
+    "time": -727,
+    "longitude": 116.97,
+    "latitude": 35.39
+  },
+  "微山": {
+    "time": -691,
+    "longitude": 117.12,
+    "latitude": 34.8
+  },
+  "金乡": {
+    "time": -883,
+    "longitude": 116.32,
+    "latitude": 35.07
+  },
+  "荷泽": {
+    "time": -1097,
+    "longitude": 115.43,
+    "latitude": 35.24
+  },
+  "郓城": {
+    "time": -974,
+    "longitude": 115.94,
+    "latitude": 35.59
+  },
+  "巨野": {
+    "time": -941,
+    "longitude": 116.08,
+    "latitude": 35.38
+  },
+  "单县": {
+    "time": -943,
+    "longitude": 116.07,
+    "latitude": 34.82
+  },
+  "曹县": {
+    "time": -1073,
+    "longitude": 115.53,
+    "latitude": 34.83
+  },
+  "鄄城": {
+    "time": -1080,
+    "longitude": 115.5,
+    "latitude": 35.57
+  },
+  "梁山": {
+    "time": -936,
+    "longitude": 116.1,
+    "latitude": 35.8
+  },
+  "成武": {
+    "time": -989,
+    "longitude": 115.88,
+    "latitude": 34.97
+  },
+  "定陶": {
+    "time": -1063,
+    "longitude": 115.57,
+    "latitude": 35.07
+  },
+  "东明": {
+    "time": -1181,
+    "longitude": 115.08,
+    "latitude": 35.31
+  },
+  "聊城": {
+    "time": -967,
+    "longitude": 115.97,
+    "latitude": 36.45
+  },
+  "高唐": {
+    "time": -905,
+    "longitude": 116.23,
+    "latitude": 36.86
+  },
+  "东阿": {
+    "time": -905,
+    "longitude": 116.23,
+    "latitude": 36.32
+  },
+  "莘县": {
+    "time": -1039,
+    "longitude": 115.67,
+    "latitude": 36.24
+  },
+  "临清": {
+    "time": -1027,
+    "longitude": 115.72,
+    "latitude": 36.68
+  },
+  "茌平": {
+    "time": -895,
+    "longitude": 116.27,
+    "latitude": 36.58
+  },
+  "阳谷": {
+    "time": -1013,
+    "longitude": 115.78,
+    "latitude": 36.11
+  },
+  "冠县": {
+    "time": -1092,
+    "longitude": 115.45,
+    "latitude": 35.47
+  },
+  "郑州": {
+    "time": -1524,
+    "longitude": 113.65,
+    "latitude": 34.76
+  },
+  "荥阳": {
+    "time": -1596,
+    "longitude": 113.35,
+    "latitude": 34.79
+  },
+  "开封": {
+    "time": -1356,
+    "longitude": 114.35,
+    "latitude": 34.79
+  },
+  "平顶山": {
+    "time": -1610,
+    "longitude": 113.29,
+    "latitude": 33.75
+  },
+  "洛阳": {
+    "time": -1814,
+    "longitude": 112.44,
+    "latitude": 34.7
+  },
+  "焦作": {
+    "time": -1630,
+    "longitude": 113.21,
+    "latitude": 35.24
+  },
+  "鹤壁": {
+    "time": -1399,
+    "longitude": 114.17,
+    "latitude": 35.9
+  },
+  "杞县": {
+    "time": -1255,
+    "longitude": 114.77,
+    "latitude": 34.56
+  },
+  "尉氏": {
+    "time": -1399,
+    "longitude": 114.17,
+    "latitude": 34.41
+  },
+  "新郑": {
+    "time": -1510,
+    "longitude": 113.71,
+    "latitude": 34.4
+  },
+  "登封": {
+    "time": -1675,
+    "longitude": 113.02,
+    "latitude": 34.46
+  },
+  "通许": {
+    "time": -1330,
+    "longitude": 114.46,
+    "latitude": 34.48
+  },
+  "中牟": {
+    "time": -1440,
+    "longitude": 114.0,
+    "latitude": 34.73
+  },
+  "密县": {
+    "time": -1596,
+    "longitude": 113.35,
+    "latitude": 34.51
+  },
+  "巩县": {
+    "time": -1690,
+    "longitude": 112.96,
+    "latitude": 34.76
+  },
+  "兰考": {
+    "time": -1246,
+    "longitude": 114.81,
+    "latitude": 34.69
+  },
+  "新乡": {
+    "time": -1476,
+    "longitude": 113.85,
+    "latitude": 35.31
+  },
+  "汲县": {
+    "time": -1428,
+    "longitude": 114.05,
+    "latitude": 35.44
+  },
+  "封丘": {
+    "time": -1430,
+    "longitude": 114.04,
+    "latitude": 35.03
+  },
+  "获嘉": {
+    "time": -1529,
+    "longitude": 113.63,
+    "latitude": 35.27
+  },
+  "温贺": {
+    "time": -1666,
+    "longitude": 113.06,
+    "latitude": 34.94
+  },
+  "济源": {
+    "time": -1783,
+    "longitude": 112.57,
+    "latitude": 35.08
+  },
+  "博爱": {
+    "time": -1668,
+    "longitude": 113.05,
+    "latitude": 35.16
+  },
+  "辉县": {
+    "time": -1495,
+    "longitude": 113.77,
+    "latitude": 35.46
+  },
+  "延津": {
+    "time": -1394,
+    "longitude": 114.19,
+    "latitude": 35.14
+  },
+  "原阳": {
+    "time": -1450,
+    "longitude": 113.96,
+    "latitude": 35.05
+  },
+  "武陟": {
+    "time": -1589,
+    "longitude": 113.38,
+    "latitude": 35.1
+  },
+  "沁阳": {
+    "time": -1699,
+    "longitude": 112.92,
+    "latitude": 35.08
+  },
+  "修武": {
+    "time": -1579,
+    "longitude": 113.42,
+    "latitude": 35.24
+  },
+  "安阳": {
+    "time": -1356,
+    "longitude": 114.35,
+    "latitude": 36.1
+  },
+  "南乐": {
+    "time": -1150,
+    "longitude": 115.21,
+    "latitude": 36.08
+  },
+  "范县": {
+    "time": -1090,
+    "longitude": 115.46,
+    "latitude": 35.9
+  },
+  "台前": {
+    "time": -1001,
+    "longitude": 115.83,
+    "latitude": 36.0
+  },
+  "滑县": {
+    "time": -1315,
+    "longitude": 114.52,
+    "latitude": 35.57
+  },
+  "浚县": {
+    "time": -1310,
+    "longitude": 114.54,
+    "latitude": 35.67
+  },
+  "淇县": {
+    "time": -1399,
+    "longitude": 114.17,
+    "latitude": 35.6
+  },
+  "内黄": {
+    "time": -1229,
+    "longitude": 114.88,
+    "latitude": 35.95
+  },
+  "清丰": {
+    "time": -1176,
+    "longitude": 115.1,
+    "latitude": 35.89
+  },
+  "濮阳": {
+    "time": -1205,
+    "longitude": 114.98,
+    "latitude": 35.71
+  },
+  "长垣": {
+    "time": -1279,
+    "longitude": 114.67,
+    "latitude": 35.19
+  },
+  "汤阴": {
+    "time": -1356,
+    "longitude": 114.35,
+    "latitude": 35.92
+  },
+  "林县": {
+    "time": -1486,
+    "longitude": 113.81,
+    "latitude": 36.06
+  },
+  "商丘": {
+    "time": -1044,
+    "longitude": 115.65,
+    "latitude": 34.44
+  },
+  "夏邑": {
+    "time": -929,
+    "longitude": 116.13,
+    "latitude": 34.22
+  },
+  "柘城": {
+    "time": -1130,
+    "longitude": 115.29,
+    "latitude": 34.08
+  },
+  "睢县": {
+    "time": -1190,
+    "longitude": 115.04,
+    "latitude": 34.46
+  },
+  "虞城": {
+    "time": -991,
+    "longitude": 115.87,
+    "latitude": 34.4
+  },
+  "永城": {
+    "time": -871,
+    "longitude": 116.37,
+    "latitude": 33.94
+  },
+  "宁陵": {
+    "time": -1126,
+    "longitude": 115.31,
+    "latitude": 34.44
+  },
+  "民权": {
+    "time": -1169,
+    "longitude": 115.13,
+    "latitude": 34.65
+  },
+  "周口": {
+    "time": -1289,
+    "longitude": 114.63,
+    "latitude": 33.63
+  },
+  "商水": {
+    "time": -1298,
+    "longitude": 114.59,
+    "latitude": 33.54
+  },
+  "扶沟": {
+    "time": -1349,
+    "longitude": 114.38,
+    "latitude": 34.05
+  },
+  "鹿邑": {
+    "time": -1085,
+    "longitude": 115.48,
+    "latitude": 33.86
+  },
+  "淮阳": {
+    "time": -1229,
+    "longitude": 114.88,
+    "latitude": 33.74
+  },
+  "沈丘": {
+    "time": -1186,
+    "longitude": 115.06,
+    "latitude": 33.41
+  },
+  "西华": {
+    "time": -1320,
+    "longitude": 114.5,
+    "latitude": 33.79
+  },
+  "太康": {
+    "time": -1236,
+    "longitude": 114.85,
+    "latitude": 34.06
+  },
+  "郸城": {
+    "time": -1159,
+    "longitude": 115.17,
+    "latitude": 33.63
+  },
+  "项城": {
+    "time": -1224,
+    "longitude": 114.9,
+    "latitude": 33.44
+  },
+  "许昌": {
+    "time": -1486,
+    "longitude": 113.81,
+    "latitude": 34.02
+  },
+  "鄢县": {
+    "time": -1399,
+    "longitude": 114.17,
+    "latitude": 34.11
+  },
+  "郾城": {
+    "time": -1445,
+    "longitude": 113.98,
+    "latitude": 33.6
+  },
+  "襄城": {
+    "time": -1570,
+    "longitude": 113.46,
+    "latitude": 33.86
+  },
+  "鲁山": {
+    "time": -1709,
+    "longitude": 112.88,
+    "latitude": 33.74
+  },
+  "郏县": {
+    "time": -1634,
+    "longitude": 113.19,
+    "latitude": 33.98
+  },
+  "漯河": {
+    "time": -1435,
+    "longitude": 114.02,
+    "latitude": 33.56
+  },
+  "长葛": {
+    "time": -1495,
+    "longitude": 113.77,
+    "latitude": 34.22
+  },
+  "临颖": {
+    "time": -1454,
+    "longitude": 113.94,
+    "latitude": 33.81
+  },
+  "舞阳": {
+    "time": -1541,
+    "longitude": 113.58,
+    "latitude": 33.44
+  },
+  "叶县": {
+    "time": -1596,
+    "longitude": 113.35,
+    "latitude": 33.62
+  },
+  "宝丰": {
+    "time": -1670,
+    "longitude": 113.04,
+    "latitude": 33.86
+  },
+  "禹县": {
+    "time": -1567,
+    "longitude": 113.47,
+    "latitude": 34.16
+  },
+  "驻马店": {
+    "time": -1435,
+    "longitude": 114.02,
+    "latitude": 32.98
+  },
+  "确山": {
+    "time": -1435,
+    "longitude": 114.02,
+    "latitude": 32.83
+  },
+  "西平": {
+    "time": -1440,
+    "longitude": 114.0,
+    "latitude": 33.38
+  },
+  "汝南": {
+    "time": -1356,
+    "longitude": 114.35,
+    "latitude": 33.0
+  },
+  "新蔡": {
+    "time": -1207,
+    "longitude": 114.97,
+    "latitude": 32.75
+  },
+  "泌阳": {
+    "time": -1606,
+    "longitude": 113.31,
+    "latitude": 32.72
+  },
+  "遂平": {
+    "time": -1445,
+    "longitude": 113.98,
+    "latitude": 33.15
+  },
+  "上蔡": {
+    "time": -1378,
+    "longitude": 114.26,
+    "latitude": 33.25
+  },
+  "平舆": {
+    "time": -1291,
+    "longitude": 114.62,
+    "latitude": 32.97
+  },
+  "正阳": {
+    "time": -1349,
+    "longitude": 114.38,
+    "latitude": 32.62
+  },
+  "信阳": {
+    "time": -1421,
+    "longitude": 114.08,
+    "latitude": 32.13
+  },
+  "息县": {
+    "time": -1267,
+    "longitude": 114.72,
+    "latitude": 32.35
+  },
+  "固始": {
+    "time": -1037,
+    "longitude": 115.68,
+    "latitude": 32.17
+  },
+  "潢川": {
+    "time": -1190,
+    "longitude": 115.04,
+    "latitude": 32.13
+  },
+  "新县": {
+    "time": -1241,
+    "longitude": 114.83,
+    "latitude": 31.62
+  },
+  "罗山": {
+    "time": -1313,
+    "longitude": 114.53,
+    "latitude": 32.21
+  },
+  "淮滨": {
+    "time": -1102,
+    "longitude": 115.41,
+    "latitude": 32.44
+  },
+  "商城": {
+    "time": -1099,
+    "longitude": 115.42,
+    "latitude": 31.81
+  },
+  "光山": {
+    "time": -1222,
+    "longitude": 114.91,
+    "latitude": 32.02
+  },
+  "南阳": {
+    "time": -1793,
+    "longitude": 112.53,
+    "latitude": 33.01
+  },
+  "方城": {
+    "time": -1685,
+    "longitude": 112.98,
+    "latitude": 33.25
+  },
+  "唐河": {
+    "time": -1721,
+    "longitude": 112.83,
+    "latitude": 32.7
+  },
+  "新野": {
+    "time": -1834,
+    "longitude": 112.36,
+    "latitude": 32.51
+  },
+  "邓县": {
+    "time": -1901,
+    "longitude": 112.08,
+    "latitude": 32.68
+  },
+  "淅川": {
+    "time": -2047,
+    "longitude": 111.47,
+    "latitude": 33.14
+  },
+  "南召": {
+    "time": -1824,
+    "longitude": 112.4,
+    "latitude": 33.49
+  },
+  "社旗": {
+    "time": -1699,
+    "longitude": 112.92,
+    "latitude": 33.05
+  },
+  "桐柏": {
+    "time": -1584,
+    "longitude": 113.4,
+    "latitude": 32.37
+  },
+  "镇平": {
+    "time": -1865,
+    "longitude": 112.23,
+    "latitude": 33.03
+  },
+  "内乡": {
+    "time": -1961,
+    "longitude": 111.83,
+    "latitude": 33.05
+  },
+  "西峡": {
+    "time": -2040,
+    "longitude": 111.5,
+    "latitude": 33.31
+  },
+  "三门峡": {
+    "time": -2114,
+    "longitude": 111.19,
+    "latitude": 34.76
+  },
+  "孟津": {
+    "time": -1819,
+    "longitude": 112.42,
+    "latitude": 34.84
+  },
+  "临汝": {
+    "time": -1721,
+    "longitude": 112.83,
+    "latitude": 34.17
+  },
+  "汝阳": {
+    "time": -1810,
+    "longitude": 112.46,
+    "latitude": 34.16
+  },
+  "嵩县": {
+    "time": -1903,
+    "longitude": 112.07,
+    "latitude": 34.14
+  },
+  "栾川": {
+    "time": -2016,
+    "longitude": 111.6,
+    "latitude": 33.81
+  },
+  "灵宝": {
+    "time": -2196,
+    "longitude": 110.85,
+    "latitude": 34.52
+  },
+  "渑池": {
+    "time": -1980,
+    "longitude": 111.75,
+    "latitude": 34.76
+  },
+  "义马": {
+    "time": -1939,
+    "longitude": 111.92,
+    "latitude": 34.73
+  },
+  "偃师": {
+    "time": -1735,
+    "longitude": 112.77,
+    "latitude": 34.73
+  },
+  "伊川": {
+    "time": -1819,
+    "longitude": 112.42,
+    "latitude": 34.43
+  },
+  "宜阳": {
+    "time": -1884,
+    "longitude": 112.15,
+    "latitude": 34.51
+  },
+  "洛宁": {
+    "time": -2004,
+    "longitude": 111.65,
+    "latitude": 34.39
+  },
+  "卢氏": {
+    "time": -2153,
+    "longitude": 111.03,
+    "latitude": 34.06
+  },
+  "陕县": {
+    "time": -2114,
+    "longitude": 111.19,
+    "latitude": 34.76
+  },
+  "新安": {
+    "time": -1886,
+    "longitude": 112.14,
+    "latitude": 34.75
+  },
+  "武汉": {
+    "time": -1366,
+    "longitude": 114.31,
+    "latitude": 30.52
+  },
+  "武昌": {
+    "time": -1361,
+    "longitude": 114.33,
+    "latitude": 30.35
+  },
+  "汉阳": {
+    "time": -1435,
+    "longitude": 114.02,
+    "latitude": 30.57
+  },
+  "黄石": {
+    "time": -1178,
+    "longitude": 115.09,
+    "latitude": 30.2
+  },
+  "十堰": {
+    "time": -2210,
+    "longitude": 110.79,
+    "latitude": 32.65
+  },
+  "沙市": {
+    "time": -1862,
+    "longitude": 112.24,
+    "latitude": 30.32
+  },
+  "宜昌": {
+    "time": -2088,
+    "longitude": 111.3,
+    "latitude": 30.7
+  },
+  "襄樊": {
+    "time": -1886,
+    "longitude": 112.14,
+    "latitude": 30.02
+  },
+  "孝感": {
+    "time": -1462,
+    "longitude": 113.91,
+    "latitude": 31.92
+  },
+  "黄陂": {
+    "time": -1354,
+    "longitude": 114.36,
+    "latitude": 30.88
+  },
+  "汉川": {
+    "time": -1538,
+    "longitude": 113.59,
+    "latitude": 30.63
+  },
+  "云梦": {
+    "time": -1505,
+    "longitude": 113.73,
+    "latitude": 31.02
+  },
+  "应山": {
+    "time": -1486,
+    "longitude": 113.81,
+    "latitude": 31.62
+  },
+  "大悟": {
+    "time": -1418,
+    "longitude": 114.09,
+    "latitude": 31.56
+  },
+  "应城": {
+    "time": -1536,
+    "longitude": 113.6,
+    "latitude": 30.94
+  },
+  "安陆": {
+    "time": -1514,
+    "longitude": 113.69,
+    "latitude": 31.25
+  },
+  "鄂城": {
+    "time": -1231,
+    "longitude": 114.87,
+    "latitude": 30.38
+  },
+  "黄冈": {
+    "time": -1231,
+    "longitude": 114.87,
+    "latitude": 30.44
+  },
+  "新洲": {
+    "time": -1248,
+    "longitude": 114.8,
+    "latitude": 31.84
+  },
+  "红安": {
+    "time": -1294,
+    "longitude": 114.61,
+    "latitude": 31.29
+  },
+  "麻城": {
+    "time": -1200,
+    "longitude": 115.0,
+    "latitude": 31.17
+  },
+  "罗川": {
+    "time": -1111,
+    "longitude": 115.37,
+    "latitude": 30.79
+  },
+  "浠水": {
+    "time": -1147,
+    "longitude": 115.22,
+    "latitude": 30.46
+  },
+  "蕲春": {
+    "time": -1128,
+    "longitude": 115.3,
+    "latitude": 30.24
+  },
+  "黄梅": {
+    "time": -977,
+    "longitude": 115.93,
+    "latitude": 30.09
+  },
+  "广济": {
+    "time": -1066,
+    "longitude": 115.56,
+    "latitude": 29.85
+  },
+  "英山": {
+    "time": -1063,
+    "longitude": 115.57,
+    "latitude": 30.75
+  },
+  "咸宁": {
+    "time": -1373,
+    "longitude": 114.28,
+    "latitude": 29.87
+  },
+  "阳新": {
+    "time": -1147,
+    "longitude": 115.22,
+    "latitude": 29.83
+  },
+  "通山": {
+    "time": -1315,
+    "longitude": 114.52,
+    "latitude": 29.6
+  },
+  "通城": {
+    "time": -1488,
+    "longitude": 113.8,
+    "latitude": 29.23
+  },
+  "嘉鱼": {
+    "time": -1462,
+    "longitude": 113.91,
+    "latitude": 29.97
+  },
+  "崇阳": {
+    "time": -1430,
+    "longitude": 114.04,
+    "latitude": 29.54
+  },
+  "蒲圻": {
+    "time": -1476,
+    "longitude": 113.85,
+    "latitude": 29.71
+  },
+  "荆门": {
+    "time": -1874,
+    "longitude": 112.19,
+    "latitude": 31.02
+  },
+  "江陵": {
+    "time": -1877,
+    "longitude": 112.18,
+    "latitude": 30.35
+  },
+  "钟祥": {
+    "time": -1781,
+    "longitude": 112.58,
+    "latitude": 31.17
+  },
+  "京山": {
+    "time": -1654,
+    "longitude": 113.11,
+    "latitude": 31.03
+  },
+  "监利": {
+    "time": -1704,
+    "longitude": 112.9,
+    "latitude": 29.83
+  },
+  "石首": {
+    "time": -1822,
+    "longitude": 112.41,
+    "latitude": 29.73
+  },
+  "长沙": {
+    "time": -1680,
+    "longitude": 113.0,
+    "latitude": 28.21
+  },
+  "望城": {
+    "time": -1728,
+    "longitude": 112.8,
+    "latitude": 28.37
+  },
+  "株洲": {
+    "time": -1642,
+    "longitude": 113.16,
+    "latitude": 27.83
+  },
+  "湘潭": {
+    "time": -1702,
+    "longitude": 112.91,
+    "latitude": 27.87
+  },
+  "衡阳": {
+    "time": -1826,
+    "longitude": 112.39,
+    "latitude": 26.98
+  },
+  "邵阳": {
+    "time": -2040,
+    "longitude": 111.5,
+    "latitude": 27.22
+  },
+  "岳阳": {
+    "time": -1658,
+    "longitude": 113.09,
+    "latitude": 29.37
+  },
+  "临湘": {
+    "time": -1579,
+    "longitude": 113.42,
+    "latitude": 29.48
+  },
+  "平江": {
+    "time": -1546,
+    "longitude": 113.56,
+    "latitude": 29.71
+  },
+  "泪罗": {
+    "time": -1668,
+    "longitude": 113.05,
+    "latitude": 28.8
+  },
+  "湘阴": {
+    "time": -1711,
+    "longitude": 112.87,
+    "latitude": 28.68
+  },
+  "华容": {
+    "time": -1788,
+    "longitude": 112.55,
+    "latitude": 29.52
+  },
+  "浏阳": {
+    "time": -1529,
+    "longitude": 113.63,
+    "latitude": 28.16
+  },
+  "醴陵": {
+    "time": -1560,
+    "longitude": 113.5,
+    "latitude": 27.67
+  },
+  "攸县": {
+    "time": -1603,
+    "longitude": 113.32,
+    "latitude": 27.01
+  },
+  "茶陵": {
+    "time": -1550,
+    "longitude": 113.54,
+    "latitude": 26.79
+  },
+  "酃县": {
+    "time": -1495,
+    "longitude": 113.77,
+    "latitude": 26.49
+  },
+  "湘乡": {
+    "time": -1800,
+    "longitude": 112.5,
+    "latitude": 27.75
+  },
+  "郴州": {
+    "time": -1680,
+    "longitude": 113.0,
+    "latitude": 25.79
+  },
+  "郴县": {
+    "time": -1680,
+    "longitude": 113.0,
+    "latitude": 25.79
+  },
+  "安仁": {
+    "time": -1615,
+    "longitude": 113.27,
+    "latitude": 26.71
+  },
+  "永兴": {
+    "time": -1654,
+    "longitude": 113.11,
+    "latitude": 26.13
+  },
+  "资兴": {
+    "time": -1586,
+    "longitude": 113.39,
+    "latitude": 25.95
+  },
+  "桂东": {
+    "time": -1462,
+    "longitude": 113.91,
+    "latitude": 25.08
+  },
+  "汝城": {
+    "time": -1517,
+    "longitude": 113.68,
+    "latitude": 25.54
+  },
+  "宜章": {
+    "time": -1450,
+    "longitude": 113.96,
+    "latitude": 25.41
+  },
+  "临武": {
+    "time": -1788,
+    "longitude": 112.55,
+    "latitude": 25.27
+  },
+  "嘉禾": {
+    "time": -1836,
+    "longitude": 112.35,
+    "latitude": 25.56
+  },
+  "桂阳": {
+    "time": -1747,
+    "longitude": 112.72,
+    "latitude": 25.73
+  },
+  "来阳": {
+    "time": -1718,
+    "longitude": 112.84,
+    "latitude": 26.41
+  },
+  "衡南": {
+    "time": -1774,
+    "longitude": 112.61,
+    "latitude": 26.89
+  },
+  "衡山": {
+    "time": -1714,
+    "longitude": 112.86,
+    "latitude": 27.25
+  },
+  "衡东": {
+    "time": -1692,
+    "longitude": 112.95,
+    "latitude": 27.1
+  },
+  "常宁": {
+    "time": -1826,
+    "longitude": 112.39,
+    "latitude": 26.38
+  },
+  "祁阳": {
+    "time": -1956,
+    "longitude": 111.85,
+    "latitude": 26.59
+  },
+  "祁东": {
+    "time": -1886,
+    "longitude": 112.14,
+    "latitude": 26.8
+  },
+  "永州": {
+    "time": -2009,
+    "longitude": 111.63,
+    "latitude": 26.22
+  },
+  "零陵": {
+    "time": -2009,
+    "longitude": 111.63,
+    "latitude": 26.22
+  },
+  "新田": {
+    "time": -1870,
+    "longitude": 112.21,
+    "latitude": 25.91
+  },
+  "宁远": {
+    "time": -1932,
+    "longitude": 111.95,
+    "latitude": 25.6
+  },
+  "蓝山": {
+    "time": -1882,
+    "longitude": 112.16,
+    "latitude": 25.37
+  },
+  "双牌": {
+    "time": -2006,
+    "longitude": 111.64,
+    "latitude": 25.96
+  },
+  "江永": {
+    "time": -2081,
+    "longitude": 111.33,
+    "latitude": 25.41
+  },
+  "道县": {
+    "time": -2023,
+    "longitude": 111.57,
+    "latitude": 25.52
+  },
+  "东安": {
+    "time": -2093,
+    "longitude": 111.28,
+    "latitude": 26.41
+  },
+  "江华": {
+    "time": -1970,
+    "longitude": 111.79,
+    "latitude": 24.97
+  },
+  "新宁": {
+    "time": -2198,
+    "longitude": 110.84,
+    "latitude": 26.44
+  },
+  "武冈": {
+    "time": -2254,
+    "longitude": 110.61,
+    "latitude": 26.73
+  },
+  "隆回": {
+    "time": -2150,
+    "longitude": 111.04,
+    "latitude": 27.13
+  },
+  "绥宁": {
+    "time": -2366,
+    "longitude": 110.14,
+    "latitude": 25.59
+  },
+  "洞口": {
+    "time": -2263,
+    "longitude": 110.57,
+    "latitude": 27.06
+  },
+  "城步": {
+    "time": -2328,
+    "longitude": 110.3,
+    "latitude": 26.37
+  },
+  "娄底": {
+    "time": -1930,
+    "longitude": 111.96,
+    "latitude": 27.71
+  },
+  "涟源": {
+    "time": -2002,
+    "longitude": 111.66,
+    "latitude": 27.68
+  },
+  "新邵": {
+    "time": -2050,
+    "longitude": 111.46,
+    "latitude": 27.33
+  },
+  "双峰": {
+    "time": -1877,
+    "longitude": 112.18,
+    "latitude": 27.44
+  },
+  "冷水江": {
+    "time": -2062,
+    "longitude": 111.41,
+    "latitude": 27.68
+  },
+  "邵东": {
+    "time": -1985,
+    "longitude": 111.73,
+    "latitude": 27.25
+  },
+  "新化": {
+    "time": -2090,
+    "longitude": 111.29,
+    "latitude": 27.73
+  },
+  "怀化": {
+    "time": -2412,
+    "longitude": 109.95,
+    "latitude": 27.52
+  },
+  "黔阳": {
+    "time": -2366,
+    "longitude": 110.14,
+    "latitude": 27.33
+  },
+  "辰溪": {
+    "time": -2357,
+    "longitude": 110.18,
+    "latitude": 28.02
+  },
+  "沅陵": {
+    "time": -2306,
+    "longitude": 110.39,
+    "latitude": 28.46
+  },
+  "溆浦": {
+    "time": -2263,
+    "longitude": 110.57,
+    "latitude": 27.92
+  },
+  "会同": {
+    "time": -2470,
+    "longitude": 109.71,
+    "latitude": 26.86
+  },
+  "靖县": {
+    "time": -2477,
+    "longitude": 109.68,
+    "latitude": 26.57
+  },
+  "洪江": {
+    "time": -2309,
+    "longitude": 110.38,
+    "latitude": 21.2
+  },
+  "芷江": {
+    "time": -2453,
+    "longitude": 109.78,
+    "latitude": 27.44
+  },
+  "麻阳": {
+    "time": -2450,
+    "longitude": 109.79,
+    "latitude": 27.87
+  },
+  "通道": {
+    "time": -2455,
+    "longitude": 109.77,
+    "latitude": 26.16
+  },
+  "新晃": {
+    "time": -2602,
+    "longitude": 109.16,
+    "latitude": 27.37
+  },
+  "吉首": {
+    "time": -2470,
+    "longitude": 109.71,
+    "latitude": 28.3
+  },
+  "永顺": {
+    "time": -2438,
+    "longitude": 109.84,
+    "latitude": 29.0
+  },
+  "桑植": {
+    "time": -2362,
+    "longitude": 110.16,
+    "latitude": 29.38
+  },
+  "大庸": {
+    "time": -2285,
+    "longitude": 110.48,
+    "latitude": 29.13
+  },
+  "古丈": {
+    "time": -2422,
+    "longitude": 109.91,
+    "latitude": 28.62
+  },
+  "泸溪": {
+    "time": -2225,
+    "longitude": 110.73,
+    "latitude": 28.29
+  },
+  "凤凰": {
+    "time": -2537,
+    "longitude": 109.43,
+    "latitude": 27.92
+  },
+  "花垣": {
+    "time": -2530,
+    "longitude": 109.46,
+    "latitude": 28.59
+  },
+  "保靖": {
+    "time": -2486,
+    "longitude": 109.64,
+    "latitude": 28.7
+  },
+  "龙山": {
+    "time": -2539,
+    "longitude": 109.42,
+    "latitude": 29.64
+  },
+  "常德": {
+    "time": -1994,
+    "longitude": 111.69,
+    "latitude": 29.05
+  },
+  "临澧": {
+    "time": -2006,
+    "longitude": 111.64,
+    "latitude": 29.44
+  },
+  "澧县": {
+    "time": -1980,
+    "longitude": 111.75,
+    "latitude": 29.65
+  },
+  "安乡": {
+    "time": -1882,
+    "longitude": 112.16,
+    "latitude": 29.41
+  },
+  "津市": {
+    "time": -1951,
+    "longitude": 111.87,
+    "latitude": 29.64
+  },
+  "汉寿": {
+    "time": -1927,
+    "longitude": 111.97,
+    "latitude": 28.9
+  },
+  "桃源": {
+    "time": -2047,
+    "longitude": 111.47,
+    "latitude": 28.9
+  },
+  "慈利": {
+    "time": -2138,
+    "longitude": 111.09,
+    "latitude": 29.41
+  },
+  "石门": {
+    "time": -2076,
+    "longitude": 111.35,
+    "latitude": 29.59
+  },
+  "益阳": {
+    "time": -1841,
+    "longitude": 112.33,
+    "latitude": 28.6
+  },
+  "南县": {
+    "time": -1826,
+    "longitude": 112.39,
+    "latitude": 29.37
+  },
+  "沅江": {
+    "time": -1834,
+    "longitude": 112.36,
+    "latitude": 28.83
+  },
+  "宁乡": {
+    "time": -1788,
+    "longitude": 112.55,
+    "latitude": 28.27
+  },
+  "安化": {
+    "time": -2112,
+    "longitude": 111.2,
+    "latitude": 28.38
+  },
+  "桃江": {
+    "time": -1894,
+    "longitude": 112.11,
+    "latitude": 28.5
+  },
+  "海口": {
+    "time": -2316,
+    "longitude": 110.35,
+    "latitude": 20.02
+  },
+  "琼山": {
+    "time": -2321,
+    "longitude": 110.33,
+    "latitude": 19.98
+  },
+  "文昌": {
+    "time": -2227,
+    "longitude": 110.72,
+    "latitude": 19.61
+  },
+  "定安": {
+    "time": -2326,
+    "longitude": 110.31,
+    "latitude": 19.68
+  },
+  "琼海": {
+    "time": -2290,
+    "longitude": 110.46,
+    "latitude": 19.25
+  },
+  "万宁": {
+    "time": -2306,
+    "longitude": 110.39,
+    "latitude": 18.8
+  },
+  "屯昌": {
+    "time": -2376,
+    "longitude": 110.1,
+    "latitude": 19.36
+  },
+  "澄迈": {
+    "time": -2400,
+    "longitude": 110.0,
+    "latitude": 19.75
+  },
+  "儋县": {
+    "time": -2503,
+    "longitude": 109.57,
+    "latitude": 19.52
+  },
+  "临高": {
+    "time": -2474,
+    "longitude": 109.69,
+    "latitude": 19.91
+  },
+  "保亭": {
+    "time": -2472,
+    "longitude": 109.7,
+    "latitude": 18.64
+  },
+  "白沙": {
+    "time": -2534,
+    "longitude": 109.44,
+    "latitude": 19.23
+  },
+  "琼中": {
+    "time": -2441,
+    "longitude": 109.83,
+    "latitude": 19.05
+  },
+  "陵水": {
+    "time": -2395,
+    "longitude": 110.02,
+    "latitude": 18.48
+  },
+  "崖县": {
+    "time": -2520,
+    "longitude": 109.5,
+    "latitude": 18.25
+  },
+  "乐东": {
+    "time": -2599,
+    "longitude": 109.17,
+    "latitude": 18.73
+  },
+  "东方": {
+    "time": -2726,
+    "longitude": 108.64,
+    "latitude": 19.09
+  },
+  "昌江": {
+    "time": -2633,
+    "longitude": 109.03,
+    "latitude": 19.25
+  },
+  "南宁": {
+    "time": -2801,
+    "longitude": 108.33,
+    "latitude": 22.84
+  },
+  "柳州": {
+    "time": -2544,
+    "longitude": 109.4,
+    "latitude": 24.33
+  },
+  "桂林": {
+    "time": -2333,
+    "longitude": 110.28,
+    "latitude": 25.29
+  },
+  "梧州": {
+    "time": -2078,
+    "longitude": 111.34,
+    "latitude": 23.51
+  },
+  "凭祥": {
+    "time": -3180,
+    "longitude": 106.75,
+    "latitude": 22.11
+  },
+  "邕宁": {
+    "time": -2762,
+    "longitude": 108.49,
+    "latitude": 22.74
+  },
+  "武鸣": {
+    "time": -2815,
+    "longitude": 108.27,
+    "latitude": 23.17
+  },
+  "马山": {
+    "time": -2832,
+    "longitude": 108.2,
+    "latitude": 23.73
+  },
+  "上林": {
+    "time": -2738,
+    "longitude": 108.59,
+    "latitude": 23.44
+  },
+  "宾阳": {
+    "time": -2688,
+    "longitude": 108.8,
+    "latitude": 23.22
+  },
+  "横县": {
+    "time": -2592,
+    "longitude": 109.2,
+    "latitude": 22.69
+  },
+  "扶绥": {
+    "time": -2899,
+    "longitude": 107.92,
+    "latitude": 22.65
+  },
+  "崇左": {
+    "time": -3031,
+    "longitude": 107.37,
+    "latitude": 22.42
+  },
+  "宁明": {
+    "time": -3101,
+    "longitude": 107.08,
+    "latitude": 22.12
+  },
+  "龙州": {
+    "time": -3158,
+    "longitude": 106.84,
+    "latitude": 22.36
+  },
+  "大新": {
+    "time": -3070,
+    "longitude": 107.21,
+    "latitude": 22.85
+  },
+  "天等": {
+    "time": -3091,
+    "longitude": 107.12,
+    "latitude": 23.08
+  },
+  "隆安": {
+    "time": -2957,
+    "longitude": 107.68,
+    "latitude": 23.18
+  },
+  "河池": {
+    "time": -2866,
+    "longitude": 108.06,
+    "latitude": 24.7
+  },
+  "环江": {
+    "time": -2818,
+    "longitude": 108.26,
+    "latitude": 24.83
+  },
+  "罗城": {
+    "time": -2664,
+    "longitude": 108.9,
+    "latitude": 24.79
+  },
+  "宜山": {
+    "time": -2726,
+    "longitude": 108.64,
+    "latitude": 24.47
+  },
+  "东兰": {
+    "time": -3034,
+    "longitude": 107.36,
+    "latitude": 24.53
+  },
+  "凤山": {
+    "time": -3108,
+    "longitude": 107.05,
+    "latitude": 24.55
+  },
+  "天峨": {
+    "time": -3082,
+    "longitude": 107.16,
+    "latitude": 25.01
+  },
+  "南丹": {
+    "time": -2990,
+    "longitude": 107.54,
+    "latitude": 24.98
+  },
+  "都安": {
+    "time": -2858,
+    "longitude": 108.09,
+    "latitude": 23.94
+  },
+  "巴马": {
+    "time": -3060,
+    "longitude": 107.25,
+    "latitude": 24.15
+  },
+  "合山": {
+    "time": -2666,
+    "longitude": 108.89,
+    "latitude": 23.82
+  },
+  "柳城": {
+    "time": -2582,
+    "longitude": 109.24,
+    "latitude": 24.67
+  },
+  "融安": {
+    "time": -2551,
+    "longitude": 109.37,
+    "latitude": 24.24
+  },
+  "鹿寨": {
+    "time": -2462,
+    "longitude": 109.74,
+    "latitude": 24.49
+  },
+  "象州": {
+    "time": -2472,
+    "longitude": 109.7,
+    "latitude": 23.98
+  },
+  "武宜": {
+    "time": -2482,
+    "longitude": 109.66,
+    "latitude": 23.6
+  },
+  "柳江": {
+    "time": -2558,
+    "longitude": 109.34,
+    "latitude": 24.27
+  },
+  "来宾": {
+    "time": -2582,
+    "longitude": 109.24,
+    "latitude": 23.76
+  },
+  "忻城": {
+    "time": -2722,
+    "longitude": 108.66,
+    "latitude": 24.07
+  },
+  "融水": {
+    "time": -2582,
+    "longitude": 109.24,
+    "latitude": 25.07
+  },
+  "三江": {
+    "time": -2501,
+    "longitude": 109.58,
+    "latitude": 25.8
+  },
+  "金秀": {
+    "time": -2357,
+    "longitude": 110.18,
+    "latitude": 24.14
+  },
+  "临桂": {
+    "time": -2347,
+    "longitude": 110.22,
+    "latitude": 25.22
+  },
+  "灵川": {
+    "time": -2321,
+    "longitude": 110.33,
+    "latitude": 25.42
+  },
+  "兴安": {
+    "time": -2242,
+    "longitude": 110.66,
+    "latitude": 25.6
+  },
+  "资源": {
+    "time": -2242,
+    "longitude": 110.66,
+    "latitude": 26.03
+  },
+  "全州": {
+    "time": -2146,
+    "longitude": 111.06,
+    "latitude": 25.96
+  },
+  "灌阳": {
+    "time": -2126,
+    "longitude": 111.14,
+    "latitude": 25.49
+  },
+  "恭城": {
+    "time": -2206,
+    "longitude": 110.81,
+    "latitude": 24.85
+  },
+  "平乐": {
+    "time": -2242,
+    "longitude": 110.66,
+    "latitude": 24.64
+  },
+  "荔浦": {
+    "time": -2309,
+    "longitude": 110.38,
+    "latitude": 24.51
+  },
+  "永福": {
+    "time": -2405,
+    "longitude": 109.98,
+    "latitude": 24.99
+  },
+  "龙胜": {
+    "time": -2395,
+    "longitude": 110.02,
+    "latitude": 25.78
+  },
+  "苍悟": {
+    "time": -2107,
+    "longitude": 111.22,
+    "latitude": 23.51
+  },
+  "钟山": {
+    "time": -2088,
+    "longitude": 111.3,
+    "latitude": 24.53
+  },
+  "富川": {
+    "time": -2338,
+    "longitude": 110.26,
+    "latitude": 24.83
+  },
+  "贺县": {
+    "time": -2030,
+    "longitude": 111.54,
+    "latitude": 24.44
+  },
+  "岑溪": {
+    "time": -2160,
+    "longitude": 111.0,
+    "latitude": 22.95
+  },
+  "藤县": {
+    "time": -2184,
+    "longitude": 110.9,
+    "latitude": 23.36
+  },
+  "蒙山": {
+    "time": -2270,
+    "longitude": 110.54,
+    "latitude": 24.22
+  },
+  "昭平": {
+    "time": -2208,
+    "longitude": 110.8,
+    "latitude": 24.18
+  },
+  "玉林": {
+    "time": -2366,
+    "longitude": 110.14,
+    "latitude": 22.64
+  },
+  "桂平": {
+    "time": -2383,
+    "longitude": 110.07,
+    "latitude": 23.38
+  },
+  "平南": {
+    "time": -2304,
+    "longitude": 110.4,
+    "latitude": 23.55
+  },
+  "容县": {
+    "time": -2273,
+    "longitude": 110.53,
+    "latitude": 22.87
+  },
+  "北流": {
+    "time": -2321,
+    "longitude": 110.33,
+    "latitude": 22.71
+  },
+  "陆川": {
+    "time": -2340,
+    "longitude": 110.25,
+    "latitude": 22.33
+  },
+  "博白": {
+    "time": -2405,
+    "longitude": 109.98,
+    "latitude": 22.27
+  },
+  "贵县": {
+    "time": -2496,
+    "longitude": 109.6,
+    "latitude": 23.11
+  },
+  "北海": {
+    "time": -2611,
+    "longitude": 109.12,
+    "latitude": 21.49
+  },
+  "钦州": {
+    "time": -2734,
+    "longitude": 108.61,
+    "latitude": 21.96
+  },
+  "灵山": {
+    "time": -2570,
+    "longitude": 109.29,
+    "latitude": 22.44
+  },
+  "浦北": {
+    "time": -2506,
+    "longitude": 109.56,
+    "latitude": 22.27
+  },
+  "合浦": {
+    "time": -2592,
+    "longitude": 109.2,
+    "latitude": 21.33
+  },
+  "上思": {
+    "time": -2885,
+    "longitude": 107.98,
+    "latitude": 22.16
+  },
+  "防城": {
+    "time": -2796,
+    "longitude": 108.35,
+    "latitude": 21.78
+  },
+  "百色": {
+    "time": -3211,
+    "longitude": 106.62,
+    "latitude": 23.91
+  },
+  "凌云": {
+    "time": -3228,
+    "longitude": 106.55,
+    "latitude": 24.35
+  },
+  "乐业": {
+    "time": -3226,
+    "longitude": 106.56,
+    "latitude": 24.78
+  },
+  "田阳": {
+    "time": -3144,
+    "longitude": 106.9,
+    "latitude": 23.75
+  },
+  "田东": {
+    "time": -3091,
+    "longitude": 107.12,
+    "latitude": 23.62
+  },
+  "平果": {
+    "time": -2978,
+    "longitude": 107.59,
+    "latitude": 23.33
+  },
+  "德保": {
+    "time": -3216,
+    "longitude": 106.6,
+    "latitude": 23.34
+  },
+  "靖西": {
+    "time": -3262,
+    "longitude": 106.41,
+    "latitude": 23.15
+  },
+  "那坡": {
+    "time": -3396,
+    "longitude": 105.85,
+    "latitude": 23.42
+  },
+  "西林": {
+    "time": -3581,
+    "longitude": 105.08,
+    "latitude": 24.51
+  },
+  "田林": {
+    "time": -3302,
+    "longitude": 106.24,
+    "latitude": 24.31
+  },
+  "隆林": {
+    "time": -3518,
+    "longitude": 105.34,
+    "latitude": 24.8
+  },
+  "成都": {
+    "time": -3826,
+    "longitude": 104.06,
+    "latitude": 30.67
+  },
+  "金堂": {
+    "time": -3763,
+    "longitude": 104.32,
+    "latitude": 30.88
+  },
+  "双流": {
+    "time": -3614,
+    "longitude": 104.94,
+    "latitude": 30.57
+  },
+  "蒲江": {
+    "time": -4010,
+    "longitude": 103.29,
+    "latitude": 30.2
+  },
+  "郫县": {
+    "time": -3874,
+    "longitude": 103.86,
+    "latitude": 30.8
+  },
+  "新都": {
+    "time": -3809,
+    "longitude": 104.13,
+    "latitude": 30.82
+  },
+  "来易": {
+    "time": -4284,
+    "longitude": 102.15,
+    "latitude": 26.9
+  },
+  "盐边": {
+    "time": -4426,
+    "longitude": 101.56,
+    "latitude": 26.9
+  },
+  "温江": {
+    "time": -3886,
+    "longitude": 103.81,
+    "latitude": 30.97
+  },
+  "灌县": {
+    "time": -3934,
+    "longitude": 103.61,
+    "latitude": 31.04
+  },
+  "彭县": {
+    "time": -3854,
+    "longitude": 103.94,
+    "latitude": 30.99
+  },
+  "什邡": {
+    "time": -3802,
+    "longitude": 104.16,
+    "latitude": 31.13
+  },
+  "广汉": {
+    "time": -3780,
+    "longitude": 104.25,
+    "latitude": 30.99
+  },
+  "新津": {
+    "time": -3893,
+    "longitude": 103.78,
+    "latitude": 30.42
+  },
+  "邛崃": {
+    "time": -3967,
+    "longitude": 103.47,
+    "latitude": 30.42
+  },
+  "大邑": {
+    "time": -3953,
+    "longitude": 103.53,
+    "latitude": 30.58
+  },
+  "崇庆": {
+    "time": -3914,
+    "longitude": 103.69,
+    "latitude": 30.63
+  },
+  "绵阳": {
+    "time": -3665,
+    "longitude": 104.73,
+    "latitude": 31.48
+  },
+  "江油": {
+    "time": -3672,
+    "longitude": 104.7,
+    "latitude": 31.8
+  },
+  "青川": {
+    "time": -3550,
+    "longitude": 105.21,
+    "latitude": 32.59
+  },
+  "平武": {
+    "time": -3715,
+    "longitude": 104.52,
+    "latitude": 32.42
+  },
+  "光元": {
+    "time": -3394,
+    "longitude": 105.86,
+    "latitude": 32.44
+  },
+  "旺苍": {
+    "time": -3281,
+    "longitude": 106.33,
+    "latitude": 32.25
+  },
+  "剑阁": {
+    "time": -3492,
+    "longitude": 105.45,
+    "latitude": 32.03
+  },
+  "梓潼": {
+    "time": -3562,
+    "longitude": 105.16,
+    "latitude": 31.64
+  },
+  "三台": {
+    "time": -3586,
+    "longitude": 105.06,
+    "latitude": 31.1
+  },
+  "盐亭": {
+    "time": -3516,
+    "longitude": 105.35,
+    "latitude": 31.23
+  },
+  "射洪": {
+    "time": -3526,
+    "longitude": 105.31,
+    "latitude": 30.9
+  },
+  "遂宁": {
+    "time": -3461,
+    "longitude": 105.58,
+    "latitude": 30.52
+  },
+  "蓬溪": {
+    "time": -3422,
+    "longitude": 105.74,
+    "latitude": 30.78
+  },
+  "中江": {
+    "time": -3677,
+    "longitude": 104.68,
+    "latitude": 31.06
+  },
+  "德阳": {
+    "time": -3751,
+    "longitude": 104.37,
+    "latitude": 31.13
+  },
+  "绵竹": {
+    "time": -3794,
+    "longitude": 104.19,
+    "latitude": 31.32
+  },
+  "安县": {
+    "time": -3742,
+    "longitude": 104.41,
+    "latitude": 31.64
+  },
+  "北川": {
+    "time": -3734,
+    "longitude": 104.44,
+    "latitude": 31.89
+  },
+  "内江": {
+    "time": -3590,
+    "longitude": 105.04,
+    "latitude": 29.59
+  },
+  "乐至": {
+    "time": -3595,
+    "longitude": 105.02,
+    "latitude": 30.3
+  },
+  "安岳": {
+    "time": -3528,
+    "longitude": 105.3,
+    "latitude": 30.12
+  },
+  "威远": {
+    "time": -3672,
+    "longitude": 104.7,
+    "latitude": 29.57
+  },
+  "资中": {
+    "time": -3636,
+    "longitude": 104.85,
+    "latitude": 29.81
+  },
+  "资阳": {
+    "time": -3696,
+    "longitude": 104.6,
+    "latitude": 30.19
+  },
+  "简阳": {
+    "time": -3713,
+    "longitude": 104.53,
+    "latitude": 30.38
+  },
+  "隆昌": {
+    "time": -3540,
+    "longitude": 105.25,
+    "latitude": 29.64
+  },
+  "宜宾": {
+    "time": -3706,
+    "longitude": 104.56,
+    "latitude": 29.77
+  },
+  "富顺": {
+    "time": -3607,
+    "longitude": 104.97,
+    "latitude": 29.24
+  },
+  "南溪": {
+    "time": -3610,
+    "longitude": 104.96,
+    "latitude": 28.87
+  },
+  "江安": {
+    "time": -3586,
+    "longitude": 105.06,
+    "latitude": 28.71
+  },
+  "纳溪": {
+    "time": -3509,
+    "longitude": 105.38,
+    "latitude": 28.77
+  },
+  "泸县": {
+    "time": -3490,
+    "longitude": 105.46,
+    "latitude": 28.96
+  },
+  "合江": {
+    "time": -3413,
+    "longitude": 105.78,
+    "latitude": 28.79
+  },
+  "泸州": {
+    "time": -3506,
+    "longitude": 105.39,
+    "latitude": 28.91
+  },
+  "古蔺": {
+    "time": -3410,
+    "longitude": 105.79,
+    "latitude": 28.03
+  },
+  "叙水": {
+    "time": -3494,
+    "longitude": 105.44,
+    "latitude": 28.19
+  },
+  "长宁": {
+    "time": -3622,
+    "longitude": 104.91,
+    "latitude": 28.6
+  },
+  "兴文": {
+    "time": -3586,
+    "longitude": 105.06,
+    "latitude": 28.36
+  },
+  "琪县": {
+    "time": -3646,
+    "longitude": 104.81,
+    "latitude": 28.38
+  },
+  "高县": {
+    "time": -3715,
+    "longitude": 104.52,
+    "latitude": 28.4
+  },
+  "筠连": {
+    "time": -3713,
+    "longitude": 104.53,
+    "latitude": 28.16
+  },
+  "屏由": {
+    "time": -3804,
+    "longitude": 104.15,
+    "latitude": 28.68
+  },
+  "乐由": {
+    "time": -3905,
+    "longitude": 103.73,
+    "latitude": 29.59
+  },
+  "夹江": {
+    "time": -3938,
+    "longitude": 103.59,
+    "latitude": 29.75
+  },
+  "洪雅": {
+    "time": -3989,
+    "longitude": 103.38,
+    "latitude": 29.95
+  },
+  "丹棱": {
+    "time": -3953,
+    "longitude": 103.53,
+    "latitude": 30.04
+  },
+  "青神": {
+    "time": -3886,
+    "longitude": 103.81,
+    "latitude": 29.86
+  },
+  "眉由": {
+    "time": -3886,
+    "longitude": 103.81,
+    "latitude": 30.05
+  },
+  "彭由": {
+    "time": -3881,
+    "longitude": 103.83,
+    "latitude": 30.22
+  },
+  "井研": {
+    "time": -3826,
+    "longitude": 104.06,
+    "latitude": 29.67
+  },
+  "仁寿": {
+    "time": -3818,
+    "longitude": 104.09,
+    "latitude": 30.0
+  },
+  "犍为": {
+    "time": -3857,
+    "longitude": 103.93,
+    "latitude": 29.21
+  },
+  "沐川": {
+    "time": -3845,
+    "longitude": 103.98,
+    "latitude": 28.96
+  },
+  "娥眉": {
+    "time": -3960,
+    "longitude": 103.5,
+    "latitude": 29.62
+  },
+  "马边": {
+    "time": -3953,
+    "longitude": 103.53,
+    "latitude": 28.87
+  },
+  "峨边": {
+    "time": -4020,
+    "longitude": 103.25,
+    "latitude": 29.23
+  },
+  "金口": {
+    "time": -4049,
+    "longitude": 103.13,
+    "latitude": 29.24
+  },
+  "涪陵": {
+    "time": -3034,
+    "longitude": 107.36,
+    "latitude": 29.7
+  },
+  "垫江": {
+    "time": -3038,
+    "longitude": 107.34,
+    "latitude": 30.36
+  },
+  "丰都": {
+    "time": -2952,
+    "longitude": 107.7,
+    "latitude": 29.89
+  },
+  "石柱": {
+    "time": -2849,
+    "longitude": 108.13,
+    "latitude": 29.98
+  },
+  "秀山": {
+    "time": -2647,
+    "longitude": 108.97,
+    "latitude": 28.47
+  },
+  "西阳": {
+    "time": -2700,
+    "longitude": 108.75,
+    "latitude": 28.85
+  },
+  "黔江": {
+    "time": -2686,
+    "longitude": 108.81,
+    "latitude": 29.53
+  },
+  "彭水": {
+    "time": -2834,
+    "longitude": 108.19,
+    "latitude": 29.29
+  },
+  "武隆": {
+    "time": -2707,
+    "longitude": 108.72,
+    "latitude": 29.29
+  },
+  "南川": {
+    "time": -3089,
+    "longitude": 107.13,
+    "latitude": 29.15
+  },
+  "万县": {
+    "time": -2796,
+    "longitude": 108.35,
+    "latitude": 30.83
+  },
+  "开县": {
+    "time": -2786,
+    "longitude": 108.39,
+    "latitude": 31.23
+  },
+  "城口": {
+    "time": -2719,
+    "longitude": 108.67,
+    "latitude": 31.98
+  },
+  "巫溪": {
+    "time": -2496,
+    "longitude": 109.6,
+    "latitude": 31.42
+  },
+  "巫山": {
+    "time": -2434,
+    "longitude": 109.86,
+    "latitude": 31.1
+  },
+  "奉节": {
+    "time": -2515,
+    "longitude": 109.52,
+    "latitude": 31.06
+  },
+  "云阳": {
+    "time": -2666,
+    "longitude": 108.89,
+    "latitude": 30.99
+  },
+  "忠县": {
+    "time": -2873,
+    "longitude": 108.03,
+    "latitude": 30.33
+  },
+  "梁平": {
+    "time": -2933,
+    "longitude": 107.78,
+    "latitude": 30.66
+  },
+  "南允": {
+    "time": -3346,
+    "longitude": 106.06,
+    "latitude": 30.8
+  },
+  "苍溪": {
+    "time": -3370,
+    "longitude": 105.96,
+    "latitude": 31.75
+  },
+  "阆中": {
+    "time": -3367,
+    "longitude": 105.97,
+    "latitude": 31.75
+  },
+  "仪陇": {
+    "time": -3269,
+    "longitude": 106.38,
+    "latitude": 31.52
+  },
+  "南部": {
+    "time": -3353,
+    "longitude": 106.03,
+    "latitude": 31.34
+  },
+  "西允": {
+    "time": -3398,
+    "longitude": 105.84,
+    "latitude": 31.01
+  },
+  "营山": {
+    "time": -3223,
+    "longitude": 106.57,
+    "latitude": 31.07
+  },
+  "蓬安": {
+    "time": -3254,
+    "longitude": 106.44,
+    "latitude": 31.04
+  },
+  "广安": {
+    "time": -3214,
+    "longitude": 106.61,
+    "latitude": 30.48
+  },
+  "岳池": {
+    "time": -3257,
+    "longitude": 106.43,
+    "latitude": 30.55
+  },
+  "武胜": {
+    "time": -3288,
+    "longitude": 106.3,
+    "latitude": 30.38
+  },
+  "华云": {
+    "time": -3182,
+    "longitude": 106.74,
+    "latitude": 30.41
+  },
+  "达县": {
+    "time": -3002,
+    "longitude": 107.49,
+    "latitude": 31.23
+  },
+  "万源": {
+    "time": -2866,
+    "longitude": 108.06,
+    "latitude": 32.07
+  },
+  "宜汉": {
+    "time": -2950,
+    "longitude": 107.71,
+    "latitude": 31.39
+  },
+  "开江": {
+    "time": -2911,
+    "longitude": 107.87,
+    "latitude": 31.1
+  },
+  "邻水": {
+    "time": -3142,
+    "longitude": 106.91,
+    "latitude": 30.36
+  },
+  "大竹": {
+    "time": -3070,
+    "longitude": 107.21,
+    "latitude": 30.75
+  },
+  "渠县": {
+    "time": -3134,
+    "longitude": 106.94,
+    "latitude": 30.85
+  },
+  "南江": {
+    "time": -3161,
+    "longitude": 106.83,
+    "latitude": 32.36
+  },
+  "巴中": {
+    "time": -3185,
+    "longitude": 106.73,
+    "latitude": 31.86
+  },
+  "平昌": {
+    "time": -3094,
+    "longitude": 107.11,
+    "latitude": 31.59
+  },
+  "通江": {
+    "time": -2822,
+    "longitude": 108.24,
+    "latitude": 31.95
+  },
+  "百沙": {
+    "time": -2837,
+    "longitude": 108.18,
+    "latitude": 32.0
+  },
+  "雅安": {
+    "time": -4087,
+    "longitude": 102.97,
+    "latitude": 29.97
+  },
+  "芦山": {
+    "time": -4102,
+    "longitude": 102.91,
+    "latitude": 30.17
+  },
+  "名山": {
+    "time": -4066,
+    "longitude": 103.06,
+    "latitude": 30.09
+  },
+  "荣经": {
+    "time": -4126,
+    "longitude": 102.81,
+    "latitude": 29.79
+  },
+  "汉源": {
+    "time": -4162,
+    "longitude": 102.66,
+    "latitude": 29.4
+  },
+  "石棉": {
+    "time": -4229,
+    "longitude": 102.38,
+    "latitude": 29.21
+  },
+  "天全": {
+    "time": -4133,
+    "longitude": 102.78,
+    "latitude": 30.09
+  },
+  "宝兴": {
+    "time": -4118,
+    "longitude": 102.84,
+    "latitude": 30.36
+  },
+  "马尔康": {
+    "time": -4267,
+    "longitude": 102.22,
+    "latitude": 31.92
+  },
+  "红原": {
+    "time": -4188,
+    "longitude": 102.55,
+    "latitude": 31.79
+  },
+  "阿坝": {
+    "time": -4387,
+    "longitude": 101.72,
+    "latitude": 31.93
+  },
+  "若尔盖": {
+    "time": -4094,
+    "longitude": 102.94,
+    "latitude": 33.62
+  },
+  "黑水": {
+    "time": -4092,
+    "longitude": 102.95,
+    "latitude": 32.06
+  },
+  "松潘": {
+    "time": -3934,
+    "longitude": 103.61,
+    "latitude": 32.64
+  },
+  "南坪": {
+    "time": -3794,
+    "longitude": 104.19,
+    "latitude": 33.23
+  },
+  "汶川": {
+    "time": -3934,
+    "longitude": 103.61,
+    "latitude": 31.46
+  },
+  "理县": {
+    "time": -4042,
+    "longitude": 103.16,
+    "latitude": 31.42
+  },
+  "小金": {
+    "time": -4238,
+    "longitude": 102.34,
+    "latitude": 30.97
+  },
+  "金川": {
+    "time": -4313,
+    "longitude": 102.03,
+    "latitude": 31.48
+  },
+  "壤塘": {
+    "time": -4567,
+    "longitude": 100.97,
+    "latitude": 32.3
+  },
+  "茂汶": {
+    "time": -3866,
+    "longitude": 103.89,
+    "latitude": 31.67
+  },
+  "康定": {
+    "time": -4332,
+    "longitude": 101.95,
+    "latitude": 30.04
+  },
+  "炉霍": {
+    "time": -4644,
+    "longitude": 100.65,
+    "latitude": 31.38
+  },
+  "甘孜": {
+    "time": -4810,
+    "longitude": 99.96,
+    "latitude": 31.64
+  },
+  "新龙": {
+    "time": -4733,
+    "longitude": 100.28,
+    "latitude": 30.96
+  },
+  "白玉": {
+    "time": -5081,
+    "longitude": 98.83,
+    "latitude": 32.23
+  },
+  "德格": {
+    "time": -5143,
+    "longitude": 98.57,
+    "latitude": 31.81
+  },
+  "石渠": {
+    "time": -5266,
+    "longitude": 98.06,
+    "latitude": 33.01
+  },
+  "色达": {
+    "time": -4716,
+    "longitude": 100.35,
+    "latitude": 32.3
+  },
+  "泸定": {
+    "time": -4260,
+    "longitude": 102.25,
+    "latitude": 29.92
+  },
+  "丹巴": {
+    "time": -4351,
+    "longitude": 101.87,
+    "latitude": 30.85
+  },
+  "九龙": {
+    "time": -4433,
+    "longitude": 101.53,
+    "latitude": 29.01
+  },
+  "雅江": {
+    "time": -4560,
+    "longitude": 101.0,
+    "latitude": 30.03
+  },
+  "道孚": {
+    "time": -4526,
+    "longitude": 101.14,
+    "latitude": 30.99
+  },
+  "理塘": {
+    "time": -4733,
+    "longitude": 100.28,
+    "latitude": 30.03
+  },
+  "乡城": {
+    "time": -4853,
+    "longitude": 99.78,
+    "latitude": 28.93
+  },
+  "稻城": {
+    "time": -4726,
+    "longitude": 100.31,
+    "latitude": 29.04
+  },
+  "巴塘": {
+    "time": -5040,
+    "longitude": 99.0,
+    "latitude": 30.0
+  },
+  "得荣": {
+    "time": -4980,
+    "longitude": 99.25,
+    "latitude": 28.71
+  },
+  "西昌": {
+    "time": -4250,
+    "longitude": 102.29,
+    "latitude": 27.92
+  },
+  "昭觉": {
+    "time": -4121,
+    "longitude": 102.83,
+    "latitude": 28.03
+  },
+  "甘洛": {
+    "time": -4142,
+    "longitude": 102.74,
+    "latitude": 28.96
+  },
+  "雷波": {
+    "time": -3931,
+    "longitude": 103.62,
+    "latitude": 28.21
+  },
+  "宁南": {
+    "time": -4138,
+    "longitude": 102.76,
+    "latitude": 27.07
+  },
+  "会东": {
+    "time": -4188,
+    "longitude": 102.55,
+    "latitude": 26.74
+  },
+  "会理": {
+    "time": -4270,
+    "longitude": 102.21,
+    "latitude": 26.67
+  },
+  "德昌": {
+    "time": -4284,
+    "longitude": 102.15,
+    "latitude": 27.4
+  },
+  "美姑": {
+    "time": -4046,
+    "longitude": 103.14,
+    "latitude": 28.33
+  },
+  "金阳": {
+    "time": -4027,
+    "longitude": 103.22,
+    "latitude": 27.73
+  },
+  "布拖": {
+    "time": -4128,
+    "longitude": 102.8,
+    "latitude": 27.7
+  },
+  "普格": {
+    "time": -4195,
+    "longitude": 102.52,
+    "latitude": 27.38
+  },
+  "喜德": {
+    "time": -4219,
+    "longitude": 102.42,
+    "latitude": 28.33
+  },
+  "越西": {
+    "time": -4202,
+    "longitude": 102.49,
+    "latitude": 28.66
+  },
+  "盐源": {
+    "time": -4438,
+    "longitude": 101.51,
+    "latitude": 27.42
+  },
+  "冕宁": {
+    "time": -4284,
+    "longitude": 102.15,
+    "latitude": 28.58
+  },
+  "木里": {
+    "time": -4500,
+    "longitude": 101.25,
+    "latitude": 27.9
+  },
+  "贵阳": {
+    "time": -3190,
+    "longitude": 106.71,
+    "latitude": 26.57
+  },
+  "六盘水": {
+    "time": -3643,
+    "longitude": 104.82,
+    "latitude": 26.58
+  },
+  "水城": {
+    "time": -3643,
+    "longitude": 104.82,
+    "latitude": 26.58
+  },
+  "盘县": {
+    "time": -3686,
+    "longitude": 104.64,
+    "latitude": 25.81
+  },
+  "六枝": {
+    "time": -3487,
+    "longitude": 105.47,
+    "latitude": 26.21
+  },
+  "遵义": {
+    "time": -3144,
+    "longitude": 106.9,
+    "latitude": 27.7
+  },
+  "绥阳": {
+    "time": -3074,
+    "longitude": 107.19,
+    "latitude": 27.95
+  },
+  "道真": {
+    "time": -2976,
+    "longitude": 107.6,
+    "latitude": 28.89
+  },
+  "凤冈": {
+    "time": -2947,
+    "longitude": 107.72,
+    "latitude": 27.97
+  },
+  "余庆": {
+    "time": -2909,
+    "longitude": 107.88,
+    "latitude": 27.22
+  },
+  "赤水": {
+    "time": -3434,
+    "longitude": 105.69,
+    "latitude": 28.57
+  },
+  "桐梓": {
+    "time": -3168,
+    "longitude": 106.8,
+    "latitude": 28.16
+  },
+  "正安": {
+    "time": -3017,
+    "longitude": 107.43,
+    "latitude": 28.56
+  },
+  "务川": {
+    "time": -2911,
+    "longitude": 107.87,
+    "latitude": 28.54
+  },
+  "湄潭": {
+    "time": -3000,
+    "longitude": 107.5,
+    "latitude": 27.76
+  },
+  "仁怀": {
+    "time": -3262,
+    "longitude": 106.41,
+    "latitude": 27.81
+  },
+  "习水": {
+    "time": -3312,
+    "longitude": 106.2,
+    "latitude": 28.33
+  },
+  "铜仁": {
+    "time": -2590,
+    "longitude": 109.21,
+    "latitude": 27.73
+  },
+  "玉屏": {
+    "time": -2662,
+    "longitude": 108.91,
+    "latitude": 27.24
+  },
+  "思南": {
+    "time": -2825,
+    "longitude": 108.23,
+    "latitude": 27.94
+  },
+  "德江": {
+    "time": -2849,
+    "longitude": 108.13,
+    "latitude": 28.27
+  },
+  "万山": {
+    "time": -2592,
+    "longitude": 109.2,
+    "latitude": 27.52
+  },
+  "江口": {
+    "time": -2683,
+    "longitude": 108.82,
+    "latitude": 27.68
+  },
+  "师阡": {
+    "time": -2822,
+    "longitude": 108.24,
+    "latitude": 27.52
+  },
+  "印江": {
+    "time": -2782,
+    "longitude": 108.41,
+    "latitude": 28.02
+  },
+  "沿河": {
+    "time": -2765,
+    "longitude": 108.48,
+    "latitude": 28.57
+  },
+  "松桃": {
+    "time": -2597,
+    "longitude": 109.18,
+    "latitude": 28.17
+  },
+  "毕节": {
+    "time": -3530,
+    "longitude": 105.29,
+    "latitude": 27.32
+  },
+  "黔西": {
+    "time": -3350,
+    "longitude": 106.04,
+    "latitude": 27.03
+  },
+  "织金": {
+    "time": -3418,
+    "longitude": 105.76,
+    "latitude": 26.66
+  },
+  "赫章": {
+    "time": -3670,
+    "longitude": 104.71,
+    "latitude": 27.13
+  },
+  "大方": {
+    "time": -3454,
+    "longitude": 105.61,
+    "latitude": 27.16
+  },
+  "金沙": {
+    "time": -3307,
+    "longitude": 106.22,
+    "latitude": 27.46
+  },
+  "钠雍": {
+    "time": -3509,
+    "longitude": 105.38,
+    "latitude": 26.77
+  },
+  "威宁": {
+    "time": -3773,
+    "longitude": 104.28,
+    "latitude": 26.87
+  },
+  "安顺": {
+    "time": -3379,
+    "longitude": 105.92,
+    "latitude": 26.25
+  },
+  "息烽": {
+    "time": -3185,
+    "longitude": 106.73,
+    "latitude": 27.1
+  },
+  "清镇": {
+    "time": -3250,
+    "longitude": 106.46,
+    "latitude": 26.56
+  },
+  "普定": {
+    "time": -3420,
+    "longitude": 105.75,
+    "latitude": 26.32
+  },
+  "开阳": {
+    "time": -3132,
+    "longitude": 106.95,
+    "latitude": 27.06
+  },
+  "修文": {
+    "time": -3218,
+    "longitude": 106.59,
+    "latitude": 26.84
+  },
+  "平坝": {
+    "time": -3298,
+    "longitude": 106.26,
+    "latitude": 26.42
+  },
+  "镇宁": {
+    "time": -3420,
+    "longitude": 105.75,
+    "latitude": 26.08
+  },
+  "紫云": {
+    "time": -3346,
+    "longitude": 106.06,
+    "latitude": 25.75
+  },
+  "关岭": {
+    "time": -3451,
+    "longitude": 105.62,
+    "latitude": 25.94
+  },
+  "兴义": {
+    "time": -3622,
+    "longitude": 104.91,
+    "latitude": 25.1
+  },
+  "普安": {
+    "time": -3610,
+    "longitude": 104.96,
+    "latitude": 25.79
+  },
+  "贞丰": {
+    "time": -3449,
+    "longitude": 105.63,
+    "latitude": 25.39
+  },
+  "望谟": {
+    "time": -3338,
+    "longitude": 106.09,
+    "latitude": 25.17
+  },
+  "册亭": {
+    "time": -3410,
+    "longitude": 105.79,
+    "latitude": 25.0
+  },
+  "安龙": {
+    "time": -3482,
+    "longitude": 105.49,
+    "latitude": 25.11
+  },
+  "兴仁": {
+    "time": -3557,
+    "longitude": 105.18,
+    "latitude": 25.44
+  },
+  "晴龙": {
+    "time": -3550,
+    "longitude": 105.21,
+    "latitude": 25.83
+  },
+  "凯里": {
+    "time": -2887,
+    "longitude": 107.97,
+    "latitude": 26.59
+  },
+  "施秉": {
+    "time": -2854,
+    "longitude": 108.11,
+    "latitude": 27.03
+  },
+  "镇远": {
+    "time": -2782,
+    "longitude": 108.41,
+    "latitude": 27.06
+  },
+  "天柱": {
+    "time": -2592,
+    "longitude": 109.2,
+    "latitude": 26.89
+  },
+  "剑河": {
+    "time": -2741,
+    "longitude": 108.58,
+    "latitude": 26.64
+  },
+  "黎平": {
+    "time": -2606,
+    "longitude": 109.14,
+    "latitude": 26.24
+  },
+  "从江": {
+    "time": -2664,
+    "longitude": 108.9,
+    "latitude": 25.76
+  },
+  "麻江": {
+    "time": -2981,
+    "longitude": 107.58,
+    "latitude": 26.49
+  },
+  "黄平": {
+    "time": -2906,
+    "longitude": 107.89,
+    "latitude": 26.89
+  },
+  "三穗": {
+    "time": -2717,
+    "longitude": 108.68,
+    "latitude": 26.98
+  },
+  "岑巩": {
+    "time": -2707,
+    "longitude": 108.72,
+    "latitude": 27.21
+  },
+  "锦屏": {
+    "time": -2597,
+    "longitude": 109.18,
+    "latitude": 26.7
+  },
+  "台江": {
+    "time": -2803,
+    "longitude": 108.32,
+    "latitude": 26.68
+  },
+  "榕江": {
+    "time": -2760,
+    "longitude": 108.5,
+    "latitude": 25.94
+  },
+  "雷山": {
+    "time": -2863,
+    "longitude": 108.07,
+    "latitude": 26.38
+  },
+  "丹寨": {
+    "time": -2930,
+    "longitude": 107.79,
+    "latitude": 26.21
+  },
+  "都匀": {
+    "time": -2993,
+    "longitude": 107.53,
+    "latitude": 26.72
+  },
+  "贵定": {
+    "time": -3067,
+    "longitude": 107.22,
+    "latitude": 26.58
+  },
+  "瓮安": {
+    "time": -3005,
+    "longitude": 107.48,
+    "latitude": 27.08
+  },
+  "平塘": {
+    "time": -2988,
+    "longitude": 107.55,
+    "latitude": 25.83
+  },
+  "长顺": {
+    "time": -3252,
+    "longitude": 106.45,
+    "latitude": 26.03
+  },
+  "惠水": {
+    "time": -3202,
+    "longitude": 106.66,
+    "latitude": 26.14
+  },
+  "荔波": {
+    "time": -2909,
+    "longitude": 107.88,
+    "latitude": 25.42
+  },
+  "福泉": {
+    "time": -2998,
+    "longitude": 107.51,
+    "latitude": 26.7
+  },
+  "独山": {
+    "time": -2990,
+    "longitude": 107.54,
+    "latitude": 25.84
+  },
+  "罗甸": {
+    "time": -3182,
+    "longitude": 106.74,
+    "latitude": 25.43
+  },
+  "龙里": {
+    "time": -3125,
+    "longitude": 106.98,
+    "latitude": 26.46
+  },
+  "三都": {
+    "time": -2914,
+    "longitude": 107.86,
+    "latitude": 26.0
+  },
+  "昆明": {
+    "time": -4145,
+    "longitude": 102.73,
+    "latitude": 25.04
+  },
+  "富民": {
+    "time": -4205,
+    "longitude": 102.48,
+    "latitude": 25.21
+  },
+  "晋宁": {
+    "time": -4181,
+    "longitude": 102.58,
+    "latitude": 24.68
+  },
+  "呈贡": {
+    "time": -4130,
+    "longitude": 102.79,
+    "latitude": 24.9
+  },
+  "安宁": {
+    "time": -4214,
+    "longitude": 102.44,
+    "latitude": 24.95
+  },
+  "昭通": {
+    "time": -3912,
+    "longitude": 103.7,
+    "latitude": 29.32
+  },
+  "永善": {
+    "time": -3929,
+    "longitude": 103.63,
+    "latitude": 28.22
+  },
+  "大关": {
+    "time": -3862,
+    "longitude": 103.91,
+    "latitude": 27.74
+  },
+  "彝良": {
+    "time": -3826,
+    "longitude": 104.06,
+    "latitude": 27.61
+  },
+  "鲁甸": {
+    "time": -3950,
+    "longitude": 103.54,
+    "latitude": 27.21
+  },
+  "绥江": {
+    "time": -3847,
+    "longitude": 103.97,
+    "latitude": 28.58
+  },
+  "盐津": {
+    "time": -3773,
+    "longitude": 104.28,
+    "latitude": 28.08
+  },
+  "威信": {
+    "time": -3588,
+    "longitude": 105.05,
+    "latitude": 27.85
+  },
+  "镇雄": {
+    "time": -3634,
+    "longitude": 104.86,
+    "latitude": 27.42
+  },
+  "巧家": {
+    "time": -4099,
+    "longitude": 102.92,
+    "latitude": 26.9
+  },
+  "永富": {
+    "time": -3749,
+    "longitude": 104.38,
+    "latitude": 28.62
+  },
+  "曲靖": {
+    "time": -3890,
+    "longitude": 103.79,
+    "latitude": 25.51
+  },
+  "宣威": {
+    "time": -3818,
+    "longitude": 104.09,
+    "latitude": 26.24
+  },
+  "富源": {
+    "time": -3782,
+    "longitude": 104.24,
+    "latitude": 25.67
+  },
+  "师宗": {
+    "time": -3847,
+    "longitude": 103.97,
+    "latitude": 24.85
+  },
+  "嵩明": {
+    "time": -4073,
+    "longitude": 103.03,
+    "latitude": 25.35
+  },
+  "会泽": {
+    "time": -4015,
+    "longitude": 103.27,
+    "latitude": 26.41
+  },
+  "沽益": {
+    "time": -3883,
+    "longitude": 103.82,
+    "latitude": 25.62
+  },
+  "罗平": {
+    "time": -3768,
+    "longitude": 104.3,
+    "latitude": 24.88
+  },
+  "陆良": {
+    "time": -3686,
+    "longitude": 104.64,
+    "latitude": 25.04
+  },
+  "宜良": {
+    "time": -4051,
+    "longitude": 103.12,
+    "latitude": 24.9
+  },
+  "马龙": {
+    "time": -3934,
+    "longitude": 103.61,
+    "latitude": 25.41
+  },
+  "路南": {
+    "time": -4022,
+    "longitude": 103.24,
+    "latitude": 24.77
+  },
+  "寻甸": {
+    "time": -4020,
+    "longitude": 103.25,
+    "latitude": 25.56
+  },
+  "玉溪": {
+    "time": -4195,
+    "longitude": 102.52,
+    "latitude": 24.35
+  },
+  "华宁": {
+    "time": -4097,
+    "longitude": 102.93,
+    "latitude": 24.26
+  },
+  "通海": {
+    "time": -4140,
+    "longitude": 102.75,
+    "latitude": 24.09
+  },
+  "澄江": {
+    "time": -4102,
+    "longitude": 102.91,
+    "latitude": 24.68
+  },
+  "江川": {
+    "time": -4145,
+    "longitude": 102.73,
+    "latitude": 24.27
+  },
+  "易门": {
+    "time": -4284,
+    "longitude": 102.15,
+    "latitude": 24.67
+  },
+  "元江": {
+    "time": -4320,
+    "longitude": 102.0,
+    "latitude": 23.59
+  },
+  "新平": {
+    "time": -4325,
+    "longitude": 101.98,
+    "latitude": 24.06
+  },
+  "峨山": {
+    "time": -4229,
+    "longitude": 102.38,
+    "latitude": 24.16
+  },
+  "思茅": {
+    "time": -4560,
+    "longitude": 101.0,
+    "latitude": 22.79
+  },
+  "普洱": {
+    "time": -4553,
+    "longitude": 101.03,
+    "latitude": 23.07
+  },
+  "镇沅": {
+    "time": -4589,
+    "longitude": 100.88,
+    "latitude": 23.9
+  },
+  "景东": {
+    "time": -4603,
+    "longitude": 100.82,
+    "latitude": 24.42
+  },
+  "景谷": {
+    "time": -4630,
+    "longitude": 100.71,
+    "latitude": 23.5
+  },
+  "黑江": {
+    "time": -4390,
+    "longitude": 101.71,
+    "latitude": 23.4
+  },
+  "澜沦": {
+    "time": -4807,
+    "longitude": 99.97,
+    "latitude": 22.55
+  },
+  "西盟": {
+    "time": -4927,
+    "longitude": 99.47,
+    "latitude": 22.73
+  },
+  "江城": {
+    "time": -4349,
+    "longitude": 101.88,
+    "latitude": 22.58
+  },
+  "孟连": {
+    "time": -4908,
+    "longitude": 99.55,
+    "latitude": 22.32
+  },
+  "临沦": {
+    "time": -4778,
+    "longitude": 100.09,
+    "latitude": 23.88
+  },
+  "云县": {
+    "time": -4771,
+    "longitude": 100.12,
+    "latitude": 24.44
+  },
+  "镇康": {
+    "time": -5035,
+    "longitude": 99.02,
+    "latitude": 23.92
+  },
+  "永德": {
+    "time": -4980,
+    "longitude": 99.25,
+    "latitude": 24.03
+  },
+  "凤庆": {
+    "time": -4819,
+    "longitude": 99.92,
+    "latitude": 24.58
+  },
+  "双江": {
+    "time": -4836,
+    "longitude": 99.85,
+    "latitude": 23.45
+  },
+  "沧源": {
+    "time": -4982,
+    "longitude": 99.24,
+    "latitude": 23.15
+  },
+  "耿马": {
+    "time": -4942,
+    "longitude": 99.41,
+    "latitude": 23.56
+  },
+  "保由": {
+    "time": -4997,
+    "longitude": 99.18,
+    "latitude": 25.12
+  },
+  "施甸": {
+    "time": -5004,
+    "longitude": 99.15,
+    "latitude": 24.69
+  },
+  "腾冲": {
+    "time": -5158,
+    "longitude": 98.51,
+    "latitude": 25.01
+  },
+  "昌宁": {
+    "time": -4894,
+    "longitude": 99.61,
+    "latitude": 24.82
+  },
+  "龙陵": {
+    "time": -5112,
+    "longitude": 98.7,
+    "latitude": 24.58
+  },
+  "丽江": {
+    "time": -4740,
+    "longitude": 100.25,
+    "latitude": 26.86
+  },
+  "华坪": {
+    "time": -4502,
+    "longitude": 101.24,
+    "latitude": 26.63
+  },
+  "永胜": {
+    "time": -4618,
+    "longitude": 100.76,
+    "latitude": 26.71
+  },
+  "宁蒗": {
+    "time": -4603,
+    "longitude": 100.82,
+    "latitude": 27.29
+  },
+  "文山": {
+    "time": -3782,
+    "longitude": 104.24,
+    "latitude": 23.37
+  },
+  "广南": {
+    "time": -3578,
+    "longitude": 105.09,
+    "latitude": 24.05
+  },
+  "西畴": {
+    "time": -3677,
+    "longitude": 104.68,
+    "latitude": 23.42
+  },
+  "麻栗坡": {
+    "time": -3670,
+    "longitude": 104.71,
+    "latitude": 23.12
+  },
+  "马关": {
+    "time": -3744,
+    "longitude": 104.4,
+    "latitude": 23.01
+  },
+  "丘北": {
+    "time": -3794,
+    "longitude": 104.19,
+    "latitude": 24.03
+  },
+  "砚山": {
+    "time": -3756,
+    "longitude": 104.35,
+    "latitude": 23.62
+  },
+  "富宁": {
+    "time": -3456,
+    "longitude": 105.6,
+    "latitude": 23.62
+  },
+  "个旧": {
+    "time": -4217,
+    "longitude": 102.43,
+    "latitude": 23.35
+  },
+  "弥勒": {
+    "time": -3977,
+    "longitude": 103.43,
+    "latitude": 24.41
+  },
+  "蒙自": {
+    "time": -3982,
+    "longitude": 103.41,
+    "latitude": 23.36
+  },
+  "元阳": {
+    "time": -4126,
+    "longitude": 102.81,
+    "latitude": 23.17
+  },
+  "红河": {
+    "time": -4219,
+    "longitude": 102.42,
+    "latitude": 23.35
+  },
+  "石屏": {
+    "time": -4205,
+    "longitude": 102.48,
+    "latitude": 23.73
+  },
+  "泸西": {
+    "time": -3898,
+    "longitude": 103.76,
+    "latitude": 24.52
+  },
+  "金平": {
+    "time": -4022,
+    "longitude": 103.24,
+    "latitude": 22.77
+  },
+  "开远": {
+    "time": -4025,
+    "longitude": 103.23,
+    "latitude": 23.7
+  },
+  "绿春": {
+    "time": -4219,
+    "longitude": 102.42,
+    "latitude": 23.01
+  },
+  "建水": {
+    "time": -4130,
+    "longitude": 102.79,
+    "latitude": 23.64
+  },
+  "河口": {
+    "time": -3845,
+    "longitude": 103.98,
+    "latitude": 22.52
+  },
+  "屏边": {
+    "time": -3919,
+    "longitude": 103.67,
+    "latitude": 22.68
+  },
+  "景淇": {
+    "time": -4610,
+    "longitude": 100.79,
+    "latitude": 22.0
+  },
+  "勐海": {
+    "time": -4680,
+    "longitude": 100.5,
+    "latitude": 21.95
+  },
+  "勐腊": {
+    "time": -4426,
+    "longitude": 101.56,
+    "latitude": 21.48
+  },
+  "楚雄": {
+    "time": -4430,
+    "longitude": 101.54,
+    "latitude": 25.01
+  },
+  "元谋": {
+    "time": -4356,
+    "longitude": 101.85,
+    "latitude": 25.7
+  },
+  "武定": {
+    "time": -4234,
+    "longitude": 102.36,
+    "latitude": 25.55
+  },
+  "禄丰": {
+    "time": -4301,
+    "longitude": 102.08,
+    "latitude": 25.15
+  },
+  "南华": {
+    "time": -4498,
+    "longitude": 101.26,
+    "latitude": 25.21
+  },
+  "大姚": {
+    "time": -4478,
+    "longitude": 101.34,
+    "latitude": 25.73
+  },
+  "永仁": {
+    "time": -4392,
+    "longitude": 101.7,
+    "latitude": 26.07
+  },
+  "禄劝": {
+    "time": -4212,
+    "longitude": 102.45,
+    "latitude": 25.58
+  },
+  "牟定": {
+    "time": -4421,
+    "longitude": 101.58,
+    "latitude": 25.32
+  },
+  "双柏": {
+    "time": -4399,
+    "longitude": 101.67,
+    "latitude": 24.68
+  },
+  "姚安": {
+    "time": -4502,
+    "longitude": 101.24,
+    "latitude": 25.4
+  },
+  "下关": {
+    "time": -4742,
+    "longitude": 100.24,
+    "latitude": 25.45
+  },
+  "剑川": {
+    "time": -4829,
+    "longitude": 99.88,
+    "latitude": 26.53
+  },
+  "洱源": {
+    "time": -4814,
+    "longitude": 99.94,
+    "latitude": 26.1
+  },
+  "宾川": {
+    "time": -4668,
+    "longitude": 100.55,
+    "latitude": 25.82
+  },
+  "弥渡": {
+    "time": -4675,
+    "longitude": 100.52,
+    "latitude": 25.34
+  },
+  "永平": {
+    "time": -4915,
+    "longitude": 99.52,
+    "latitude": 25.45
+  },
+  "鹤庆": {
+    "time": -4757,
+    "longitude": 100.18,
+    "latitude": 26.55
+  },
+  "大理": {
+    "time": -4754,
+    "longitude": 100.19,
+    "latitude": 25.69
+  },
+  "漾濞": {
+    "time": -4805,
+    "longitude": 99.98,
+    "latitude": 25.68
+  },
+  "云龙": {
+    "time": -4946,
+    "longitude": 99.39,
+    "latitude": 25.9
+  },
+  "祥云": {
+    "time": -4666,
+    "longitude": 100.56,
+    "latitude": 25.48
+  },
+  "巍山": {
+    "time": -4721,
+    "longitude": 100.33,
+    "latitude": 25.23
+  },
+  "南涧": {
+    "time": -4678,
+    "longitude": 100.51,
+    "latitude": 25.04
+  },
+  "潞西": {
+    "time": -5136,
+    "longitude": 98.6,
+    "latitude": 24.41
+  },
+  "陇川": {
+    "time": -5290,
+    "longitude": 97.96,
+    "latitude": 24.33
+  },
+  "盈江": {
+    "time": -5297,
+    "longitude": 97.93,
+    "latitude": 24.69
+  },
+  "畹町": {
+    "time": -5261,
+    "longitude": 98.08,
+    "latitude": 24.08
+  },
+  "瑞丽": {
+    "time": -5321,
+    "longitude": 97.83,
+    "latitude": 24.0
+  },
+  "梁河": {
+    "time": -5208,
+    "longitude": 98.3,
+    "latitude": 24.78
+  },
+  "泸水": {
+    "time": -5083,
+    "longitude": 98.82,
+    "latitude": 25.97
+  },
+  "碧江": {
+    "time": -5052,
+    "longitude": 98.95,
+    "latitude": 26.55
+  },
+  "福贡": {
+    "time": -5059,
+    "longitude": 98.92,
+    "latitude": 26.89
+  },
+  "兰坪": {
+    "time": -4970,
+    "longitude": 99.29,
+    "latitude": 26.49
+  },
+  "贡山": {
+    "time": -5124,
+    "longitude": 98.65,
+    "latitude": 27.73
+  },
+  "中甸": {
+    "time": -4867,
+    "longitude": 99.72,
+    "latitude": 27.78
+  },
+  "德钦": {
+    "time": -5057,
+    "longitude": 98.93,
+    "latitude": 28.49
+  },
+  "维西": {
+    "time": -4975,
+    "longitude": 99.27,
+    "latitude": 27.15
+  },
+  "拉萨": {
+    "time": -6934,
+    "longitude": 91.11,
+    "latitude": 29.97
+  },
+  "林周": {
+    "time": -6902,
+    "longitude": 91.24,
+    "latitude": 30.2
+  },
+  "当雄": {
+    "time": -6948,
+    "longitude": 91.05,
+    "latitude": 30.51
+  },
+  "墨竹工卡": {
+    "time": -6775,
+    "longitude": 91.77,
+    "latitude": 29.77
+  },
+  "尼木": {
+    "time": -7166,
+    "longitude": 90.14,
+    "latitude": 29.44
+  },
+  "米林": {
+    "time": -6209,
+    "longitude": 94.13,
+    "latitude": 29.18
+  },
+  "墨脱": {
+    "time": -5938,
+    "longitude": 95.26,
+    "latitude": 29.22
+  },
+  "达孜": {
+    "time": -6866,
+    "longitude": 91.39,
+    "latitude": 29.63
+  },
+  "曲水": {
+    "time": -7032,
+    "longitude": 90.7,
+    "latitude": 29.39
+  },
+  "堆龙德庆": {
+    "time": -6970,
+    "longitude": 90.96,
+    "latitude": 29.67
+  },
+  "林芝": {
+    "time": -6180,
+    "longitude": 94.25,
+    "latitude": 29.59
+  },
+  "工布江达": {
+    "time": -6420,
+    "longitude": 93.25,
+    "latitude": 29.92
+  },
+  "那曲": {
+    "time": -6696,
+    "longitude": 92.1,
+    "latitude": 31.47
+  },
+  "巴青": {
+    "time": -6216,
+    "longitude": 94.1,
+    "latitude": 31.96
+  },
+  "比如": {
+    "time": -6317,
+    "longitude": 93.68,
+    "latitude": 31.53
+  },
+  "班戈": {
+    "time": -7188,
+    "longitude": 90.05,
+    "latitude": 31.35
+  },
+  "嘉黎": {
+    "time": -6370,
+    "longitude": 93.46,
+    "latitude": 30.63
+  },
+  "聂荣": {
+    "time": -6648,
+    "longitude": 92.3,
+    "latitude": 31.08
+  },
+  "索县": {
+    "time": -6310,
+    "longitude": 93.71,
+    "latitude": 31.92
+  },
+  "安多": {
+    "time": -6797,
+    "longitude": 91.68,
+    "latitude": 32.29
+  },
+  "申扎": {
+    "time": -7512,
+    "longitude": 88.7,
+    "latitude": 30.94
+  },
+  "吕都": {
+    "time": -5486,
+    "longitude": 97.14,
+    "latitude": 31.18
+  },
+  "贡觉": {
+    "time": -5210,
+    "longitude": 98.29,
+    "latitude": 30.86
+  },
+  "左贡": {
+    "time": -5304,
+    "longitude": 97.9,
+    "latitude": 29.68
+  },
+  "察隅": {
+    "time": -5402,
+    "longitude": 97.49,
+    "latitude": 28.62
+  },
+  "洛隆": {
+    "time": -5818,
+    "longitude": 95.76,
+    "latitude": 30.81
+  },
+  "丁青": {
+    "time": -5849,
+    "longitude": 95.63,
+    "latitude": 31.42
+  },
+  "波密": {
+    "time": -5820,
+    "longitude": 95.75,
+    "latitude": 29.92
+  },
+  "江达": {
+    "time": -7394,
+    "longitude": 89.19,
+    "latitude": 31.53
+  },
+  "察雅": {
+    "time": -5386,
+    "longitude": 97.56,
+    "latitude": 30.69
+  },
+  "芒康": {
+    "time": -5117,
+    "longitude": 98.68,
+    "latitude": 29.64
+  },
+  "八宿": {
+    "time": -5532,
+    "longitude": 96.95,
+    "latitude": 30.04
+  },
+  "边坝": {
+    "time": -6074,
+    "longitude": 94.69,
+    "latitude": 30.94
+  },
+  "类乌齐": {
+    "time": -5623,
+    "longitude": 96.57,
+    "latitude": 31.2
+  },
+  "乃东": {
+    "time": -6778,
+    "longitude": 91.76,
+    "latitude": 29.18
+  },
+  "加查": {
+    "time": -6576,
+    "longitude": 92.6,
+    "latitude": 29.09
+  },
+  "曲松": {
+    "time": -6694,
+    "longitude": 92.11,
+    "latitude": 29.08
+  },
+  "错那": {
+    "time": -6742,
+    "longitude": 91.91,
+    "latitude": 27.98
+  },
+  "穷结": {
+    "time": -6804,
+    "longitude": 91.65,
+    "latitude": 29.04
+  },
+  "贡嘎": {
+    "time": -6970,
+    "longitude": 90.96,
+    "latitude": 29.25
+  },
+  "浪卡子": {
+    "time": -7121,
+    "longitude": 90.33,
+    "latitude": 29.96
+  },
+  "桑日": {
+    "time": -6720,
+    "longitude": 92.0,
+    "latitude": 29.26
+  },
+  "朗县": {
+    "time": -6454,
+    "longitude": 93.11,
+    "latitude": 29.06
+  },
+  "隆子": {
+    "time": -6619,
+    "longitude": 92.42,
+    "latitude": 28.46
+  },
+  "措美": {
+    "time": -6864,
+    "longitude": 91.4,
+    "latitude": 28.49
+  },
+  "洛扎": {
+    "time": -7001,
+    "longitude": 90.83,
+    "latitude": 28.42
+  },
+  "扎囊": {
+    "time": -6898,
+    "longitude": 91.26,
+    "latitude": 29.22
+  },
+  "日喀则": {
+    "time": -7483,
+    "longitude": 88.82,
+    "latitude": 29.28
+  },
+  "定结": {
+    "time": -7735,
+    "longitude": 87.77,
+    "latitude": 28.38
+  },
+  "拉孜": {
+    "time": -7771,
+    "longitude": 87.62,
+    "latitude": 29.1
+  },
+  "聂拉木": {
+    "time": -8174,
+    "longitude": 85.94,
+    "latitude": 28.19
+  },
+  "谢通门": {
+    "time": -7620,
+    "longitude": 88.25,
+    "latitude": 29.43
+  },
+  "仲巴": {
+    "time": -8604,
+    "longitude": 84.15,
+    "latitude": 29.66
+  },
+  "康马": {
+    "time": -7279,
+    "longitude": 89.67,
+    "latitude": 28.57
+  },
+  "亚东": {
+    "time": -7457,
+    "longitude": 88.93,
+    "latitude": 27.55
+  },
+  "岗巴": {
+    "time": -7560,
+    "longitude": 88.5,
+    "latitude": 28.29
+  },
+  "南木林": {
+    "time": -7435,
+    "longitude": 89.02,
+    "latitude": 29.71
+  },
+  "萨迦": {
+    "time": -7680,
+    "longitude": 88.0,
+    "latitude": 28.87
+  },
+  "定日": {
+    "time": -7894,
+    "longitude": 87.11,
+    "latitude": 28.57
+  },
+  "吉隆": {
+    "time": -8330,
+    "longitude": 85.29,
+    "latitude": 28.94
+  },
+  "昂仁": {
+    "time": -7867,
+    "longitude": 87.22,
+    "latitude": 29.3
+  },
+  "江孜": {
+    "time": -7289,
+    "longitude": 89.63,
+    "latitude": 28.94
+  },
+  "仁布": {
+    "time": -7255,
+    "longitude": 89.77,
+    "latitude": 29.21
+  },
+  "白朗": {
+    "time": -7402,
+    "longitude": 89.16,
+    "latitude": 29.11
+  },
+  "萨嘎": {
+    "time": -8328,
+    "longitude": 85.3,
+    "latitude": 29.38
+  },
+  "噶尔": {
+    "time": -9600,
+    "longitude": 80.0,
+    "latitude": 32.08
+  },
+  "革吉": {
+    "time": -9329,
+    "longitude": 81.13,
+    "latitude": 32.45
+  },
+  "扎达": {
+    "time": -9658,
+    "longitude": 79.76,
+    "latitude": 31.47
+  },
+  "措勤": {
+    "time": -8362,
+    "longitude": 85.16,
+    "latitude": 31.06
+  },
+  "日上": {
+    "time": -9694,
+    "longitude": 79.61,
+    "latitude": 33.44
+  },
+  "改则": {
+    "time": -8616,
+    "longitude": 84.1,
+    "latitude": 32.33
+  },
+  "普兰": {
+    "time": -9317,
+    "longitude": 81.18,
+    "latitude": 30.37
+  },
+  "西安": {
+    "time": -2652,
+    "longitude": 108.95,
+    "latitude": 34.27
+  },
+  "长安": {
+    "time": -2647,
+    "longitude": 108.97,
+    "latitude": 34.18
+  },
+  "铜川": {
+    "time": -2614,
+    "longitude": 109.11,
+    "latitude": 35.09
+  },
+  "耀县": {
+    "time": -2645,
+    "longitude": 108.98,
+    "latitude": 34.91
+  },
+  "宝鸡": {
+    "time": -3084,
+    "longitude": 107.15,
+    "latitude": 34.38
+  },
+  "凤翔": {
+    "time": -3026,
+    "longitude": 107.39,
+    "latitude": 34.53
+  },
+  "千阳": {
+    "time": -3089,
+    "longitude": 107.13,
+    "latitude": 34.65
+  },
+  "陇县": {
+    "time": -3154,
+    "longitude": 106.86,
+    "latitude": 34.91
+  },
+  "麟游": {
+    "time": -2928,
+    "longitude": 107.8,
+    "latitude": 34.69
+  },
+  "岐山": {
+    "time": -2969,
+    "longitude": 107.63,
+    "latitude": 34.46
+  },
+  "浮风": {
+    "time": -2911,
+    "longitude": 107.87,
+    "latitude": 34.38
+  },
+  "武功": {
+    "time": -2827,
+    "longitude": 108.22,
+    "latitude": 34.28
+  },
+  "眉县": {
+    "time": -2938,
+    "longitude": 107.76,
+    "latitude": 34.29
+  },
+  "太白": {
+    "time": -3048,
+    "longitude": 107.3,
+    "latitude": 34.09
+  },
+  "凤县": {
+    "time": -3238,
+    "longitude": 106.51,
+    "latitude": 33.93
+  },
+  "榆林": {
+    "time": -2455,
+    "longitude": 109.77,
+    "latitude": 38.3
+  },
+  "神木": {
+    "time": -2278,
+    "longitude": 110.51,
+    "latitude": 38.83
+  },
+  "府谷": {
+    "time": -2143,
+    "longitude": 111.07,
+    "latitude": 39.05
+  },
+  "佳县": {
+    "time": -2285,
+    "longitude": 110.48,
+    "latitude": 38.04
+  },
+  "米脂": {
+    "time": -2345,
+    "longitude": 110.23,
+    "latitude": 37.78
+  },
+  "吴堡": {
+    "time": -2225,
+    "longitude": 110.73,
+    "latitude": 37.49
+  },
+  "绥德": {
+    "time": -2342,
+    "longitude": 110.24,
+    "latitude": 37.49
+  },
+  "清涧": {
+    "time": -2364,
+    "longitude": 110.15,
+    "latitude": 37.11
+  },
+  "子洲": {
+    "time": -2388,
+    "longitude": 110.05,
+    "latitude": 37.45
+  },
+  "横山": {
+    "time": -2563,
+    "longitude": 109.32,
+    "latitude": 37.97
+  },
+  "靖边": {
+    "time": -2690,
+    "longitude": 108.79,
+    "latitude": 37.61
+  },
+  "定边": {
+    "time": -2978,
+    "longitude": 107.59,
+    "latitude": 37.6
+  },
+  "延安": {
+    "time": -2527,
+    "longitude": 109.47,
+    "latitude": 36.6
+  },
+  "安寨": {
+    "time": -2558,
+    "longitude": 109.34,
+    "latitude": 36.88
+  },
+  "子长": {
+    "time": -2484,
+    "longitude": 109.65,
+    "latitude": 37.16
+  },
+  "延川": {
+    "time": -2357,
+    "longitude": 110.18,
+    "latitude": 36.87
+  },
+  "延长": {
+    "time": -2395,
+    "longitude": 110.02,
+    "latitude": 36.59
+  },
+  "宜川": {
+    "time": -2364,
+    "longitude": 110.15,
+    "latitude": 36.04
+  },
+  "黄龙": {
+    "time": -2434,
+    "longitude": 109.86,
+    "latitude": 35.6
+  },
+  "洛川": {
+    "time": -2539,
+    "longitude": 109.42,
+    "latitude": 35.76
+  },
+  "宜君": {
+    "time": -2614,
+    "longitude": 109.11,
+    "latitude": 35.43
+  },
+  "黄陵": {
+    "time": -2575,
+    "longitude": 109.27,
+    "latitude": 35.6
+  },
+  "富县": {
+    "time": -2551,
+    "longitude": 109.37,
+    "latitude": 36.0
+  },
+  "甘泉": {
+    "time": -2551,
+    "longitude": 109.37,
+    "latitude": 36.29
+  },
+  "志丹": {
+    "time": -2693,
+    "longitude": 108.78,
+    "latitude": 36.84
+  },
+  "吴旗": {
+    "time": -2827,
+    "longitude": 108.22,
+    "latitude": 36.93
+  },
+  "咸阳": {
+    "time": -2707,
+    "longitude": 108.72,
+    "latitude": 34.36
+  },
+  "礼泉": {
+    "time": -2777,
+    "longitude": 108.43,
+    "latitude": 34.5
+  },
+  "永寿": {
+    "time": -2846,
+    "longitude": 108.14,
+    "latitude": 34.71
+  },
+  "彬县": {
+    "time": -2858,
+    "longitude": 108.09,
+    "latitude": 35.04
+  },
+  "长武": {
+    "time": -2928,
+    "longitude": 107.8,
+    "latitude": 35.22
+  },
+  "旬邑": {
+    "time": -2801,
+    "longitude": 108.33,
+    "latitude": 35.13
+  },
+  "淳化": {
+    "time": -2743,
+    "longitude": 108.57,
+    "latitude": 34.81
+  },
+  "泾阳": {
+    "time": -2678,
+    "longitude": 108.84,
+    "latitude": 34.53
+  },
+  "三原": {
+    "time": -2654,
+    "longitude": 108.94,
+    "latitude": 34.62
+  },
+  "高陵": {
+    "time": -2616,
+    "longitude": 109.1,
+    "latitude": 34.55
+  },
+  "户县": {
+    "time": -2734,
+    "longitude": 108.61,
+    "latitude": 34.12
+  },
+  "周至": {
+    "time": -2827,
+    "longitude": 108.22,
+    "latitude": 34.18
+  },
+  "兴平": {
+    "time": -2762,
+    "longitude": 108.49,
+    "latitude": 34.32
+  },
+  "乾县": {
+    "time": -2820,
+    "longitude": 108.25,
+    "latitude": 34.54
+  },
+  "渭南": {
+    "time": -2520,
+    "longitude": 109.5,
+    "latitude": 34.52
+  },
+  "蒲城": {
+    "time": -2498,
+    "longitude": 109.59,
+    "latitude": 34.97
+  },
+  "白水": {
+    "time": -2496,
+    "longitude": 109.6,
+    "latitude": 35.18
+  },
+  "成城": {
+    "time": -2417,
+    "longitude": 109.93,
+    "latitude": 35.2
+  },
+  "韩城": {
+    "time": -2292,
+    "longitude": 110.45,
+    "latitude": 35.47
+  },
+  "合阳": {
+    "time": -2364,
+    "longitude": 110.15,
+    "latitude": 35.24
+  },
+  "人荔": {
+    "time": -2410,
+    "longitude": 109.96,
+    "latitude": 34.82
+  },
+  "潼关": {
+    "time": -2340,
+    "longitude": 110.25,
+    "latitude": 34.56
+  },
+  "华阴": {
+    "time": -2378,
+    "longitude": 110.09,
+    "latitude": 34.58
+  },
+  "华县": {
+    "time": -2455,
+    "longitude": 109.77,
+    "latitude": 34.53
+  },
+  "蓝田": {
+    "time": -2563,
+    "longitude": 109.32,
+    "latitude": 34.17
+  },
+  "临潼": {
+    "time": -2587,
+    "longitude": 109.22,
+    "latitude": 34.38
+  },
+  "富平": {
+    "time": -2599,
+    "longitude": 109.17,
+    "latitude": 34.76
+  },
+  "商县": {
+    "time": -2410,
+    "longitude": 109.96,
+    "latitude": 33.88
+  },
+  "洛南": {
+    "time": -2364,
+    "longitude": 110.15,
+    "latitude": 34.11
+  },
+  "丹凤": {
+    "time": -2316,
+    "longitude": 110.35,
+    "latitude": 33.71
+  },
+  "商南": {
+    "time": -2189,
+    "longitude": 110.88,
+    "latitude": 33.54
+  },
+  "山阳": {
+    "time": -2422,
+    "longitude": 109.91,
+    "latitude": 33.55
+  },
+  "镇安": {
+    "time": -2602,
+    "longitude": 109.16,
+    "latitude": 33.45
+  },
+  "柞水": {
+    "time": -2606,
+    "longitude": 109.14,
+    "latitude": 33.69
+  },
+  "安康": {
+    "time": -2635,
+    "longitude": 109.02,
+    "latitude": 32.7
+  },
+  "旬阳": {
+    "time": -2556,
+    "longitude": 109.35,
+    "latitude": 32.83
+  },
+  "白河": {
+    "time": -2386,
+    "longitude": 110.06,
+    "latitude": 32.83
+  },
+  "平利": {
+    "time": -2551,
+    "longitude": 109.37,
+    "latitude": 32.41
+  },
+  "镇坪": {
+    "time": -2518,
+    "longitude": 109.51,
+    "latitude": 31.91
+  },
+  "岚皋": {
+    "time": -2666,
+    "longitude": 108.89,
+    "latitude": 32.3
+  },
+  "紫阳": {
+    "time": -2748,
+    "longitude": 108.55,
+    "latitude": 32.56
+  },
+  "汉阴": {
+    "time": -2753,
+    "longitude": 108.53,
+    "latitude": 32.9
+  },
+  "石泉": {
+    "time": -2818,
+    "longitude": 108.26,
+    "latitude": 33.05
+  },
+  "宁陕": {
+    "time": -2801,
+    "longitude": 108.33,
+    "latitude": 33.34
+  },
+  "汉中": {
+    "time": -2870,
+    "longitude": 108.04,
+    "latitude": 33.07
+  },
+  "留坝": {
+    "time": -3132,
+    "longitude": 106.95,
+    "latitude": 33.65
+  },
+  "城固": {
+    "time": -3043,
+    "longitude": 107.32,
+    "latitude": 33.16
+  },
+  "洋县": {
+    "time": -2986,
+    "longitude": 107.56,
+    "latitude": 33.23
+  },
+  "佛坪": {
+    "time": -2880,
+    "longitude": 108.0,
+    "latitude": 33.55
+  },
+  "西乡": {
+    "time": -2935,
+    "longitude": 107.77,
+    "latitude": 33.0
+  },
+  "镇巴": {
+    "time": -2902,
+    "longitude": 107.91,
+    "latitude": 32.56
+  },
+  "南郑": {
+    "time": -3137,
+    "longitude": 106.93,
+    "latitude": 33.0
+  },
+  "宁强": {
+    "time": -3300,
+    "longitude": 106.25,
+    "latitude": 32.82
+  },
+  "勉县": {
+    "time": -3197,
+    "longitude": 106.68,
+    "latitude": 33.16
+  },
+  "略阳": {
+    "time": -3322,
+    "longitude": 106.16,
+    "latitude": 33.34
+  },
+  "兰州": {
+    "time": -3905,
+    "longitude": 103.73,
+    "latitude": 36.03
+  },
+  "永登": {
+    "time": -4020,
+    "longitude": 103.25,
+    "latitude": 36.73
+  },
+  "榆中": {
+    "time": -3818,
+    "longitude": 104.09,
+    "latitude": 35.87
+  },
+  "永昌": {
+    "time": -4334,
+    "longitude": 101.94,
+    "latitude": 38.23
+  },
+  "皋兰": {
+    "time": -3847,
+    "longitude": 103.97,
+    "latitude": 36.32
+  },
+  "定西": {
+    "time": -3703,
+    "longitude": 104.57,
+    "latitude": 35.57
+  },
+  "会宁": {
+    "time": -3581,
+    "longitude": 105.08,
+    "latitude": 35.72
+  },
+  "陇西": {
+    "time": -3694,
+    "longitude": 104.61,
+    "latitude": 34.98
+  },
+  "临洮": {
+    "time": -3869,
+    "longitude": 103.88,
+    "latitude": 35.39
+  },
+  "靖远": {
+    "time": -3670,
+    "longitude": 104.71,
+    "latitude": 36.54
+  },
+  "通渭": {
+    "time": -3535,
+    "longitude": 105.27,
+    "latitude": 35.24
+  },
+  "渭源": {
+    "time": -3794,
+    "longitude": 104.19,
+    "latitude": 35.17
+  },
+  "平凉": {
+    "time": -3197,
+    "longitude": 106.68,
+    "latitude": 35.51
+  },
+  "灵台": {
+    "time": -2974,
+    "longitude": 107.61,
+    "latitude": 35.1
+  },
+  "华亭": {
+    "time": -3204,
+    "longitude": 106.65,
+    "latitude": 35.21
+  },
+  "静宁": {
+    "time": -3425,
+    "longitude": 105.73,
+    "latitude": 35.51
+  },
+  "泾川": {
+    "time": -3029,
+    "longitude": 107.38,
+    "latitude": 35.31
+  },
+  "崇信": {
+    "time": -3108,
+    "longitude": 107.05,
+    "latitude": 35.27
+  },
+  "庄浪": {
+    "time": -3346,
+    "longitude": 106.06,
+    "latitude": 35.2
+  },
+  "庆阳": {
+    "time": -2909,
+    "longitude": 107.88,
+    "latitude": 36.03
+  },
+  "华池": {
+    "time": -2880,
+    "longitude": 108.0,
+    "latitude": 36.44
+  },
+  "庄宁": {
+    "time": -2777,
+    "longitude": 108.43,
+    "latitude": 35.5
+  },
+  "镇源": {
+    "time": -3067,
+    "longitude": 107.22,
+    "latitude": 35.7
+  },
+  "环县": {
+    "time": -3041,
+    "longitude": 107.33,
+    "latitude": 36.57
+  },
+  "合水": {
+    "time": -2875,
+    "longitude": 108.02,
+    "latitude": 35.81
+  },
+  "宁县": {
+    "time": -2894,
+    "longitude": 107.94,
+    "latitude": 35.17
+  },
+  "天水": {
+    "time": -3434,
+    "longitude": 105.69,
+    "latitude": 34.6
+  },
+  "徽县": {
+    "time": -3334,
+    "longitude": 106.11,
+    "latitude": 33.78
+  },
+  "礼县": {
+    "time": -3564,
+    "longitude": 105.15,
+    "latitude": 34.22
+  },
+  "武山": {
+    "time": -3629,
+    "longitude": 104.88,
+    "latitude": 34.69
+  },
+  "秦安": {
+    "time": -3434,
+    "longitude": 105.69,
+    "latitude": 34.89
+  },
+  "清水": {
+    "time": -3331,
+    "longitude": 106.12,
+    "latitude": 34.73
+  },
+  "两当": {
+    "time": -3293,
+    "longitude": 106.28,
+    "latitude": 33.9
+  },
+  "西和": {
+    "time": -3533,
+    "longitude": 105.28,
+    "latitude": 34.02
+  },
+  "甘谷": {
+    "time": -3516,
+    "longitude": 105.35,
+    "latitude": 34.7
+  },
+  "漳县": {
+    "time": -3725,
+    "longitude": 104.48,
+    "latitude": 34.87
+  },
+  "张家川": {
+    "time": -3305,
+    "longitude": 106.23,
+    "latitude": 35.0
+  },
+  "武都": {
+    "time": -3614,
+    "longitude": 104.94,
+    "latitude": 33.43
+  },
+  "宕昌": {
+    "time": -3749,
+    "longitude": 104.38,
+    "latitude": 34.06
+  },
+  "康县": {
+    "time": -3461,
+    "longitude": 105.58,
+    "latitude": 33.33
+  },
+  "成县": {
+    "time": -3432,
+    "longitude": 105.7,
+    "latitude": 33.75
+  },
+  "文县": {
+    "time": -3672,
+    "longitude": 104.7,
+    "latitude": 32.95
+  },
+  "临潭": {
+    "time": -3996,
+    "longitude": 103.35,
+    "latitude": 34.69
+  },
+  "舟曲": {
+    "time": -3749,
+    "longitude": 104.38,
+    "latitude": 33.81
+  },
+  "玛曲": {
+    "time": -4310,
+    "longitude": 102.04,
+    "latitude": 33.97
+  },
+  "下河": {
+    "time": -4210,
+    "longitude": 102.46,
+    "latitude": 35.21
+  },
+  "卓尼": {
+    "time": -3950,
+    "longitude": 103.54,
+    "latitude": 34.61
+  },
+  "迭部": {
+    "time": -4025,
+    "longitude": 103.23,
+    "latitude": 34.08
+  },
+  "碌曲": {
+    "time": -4200,
+    "longitude": 102.5,
+    "latitude": 34.6
+  },
+  "临夏": {
+    "time": -4027,
+    "longitude": 103.22,
+    "latitude": 35.62
+  },
+  "永靖": {
+    "time": -3998,
+    "longitude": 103.34,
+    "latitude": 35.97
+  },
+  "和政": {
+    "time": -4006,
+    "longitude": 103.31,
+    "latitude": 35.43
+  },
+  "康乐": {
+    "time": -3917,
+    "longitude": 103.68,
+    "latitude": 35.39
+  },
+  "广河": {
+    "time": -3950,
+    "longitude": 103.54,
+    "latitude": 35.46
+  },
+  "岷县": {
+    "time": -3830,
+    "longitude": 104.04,
+    "latitude": 34.41
+  },
+  "积石山": {
+    "time": -4116,
+    "longitude": 102.85,
+    "latitude": 35.74
+  },
+  "武威": {
+    "time": -4174,
+    "longitude": 102.61,
+    "latitude": 37.94
+  },
+  "民勤": {
+    "time": -4061,
+    "longitude": 103.08,
+    "latitude": 38.62
+  },
+  "古浪": {
+    "time": -4114,
+    "longitude": 102.86,
+    "latitude": 37.43
+  },
+  "景泰": {
+    "time": -3828,
+    "longitude": 104.05,
+    "latitude": 37.14
+  },
+  "天祝": {
+    "time": -4118,
+    "longitude": 102.84,
+    "latitude": 37.24
+  },
+  "张掖": {
+    "time": -4690,
+    "longitude": 100.46,
+    "latitude": 38.93
+  },
+  "民乐": {
+    "time": -4596,
+    "longitude": 100.85,
+    "latitude": 38.43
+  },
+  "临泽": {
+    "time": -4759,
+    "longitude": 100.17,
+    "latitude": 39.14
+  },
+  "山丹": {
+    "time": -4514,
+    "longitude": 101.19,
+    "latitude": 38.79
+  },
+  "高台": {
+    "time": -4838,
+    "longitude": 99.84,
+    "latitude": 39.14
+  },
+  "肃南": {
+    "time": -4903,
+    "longitude": 99.57,
+    "latitude": 38.86
+  },
+  "玉门": {
+    "time": -5381,
+    "longitude": 97.58,
+    "latitude": 39.81
+  },
+  "酒泉": {
+    "time": -5160,
+    "longitude": 98.5,
+    "latitude": 39.71
+  },
+  "敦煌": {
+    "time": -6070,
+    "longitude": 94.71,
+    "latitude": 40.13
+  },
+  "金塔": {
+    "time": -5059,
+    "longitude": 98.92,
+    "latitude": 39.97
+  },
+  "安西": {
+    "time": -5815,
+    "longitude": 95.77,
+    "latitude": 40.51
+  },
+  "阿克塞": {
+    "time": -6180,
+    "longitude": 94.25,
+    "latitude": 38.46
+  },
+  "肃北": {
+    "time": -6026,
+    "longitude": 94.89,
+    "latitude": 39.49
+  },
+  "西宁": {
+    "time": -4382,
+    "longitude": 101.74,
+    "latitude": 36.56
+  },
+  "大通": {
+    "time": -4399,
+    "longitude": 101.67,
+    "latitude": 36.92
+  },
+  "平安": {
+    "time": -4298,
+    "longitude": 102.09,
+    "latitude": 36.47
+  },
+  "湟中": {
+    "time": -4423,
+    "longitude": 101.57,
+    "latitude": 36.49
+  },
+  "乐都": {
+    "time": -4229,
+    "longitude": 102.38,
+    "latitude": 36.49
+  },
+  "民和": {
+    "time": -4128,
+    "longitude": 102.8,
+    "latitude": 36.3
+  },
+  "湟源": {
+    "time": -4493,
+    "longitude": 101.28,
+    "latitude": 36.72
+  },
+  "互助": {
+    "time": -4332,
+    "longitude": 101.95,
+    "latitude": 36.84
+  },
+  "化隆": {
+    "time": -4248,
+    "longitude": 102.3,
+    "latitude": 36.11
+  },
+  "循化": {
+    "time": -4210,
+    "longitude": 102.46,
+    "latitude": 35.84
+  },
+  "门源": {
+    "time": -4411,
+    "longitude": 101.62,
+    "latitude": 37.37
+  },
+  "海晏": {
+    "time": -4562,
+    "longitude": 100.99,
+    "latitude": 36.89
+  },
+  "刚察": {
+    "time": -4759,
+    "longitude": 100.17,
+    "latitude": 37.32
+  },
+  "祁连": {
+    "time": -4747,
+    "longitude": 100.22,
+    "latitude": 38.2
+  },
+  "同仁": {
+    "time": -4320,
+    "longitude": 102.0,
+    "latitude": 35.54
+  },
+  "尖扎": {
+    "time": -4320,
+    "longitude": 102.0,
+    "latitude": 35.92
+  },
+  "泽库": {
+    "time": -4440,
+    "longitude": 101.5,
+    "latitude": 35.03
+  },
+  "河南": {
+    "time": -4411,
+    "longitude": 101.62,
+    "latitude": 34.75
+  },
+  "共和": {
+    "time": -4654,
+    "longitude": 100.61,
+    "latitude": 36.27
+  },
+  "贵德": {
+    "time": -4447,
+    "longitude": 101.47,
+    "latitude": 36.02
+  },
+  "贵南": {
+    "time": -4620,
+    "longitude": 100.75,
+    "latitude": 35.57
+  },
+  "同德": {
+    "time": -4649,
+    "longitude": 100.63,
+    "latitude": 35.24
+  },
+  "兴海": {
+    "time": -4802,
+    "longitude": 99.99,
+    "latitude": 35.6
+  },
+  "玛沁": {
+    "time": -4738,
+    "longitude": 100.26,
+    "latitude": 34.49
+  },
+  "甘德": {
+    "time": -4826,
+    "longitude": 99.89,
+    "latitude": 33.95
+  },
+  "久治": {
+    "time": -4447,
+    "longitude": 101.47,
+    "latitude": 33.46
+  },
+  "班玛": {
+    "time": -4625,
+    "longitude": 100.73,
+    "latitude": 32.92
+  },
+  "达日": {
+    "time": -4877,
+    "longitude": 99.68,
+    "latitude": 33.74
+  },
+  "玛多": {
+    "time": -5218,
+    "longitude": 98.26,
+    "latitude": 34.92
+  },
+  "玉树": {
+    "time": -5527,
+    "longitude": 96.97,
+    "latitude": 33.03
+  },
+  "称多": {
+    "time": -5491,
+    "longitude": 97.12,
+    "latitude": 33.35
+  },
+  "囊谦": {
+    "time": -5647,
+    "longitude": 96.47,
+    "latitude": 32.23
+  },
+  "杂多": {
+    "time": -5928,
+    "longitude": 95.3,
+    "latitude": 32.92
+  },
+  "治多": {
+    "time": -5856,
+    "longitude": 95.6,
+    "latitude": 33.86
+  },
+  "曲麻菜": {
+    "time": -5880,
+    "longitude": 95.5,
+    "latitude": 34.52
+  },
+  "格尔木": {
+    "time": -6024,
+    "longitude": 94.9,
+    "latitude": 36.41
+  },
+  "乌兰": {
+    "time": -5170,
+    "longitude": 98.46,
+    "latitude": 36.9
+  },
+  "都兰": {
+    "time": -5249,
+    "longitude": 98.13,
+    "latitude": 36.3
+  },
+  "天峻": {
+    "time": -5033,
+    "longitude": 99.03,
+    "latitude": 37.28
+  },
+  "银川": {
+    "time": -3295,
+    "longitude": 106.27,
+    "latitude": 38.47
+  },
+  "永宁": {
+    "time": -3302,
+    "longitude": 106.24,
+    "latitude": 38.28
+  },
+  "贺兰": {
+    "time": -3276,
+    "longitude": 106.35,
+    "latitude": 38.55
+  },
+  "石嘴山": {
+    "time": -3266,
+    "longitude": 106.39,
+    "latitude": 39.04
+  },
+  "平罗": {
+    "time": -3230,
+    "longitude": 106.54,
+    "latitude": 38.91
+  },
+  "陶乐": {
+    "time": -3194,
+    "longitude": 106.69,
+    "latitude": 38.82
+  },
+  "吴忠": {
+    "time": -3310,
+    "longitude": 106.21,
+    "latitude": 37.99
+  },
+  "同心": {
+    "time": -3374,
+    "longitude": 105.94,
+    "latitude": 36.97
+  },
+  "灵武": {
+    "time": -3278,
+    "longitude": 106.34,
+    "latitude": 38.1
+  },
+  "中宁": {
+    "time": -3442,
+    "longitude": 105.66,
+    "latitude": 37.48
+  },
+  "盐池": {
+    "time": -3022,
+    "longitude": 107.41,
+    "latitude": 37.78
+  },
+  "中卫": {
+    "time": -3557,
+    "longitude": 105.18,
+    "latitude": 37.51
+  },
+  "青铜峡": {
+    "time": -3343,
+    "longitude": 106.07,
+    "latitude": 38.02
+  },
+  "固原": {
+    "time": -3293,
+    "longitude": 106.28,
+    "latitude": 36.01
+  },
+  "西吉": {
+    "time": -3432,
+    "longitude": 105.7,
+    "latitude": 35.97
+  },
+  "泾源": {
+    "time": -3281,
+    "longitude": 106.33,
+    "latitude": 35.5
+  },
+  "海原": {
+    "time": -3446,
+    "longitude": 105.64,
+    "latitude": 36.56
+  },
+  "隆德": {
+    "time": -3334,
+    "longitude": 106.11,
+    "latitude": 35.63
+  },
+  "乌鲁木齐": {
+    "time": -7757,
+    "longitude": 87.68,
+    "latitude": 43.77
+  },
+  "克拉玛依": {
+    "time": -8455,
+    "longitude": 84.77,
+    "latitude": 45.59
+  },
+  "石河子": {
+    "time": -8174,
+    "longitude": 85.94,
+    "latitude": 44.27
+  },
+  "吐鲁番": {
+    "time": -7394,
+    "longitude": 89.19,
+    "latitude": 42.91
+  },
+  "托克逊": {
+    "time": -7529,
+    "longitude": 88.63,
+    "latitude": 42.77
+  },
+  "鄯善": {
+    "time": -7140,
+    "longitude": 90.25,
+    "latitude": 42.82
+  },
+  "哈密": {
+    "time": -6374,
+    "longitude": 93.44,
+    "latitude": 42.78
+  },
+  "伊吾": {
+    "time": -6084,
+    "longitude": 94.65,
+    "latitude": 43.28
+  },
+  "巴里坤": {
+    "time": -6480,
+    "longitude": 93.0,
+    "latitude": 43.6
+  },
+  "库尔勒": {
+    "time": -8146,
+    "longitude": 86.06,
+    "latitude": 41.68
+  },
+  "和静": {
+    "time": -8076,
+    "longitude": 86.35,
+    "latitude": 42.31
+  },
+  "和硕": {
+    "time": -7958,
+    "longitude": 86.84,
+    "latitude": 42.23
+  },
+  "博湖": {
+    "time": -8033,
+    "longitude": 86.53,
+    "latitude": 41.95
+  },
+  "尉梨": {
+    "time": -8102,
+    "longitude": 86.24,
+    "latitude": 41.36
+  },
+  "轮台": {
+    "time": -8580,
+    "longitude": 84.25,
+    "latitude": 41.77
+  },
+  "焉耆": {
+    "time": -8028,
+    "longitude": 86.55,
+    "latitude": 42.05
+  },
+  "和田": {
+    "time": -9614,
+    "longitude": 79.94,
+    "latitude": 37.12
+  },
+  "民丰": {
+    "time": -8969,
+    "longitude": 82.63,
+    "latitude": 37.07
+  },
+  "策勒": {
+    "time": -9413,
+    "longitude": 80.78,
+    "latitude": 37.04
+  },
+  "于田": {
+    "time": -9209,
+    "longitude": 81.63,
+    "latitude": 36.86
+  },
+  "洛浦": {
+    "time": -9559,
+    "longitude": 80.17,
+    "latitude": 37.12
+  },
+  "皮山": {
+    "time": -10010,
+    "longitude": 78.29,
+    "latitude": 37.06
+  },
+  "墨玉": {
+    "time": -9662,
+    "longitude": 79.74,
+    "latitude": 37.31
+  },
+  "阿克苏": {
+    "time": -9530,
+    "longitude": 80.29,
+    "latitude": 41.15
+  },
+  "温宿": {
+    "time": -9542,
+    "longitude": 80.24,
+    "latitude": 41.29
+  },
+  "拜城": {
+    "time": -9158,
+    "longitude": 81.84,
+    "latitude": 41.82
+  },
+  "库车": {
+    "time": -8887,
+    "longitude": 82.97,
+    "latitude": 41.68
+  },
+  "新和": {
+    "time": -8969,
+    "longitude": 82.63,
+    "latitude": 41.55
+  },
+  "沙雅": {
+    "time": -8904,
+    "longitude": 82.9,
+    "latitude": 41.25
+  },
+  "阿瓦提": {
+    "time": -9518,
+    "longitude": 80.34,
+    "latitude": 40.64
+  },
+  "柯平": {
+    "time": -9826,
+    "longitude": 79.06,
+    "latitude": 40.55
+  },
+  "乌什": {
+    "time": -9780,
+    "longitude": 79.25,
+    "latitude": 41.22
+  },
+  "咯什": {
+    "time": -10574,
+    "longitude": 75.94,
+    "latitude": 39.52
+  },
+  "巴楚": {
+    "time": -9938,
+    "longitude": 78.59,
+    "latitude": 39.78
+  },
+  "枷师": {
+    "time": -10373,
+    "longitude": 76.78,
+    "latitude": 39.46
+  },
+  "乐普湖": {
+    "time": -10399,
+    "longitude": 76.67,
+    "latitude": 39.23
+  },
+  "麦盖提": {
+    "time": -10171,
+    "longitude": 77.62,
+    "latitude": 38.95
+  },
+  "莎车": {
+    "time": -10260,
+    "longitude": 77.25,
+    "latitude": 38.45
+  },
+  "泽普": {
+    "time": -10258,
+    "longitude": 77.26,
+    "latitude": 38.2
+  },
+  "叶城": {
+    "time": -10219,
+    "longitude": 77.42,
+    "latitude": 37.89
+  },
+  "疏勒": {
+    "time": -10548,
+    "longitude": 76.05,
+    "latitude": 39.41
+  },
+  "英吉沙": {
+    "time": -10519,
+    "longitude": 76.17,
+    "latitude": 38.91
+  },
+  "疏附": {
+    "time": -10601,
+    "longitude": 75.83,
+    "latitude": 39.42
+  },
+  "塔什库尔干": {
+    "time": -10747,
+    "longitude": 75.22,
+    "latitude": 75.22
+  },
+  "阿图什": {
+    "time": -10531,
+    "longitude": 76.12,
+    "latitude": 39.73
+  },
+  "阿合奇": {
+    "time": -9979,
+    "longitude": 78.42,
+    "latitude": 41.91
+  },
+  "阿克陶": {
+    "time": -10574,
+    "longitude": 75.94,
+    "latitude": 39.14
+  },
+  "乌恰": {
+    "time": -10757,
+    "longitude": 75.18,
+    "latitude": 39.7
+  },
+  "昌吉": {
+    "time": -7846,
+    "longitude": 87.31,
+    "latitude": 44.05
+  },
+  "阜康": {
+    "time": -7694,
+    "longitude": 87.94,
+    "latitude": 44.14
+  },
+  "奇台": {
+    "time": -7315,
+    "longitude": 89.52,
+    "latitude": 44.02
+  },
+  "吉木萨尔": {
+    "time": -7406,
+    "longitude": 89.14,
+    "latitude": 44.0
+  },
+  "米泉": {
+    "time": -7757,
+    "longitude": 87.68,
+    "latitude": 43.97
+  },
+  "玛纳斯": {
+    "time": -8107,
+    "longitude": 86.22,
+    "latitude": 44.28
+  },
+  "呼图壁": {
+    "time": -7939,
+    "longitude": 86.92,
+    "latitude": 44.18
+  },
+  "木垒": {
+    "time": -7118,
+    "longitude": 90.34,
+    "latitude": 43.8
+  },
+  "博乐": {
+    "time": -9096,
+    "longitude": 82.1,
+    "latitude": 44.93
+  },
+  "精河": {
+    "time": -8899,
+    "longitude": 82.92,
+    "latitude": 44.67
+  },
+  "温泉": {
+    "time": -9341,
+    "longitude": 81.08,
+    "latitude": 44.95
+  },
+  "伊宁": {
+    "time": -9281,
+    "longitude": 81.33,
+    "latitude": 43.91
+  },
+  "尼勒克": {
+    "time": -8993,
+    "longitude": 82.53,
+    "latitude": 43.82
+  },
+  "新源": {
+    "time": -8815,
+    "longitude": 83.27,
+    "latitude": 43.41
+  },
+  "巩留": {
+    "time": -9065,
+    "longitude": 82.23,
+    "latitude": 43.35
+  },
+  "奎屯": {
+    "time": -8426,
+    "longitude": 84.89,
+    "latitude": 44.45
+  },
+  "特克斯": {
+    "time": -9166,
+    "longitude": 81.81,
+    "latitude": 43.23
+  },
+  "昭苏": {
+    "time": -9341,
+    "longitude": 81.08,
+    "latitude": 43.15
+  },
+  "霍城": {
+    "time": -9391,
+    "longitude": 80.87,
+    "latitude": 44.07
+  },
+  "察布察尔": {
+    "time": -9331,
+    "longitude": 81.12,
+    "latitude": 43.82
+  },
+  "塔城": {
+    "time": -8890,
+    "longitude": 82.96,
+    "latitude": 46.74
+  },
+  "额敏": {
+    "time": -8731,
+    "longitude": 83.62,
+    "latitude": 46.52
+  },
+  "乌苏": {
+    "time": -8491,
+    "longitude": 84.62,
+    "latitude": 44.45
+  },
+  "托里": {
+    "time": -8738,
+    "longitude": 83.59,
+    "latitude": 45.92
+  },
+  "裕民": {
+    "time": -8894,
+    "longitude": 82.94,
+    "latitude": 46.21
+  },
+  "沙湾": {
+    "time": -8266,
+    "longitude": 85.56,
+    "latitude": 44.29
+  },
+  "和布克赛尔": {
+    "time": -8369,
+    "longitude": 85.13,
+    "latitude": 46.78
+  },
+  "阿勒泰": {
+    "time": -7646,
+    "longitude": 88.14,
+    "latitude": 47.86
+  },
+  "青河": {
+    "time": -7111,
+    "longitude": 90.37,
+    "latitude": 46.71
+  },
+  "富蕴": {
+    "time": -7334,
+    "longitude": 89.44,
+    "latitude": 47.05
+  },
+  "福海": {
+    "time": -7798,
+    "longitude": 87.51,
+    "latitude": 47.15
+  },
+  "吉木乃": {
+    "time": -8198,
+    "longitude": 85.84,
+    "latitude": 47.42
+  },
+  "布尔津": {
+    "time": -7939,
+    "longitude": 86.92,
+    "latitude": 47.7
+  },
+  "哈巴河": {
+    "time": -8062,
+    "longitude": 86.41,
+    "latitude": 48.05
+  },
+  "广州": {
+    "time": -1625,
+    "longitude": 113.23,
+    "latitude": 23.16
+  },
+  "花县": {
+    "time": -1634,
+    "longitude": 113.19,
+    "latitude": 23.4
+  },
+  "新十": {
+    "time": -1392,
+    "longitude": 114.2,
+    "latitude": 24.09
+  },
+  "增城": {
+    "time": -1486,
+    "longitude": 113.81,
+    "latitude": 23.13
+  },
+  "从化": {
+    "time": -1548,
+    "longitude": 113.55,
+    "latitude": 23.57
+  },
+  "龙门": {
+    "time": -1380,
+    "longitude": 114.25,
+    "latitude": 23.75
+  },
+  "番禺": {
+    "time": -1594,
+    "longitude": 113.36,
+    "latitude": 22.95
+  },
+  "汕头": {
+    "time": -794,
+    "longitude": 116.69,
+    "latitude": 23.39
+  },
+  "茂名": {
+    "time": -2189,
+    "longitude": 110.88,
+    "latitude": 21.68
+  },
+  "佛山": {
+    "time": -1654,
+    "longitude": 113.11,
+    "latitude": 23.05
+  },
+  "江门": {
+    "time": -1666,
+    "longitude": 113.06,
+    "latitude": 22.61
+  },
+  "深圳": {
+    "time": -1423,
+    "longitude": 114.07,
+    "latitude": 22.62
+  },
+  "宝安": {
+    "time": -1476,
+    "longitude": 113.85,
+    "latitude": 22.58
+  },
+  "珠海": {
+    "time": -1555,
+    "longitude": 113.52,
+    "latitude": 22.3
+  },
+  "韶关": {
+    "time": -1531,
+    "longitude": 113.62,
+    "latitude": 24.84
+  },
+  "曲江": {
+    "time": -1541,
+    "longitude": 113.58,
+    "latitude": 24.68
+  },
+  "乐昌": {
+    "time": -1596,
+    "longitude": 113.35,
+    "latitude": 25.14
+  },
+  "仁化": {
+    "time": -1505,
+    "longitude": 113.73,
+    "latitude": 25.11
+  },
+  "南雄": {
+    "time": -1361,
+    "longitude": 114.33,
+    "latitude": 25.14
+  },
+  "始兴": {
+    "time": -1421,
+    "longitude": 114.08,
+    "latitude": 24.78
+  },
+  "翁源": {
+    "time": -1409,
+    "longitude": 114.13,
+    "latitude": 24.36
+  },
+  "佛岗": {
+    "time": -1555,
+    "longitude": 113.52,
+    "latitude": 23.86
+  },
+  "英德": {
+    "time": -1589,
+    "longitude": 113.38,
+    "latitude": 24.17
+  },
+  "清远": {
+    "time": -1678,
+    "longitude": 113.01,
+    "latitude": 23.7
+  },
+  "阳山": {
+    "time": -1764,
+    "longitude": 112.65,
+    "latitude": 24.48
+  },
+  "连县": {
+    "time": -1824,
+    "longitude": 112.4,
+    "latitude": 24.77
+  },
+  "连山": {
+    "time": -1903,
+    "longitude": 112.07,
+    "latitude": 24.59
+  },
+  "连南": {
+    "time": -1853,
+    "longitude": 112.28,
+    "latitude": 24.77
+  },
+  "惠州": {
+    "time": -1344,
+    "longitude": 114.4,
+    "latitude": 23.09
+  },
+  "惠阳": {
+    "time": -1344,
+    "longitude": 114.4,
+    "latitude": 23.09
+  },
+  "博罗": {
+    "time": -1373,
+    "longitude": 114.28,
+    "latitude": 23.18
+  },
+  "河源": {
+    "time": -1277,
+    "longitude": 114.68,
+    "latitude": 23.73
+  },
+  "连平": {
+    "time": -1325,
+    "longitude": 114.48,
+    "latitude": 24.39
+  },
+  "和平": {
+    "time": -1226,
+    "longitude": 114.89,
+    "latitude": 24.45
+  },
+  "龙川": {
+    "time": -1140,
+    "longitude": 115.25,
+    "latitude": 24.09
+  },
+  "紫金": {
+    "time": -1157,
+    "longitude": 115.18,
+    "latitude": 23.64
+  },
+  "惠东": {
+    "time": -1272,
+    "longitude": 114.7,
+    "latitude": 22.97
+  },
+  "东莞": {
+    "time": -1500,
+    "longitude": 113.75,
+    "latitude": 23.04
+  },
+  "梅州": {
+    "time": -936,
+    "longitude": 116.1,
+    "latitude": 24.55
+  },
+  "梅县": {
+    "time": -936,
+    "longitude": 116.1,
+    "latitude": 24.55
+  },
+  "平远": {
+    "time": -504,
+    "longitude": 117.9,
+    "latitude": 24.59
+  },
+  "蕉岭": {
+    "time": -917,
+    "longitude": 116.18,
+    "latitude": 24.66
+  },
+  "大埔": {
+    "time": -792,
+    "longitude": 116.7,
+    "latitude": 24.34
+  },
+  "丰顺": {
+    "time": -917,
+    "longitude": 116.18,
+    "latitude": 23.78
+  },
+  "五华": {
+    "time": -1020,
+    "longitude": 115.75,
+    "latitude": 23.93
+  },
+  "兴宁": {
+    "time": -1020,
+    "longitude": 115.75,
+    "latitude": 24.15
+  },
+  "潮州": {
+    "time": -809,
+    "longitude": 116.63,
+    "latitude": 23.68
+  },
+  "澄海": {
+    "time": -768,
+    "longitude": 116.8,
+    "latitude": 23.48
+  },
+  "潮安": {
+    "time": -809,
+    "longitude": 116.63,
+    "latitude": 23.68
+  },
+  "饶平": {
+    "time": -718,
+    "longitude": 117.01,
+    "latitude": 23.7
+  },
+  "南澳": {
+    "time": -713,
+    "longitude": 117.03,
+    "latitude": 23.44
+  },
+  "潮阳": {
+    "time": -814,
+    "longitude": 116.61,
+    "latitude": 23.27
+  },
+  "惠来": {
+    "time": -890,
+    "longitude": 116.29,
+    "latitude": 23.07
+  },
+  "陆丰": {
+    "time": -566,
+    "longitude": 117.64,
+    "latitude": 22.95
+  },
+  "海丰": {
+    "time": -641,
+    "longitude": 117.33,
+    "latitude": 22.98
+  },
+  "普宁": {
+    "time": -919,
+    "longitude": 116.17,
+    "latitude": 23.29
+  },
+  "揭西": {
+    "time": -1003,
+    "longitude": 115.82,
+    "latitude": 23.45
+  },
+  "揭阳": {
+    "time": -876,
+    "longitude": 116.35,
+    "latitude": 23.55
+  },
+  "南海": {
+    "time": -1654,
+    "longitude": 113.11,
+    "latitude": 23.05
+  },
+  "三水": {
+    "time": -1706,
+    "longitude": 112.89,
+    "latitude": 23.18
+  },
+  "顺德": {
+    "time": -1622,
+    "longitude": 113.24,
+    "latitude": 22.84
+  },
+  "中山": {
+    "time": -1589,
+    "longitude": 113.38,
+    "latitude": 22.52
+  },
+  "斗门": {
+    "time": -1620,
+    "longitude": 113.25,
+    "latitude": 22.2
+  },
+  "新会": {
+    "time": -1675,
+    "longitude": 113.02,
+    "latitude": 22.52
+  },
+  "鹤山": {
+    "time": -1694,
+    "longitude": 112.94,
+    "latitude": 22.76
+  },
+  "开平": {
+    "time": -1757,
+    "longitude": 112.68,
+    "latitude": 22.36
+  },
+  "台山": {
+    "time": -1733,
+    "longitude": 112.78,
+    "latitude": 22.27
+  },
+  "恩平": {
+    "time": -1850,
+    "longitude": 112.29,
+    "latitude": 22.21
+  },
+  "高明": {
+    "time": -1738,
+    "longitude": 112.76,
+    "latitude": 21.71
+  },
+  "廉江": {
+    "time": -2335,
+    "longitude": 110.27,
+    "latitude": 21.63
+  },
+  "化州": {
+    "time": -2258,
+    "longitude": 110.59,
+    "latitude": 21.64
+  },
+  "高州": {
+    "time": -2201,
+    "longitude": 110.83,
+    "latitude": 21.95
+  },
+  "信宜": {
+    "time": -2184,
+    "longitude": 110.9,
+    "latitude": 22.36
+  },
+  "阳春": {
+    "time": -1973,
+    "longitude": 111.78,
+    "latitude": 22.16
+  },
+  "阳江": {
+    "time": -1932,
+    "longitude": 111.95,
+    "latitude": 21.85
+  },
+  "电白": {
+    "time": -2162,
+    "longitude": 110.99,
+    "latitude": 21.52
+  },
+  "吴川": {
+    "time": -2213,
+    "longitude": 110.78,
+    "latitude": 21.43
+  },
+  "徐闻": {
+    "time": -2359,
+    "longitude": 110.17,
+    "latitude": 20.34
+  },
+  "海康": {
+    "time": -2383,
+    "longitude": 110.07,
+    "latitude": 20.91
+  },
+  "遂溪": {
+    "time": -2342,
+    "longitude": 110.24,
+    "latitude": 21.39
+  },
+  "肇庆": {
+    "time": -1814,
+    "longitude": 112.44,
+    "latitude": 23.05
+  },
+  "高要": {
+    "time": -1814,
+    "longitude": 112.44,
+    "latitude": 23.05
+  },
+  "怀集": {
+    "time": -1877,
+    "longitude": 112.18,
+    "latitude": 23.93
+  },
+  "广宁": {
+    "time": -1817,
+    "longitude": 112.43,
+    "latitude": 23.14
+  },
+  "四会": {
+    "time": -1757,
+    "longitude": 112.68,
+    "latitude": 23.36
+  },
+  "新兴": {
+    "time": -1872,
+    "longitude": 112.2,
+    "latitude": 22.68
+  },
+  "云浮": {
+    "time": -1915,
+    "longitude": 112.02,
+    "latitude": 22.93
+  },
+  "罗定": {
+    "time": -2026,
+    "longitude": 111.56,
+    "latitude": 22.77
+  },
+  "郁南": {
+    "time": -2038,
+    "longitude": 111.51,
+    "latitude": 23.23
+  },
+  "德庆": {
+    "time": -1980,
+    "longitude": 111.75,
+    "latitude": 23.15
+  },
+  "封开": {
+    "time": -2045,
+    "longitude": 111.48,
+    "latitude": 23.45
+  }
+}

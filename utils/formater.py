@@ -31,9 +31,26 @@ def SpaceFormatWAlign(strs, space_num=4):
     A = ' ' * space_num
     return A.join(map(lambda a:"{:^8s}".format(a), strs))
 
-def DotFormatWColor(strs):
-    if len(strs) > 1:
-        c = strs[1]
-        return color_map[c].format("{:^7s}".format('⋅'.join(strs)))
+def DotFormatWColor(strs, wuxing_idx=1):
+    if len(strs) > wuxing_idx:
+        c = strs[wuxing_idx]
+        if c in color_map:
+            return color_map[c].format("{:^7s}".format('⋅'.join(strs)))
+        else:
+            return "{:^7s}".format('⋅'.join(strs))
     else:
         return"{:^7s}".format('⋅'.join(strs))
+
+def EmptyFormatWColor(strs, wuxing_idx=1):
+    if len(strs) > wuxing_idx:
+        c = strs[wuxing_idx]
+        return color_map[c].format("{:^7s}".format(''.join(strs)))
+    else:
+        return"{:^7s}".format(''.join(strs))
+
+def EmptyFormatWColorNoAlign(strs, wuxing_idx=1):
+    if len(strs) > wuxing_idx:
+        c = strs[wuxing_idx]
+        return color_map[c].format(''.join(strs))
+    else:
+        return ''.join(strs)

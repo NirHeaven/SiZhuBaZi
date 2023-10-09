@@ -1,47 +1,108 @@
 from .constant import *
 import itertools as it
+from .formater import *
 
-import sxtwl
+import sxtwl, json, math, os
 
-def getGanZhi(year, month, day, hour):
 
-    day = sxtwl.fromSolar(year, month, day)
-    yTG = day.getYearGZ(True)
-    mTG = day.getMonthGZ()
-    dTG = day.getDayGZ()
+def getTrueSolarTime(year, month, day, hour, minute, isLunarLeap, zone):
+    SolarTimeDiff = json.load(open('utils/真太阳时.json'))
+    diff = SolarTimeDiff[zone]['time']
+    diff_minute = math.ceil(diff / 60)
+    if diff_minute < 0:
+        diff_minute *= -1
+        while True:
+            if minute > diff_minute:
+                minute -= diff_minute
+                return year, month, day, hour, minute
+            minute += 60
+            if hour > 0:
+                hour -= 1
+            else:
+                hour = 23
+                if day > 1:
+                    day -= 1
+                else:
+                    if month > 1:
+                        day = C_DayPerMonth[month - 1]
+                        if month - 1 == 2 and isLunarLeap:
+                            day += 1
+                        month -= 1
+                    else:
+                        day = C_DayPerMonth[12]
+                        month = 11
+                        year -= 1
+    else:
+        while True:
+            if minute + diff_minute < 60:
+                minute += diff_minute
+                return year, month, day, hour, minute
+            diff_minute -= 60
+            if hour < 23:
+                hour += 1
+            else:
+                hour = 0
+                c_day_num = C_DayPerMonth[month]
+                if month == 2 and isLunarLeap:
+                    c_day_num += 1
+                if day < c_day_num:
+                    day += 1
+                else:
+                    day = 1
+                    if month < 11:
+                        month += 1
+                    else:
+                        month = 1
+                        year += 1
+
+
+def getGanZhi(year, month, day, hour, minute, zone):
+
+    info = sxtwl.fromSolar(year, month, day)
+    print('北京时间:', year, month, day, hour, minute)
+    year, month, day, hour, minute = getTrueSolarTime(year, month, day, hour, minute, info.isLunarLeap(), zone)
+    print('真太阳时:', year, month, day, hour, minute)
+
+    info = sxtwl.fromSolar(year, month, day)
+    yTG = info.getYearGZ(True)
+    mTG = info.getMonthGZ()
+    dTG = info.getDayGZ()
     hTG = sxtwl.getShiGz(dTG.tg, hour)
     isInJi = False
     for i in range(18):
-        if day.hasJieQi():
-            JQ = JQMC[day.getJieQi()]
+        if info.hasJieQi():
+            JQ = C_JQMC[info.getJieQi()]
             if JQ in ['立春', '立夏', '立秋', '立冬']:
                 isInJi = True
                 break
-        day = day.after(1)
-    return [TianGan[yTG.tg], DiZhi[yTG.dz], TianGan[mTG.tg], DiZhi[mTG.dz], TianGan[dTG.tg], DiZhi[dTG.dz], TianGan[hTG.tg], DiZhi[hTG.dz]], isInJi
+        info = info.after(1)
+    return EmptyFormat([C_TianGan[yTG.tg], C_DiZhi[yTG.dz],
+            C_TianGan[mTG.tg], C_DiZhi[mTG.dz],
+            C_TianGan[dTG.tg], C_DiZhi[dTG.dz],
+            C_TianGan[hTG.tg], C_DiZhi[hTG.dz]]), isInJi
 
-def _getShiShen(wuxingA, yinyangA, wuxingB, yinyangB):
+def C_getShiShen(wuxingA, yinyangA, wuxingB, yinyangB):
     # 印
     ShiShenName, ShiShenAlias = '', ''
-    if WuXingSheng[wuxingB] == wuxingA:
+    if C_WuXingSheng[wuxingB] == wuxingA:
         if yinyangA != yinyangB:
             ShiShenName, ShiShenAlias = '正印', '印'
         else:
             ShiShenName, ShiShenAlias = '偏印', '枭'
     # 食伤
-    elif WuXingSheng[wuxingA] ==  wuxingB:
+    elif C_WuXingSheng[wuxingA] ==  wuxingB:
         if yinyangA != yinyangB:
             ShiShenName, ShiShenAlias = '伤官', '伤'
         else:
             ShiShenName, ShiShenAlias = '食神', '食'
     # 财
-    elif WuXingKe[wuxingA] == wuxingB:
+    elif C_WuXingKe[wuxingA] == wuxingB:
         if yinyangA != yinyangB:
             ShiShenName, ShiShenAlias = '正财', '才'
         else:
             ShiShenName, ShiShenAlias = '偏财', '财'
     # 官杀
-    elif WuXingKe[wuxingB] == wuxingA:
+    elif C_WuXingKe[wuxingB] == wuxingA:
         if yinyangA != yinyangB:
             ShiShenName, ShiShenAlias = '正官', '官'
         else:
@@ -56,45 +117,58 @@ def _getShiShen(wuxingA, yinyangA, wuxingB, yinyangB):
     return [ShiShenName, wuxingB, ShiShenAlias]
 
 # A为本身
-def getShiShen(tianganA, tianganB, flag=False):
-    if flag and tianganA == tianganB:
-        return ['身主']
-    wuxingA, yinyangA = WuXingTianGan[tianganA]
-    wuxingB, yinyangB = WuXingTianGan[tianganB]
-    return _getShiShen(wuxingA, yinyangA, wuxingB, yinyangB)[:2]
+def getShiShen(tianganA, tianganB):
+    wuxingA, yinyangA = C_WuXingTianGan[tianganA]
+    wuxingB, yinyangB = C_WuXingTianGan[tianganB]
+    return C_getShiShen(wuxingA, yinyangA, wuxingB, yinyangB)[:2]
 
 
-def _getWuXing(D, K):
+def C_getWuXing(D, K):
     wuxing, yiyang = D[K]
     yiyang = '阳' if yiyang else '阴'
     return [wuxing, yiyang]
 
 def getTianGanWuXing(tiangan):
-    return _getWuXing(WuXingTianGan, tiangan)
+    return C_getWuXing(C_WuXingTianGan, tiangan)
 
 def getDiZhiWuXing(dizhi):
-    return _getWuXing(WuXingDiZhi, dizhi)
+    return C_getWuXing(C_WuXingDiZhi, dizhi)
 
 
 def getCangGan(dizhi):
-    return list(DiZhiCangGan[dizhi])
+    return list(C_DiZhiCangGan[dizhi])
 
 
-def isPairInDict(keys, D):
+def isPairInDict(keys, D, permutate=True):
     results = set()
     n = len(keys)
     for i in range(n-1):
         k1 = keys[i]
         for j in range(i+1, n):
             k2 = keys[j]
-            for item in it.permutations([k1, k2]):
+            if permutate:
+                seq = it.permutations([k1, k2])
+            else:
+                seq = [[k1, k2]]
+            for item in seq:
                 t_item = tuple(item)
                 if t_item in D:
                     results.add(t_item + (D[t_item], ))
     return list(results)
 
+def isAdjacentPairInDict(keys, D):
+    results = set()
+    n = len(keys)
+    for i in range(n-1):
+        k1 = keys[i]
+        k2 = keys[i+1]
+        t_item = tuple([k1, k2])
+        if t_item in D:
+            results.add(t_item + (D[t_item], ))
+    return list(results)
 
-def isTripletInDict(keys, D):
+
+def isTripletInDict(keys, D, permutate=True):
     results = set()
     n = len(keys)
     for i in range(n-2):
@@ -103,7 +177,11 @@ def isTripletInDict(keys, D):
             k2 = keys[j]
             for k in range(j+1, n):
                 k3 = keys[k]
-                for item in it.permutations([k1, k2, k3]):
+                if permutate:
+                    seq = it.permutations([k1, k2, k3])
+                else:
+                    seq = [[k1, k2, k3]]
+                for item in seq:
                     t_item = tuple(item)
                     if t_item in D:
                         results.add(t_item + (D[t_item], ))
@@ -120,64 +198,69 @@ def replaceNoneByKey(datas, key):
     return rdata
 
 def getTianGanHeChong(tiangans):
-    He = isPairInDict(tiangans, TianGanWuHe)
-    Chong = isPairInDict(tiangans, TianGanSiChong)
+    He = isPairInDict(tiangans, C_TianGanWuHe)
+    Chong = isPairInDict(tiangans, C_TianGanSiChong)
     He = replaceNoneByKey(He, '合')
     Chong = replaceNoneByKey(Chong, '冲')
     return He, Chong
 
 
 def getDiZhiHeChongXingHai(dizhis):
-    He = isPairInDict(dizhis, DiZhiLiuHe)
-    Chong = isPairInDict(dizhis, DiZhiLiuChong)
-    Hai = isPairInDict(dizhis, DiZhiLiuHai)
-    Xing = isPairInDict(dizhis, DiZhiSiXing)
+    He = isPairInDict(dizhis, C_DiZhiLiuHe)
+    Chong = isPairInDict(dizhis, C_DiZhiLiuChong)
+    Hai = isPairInDict(dizhis, C_DiZhiLiuHai)
+    Xing = isPairInDict(dizhis, C_DiZhiSiXing)
+    Po = isPairInDict(dizhis, C_DiZhiLiuPo)
+    Gong = isAdjacentPairInDict(dizhis, C_DiZhiGong)
     He = replaceNoneByKey(He, '合')
     Chong = replaceNoneByKey(Chong, '冲')
     Hai = replaceNoneByKey(Hai, '害')
     Xing = replaceNoneByKey(Xing, '刑')
+    Po = replaceNoneByKey(Po, '破')
+    Gong = replaceNoneByKey(Gong, '拱')
 
-    return He, Chong, Hai, Xing
+    return He, Chong, Hai, Xing, Po, Gong
 
 
 def getDiZhiHuiFang(dizhis):
-    return isTripletInDict(dizhis, DiZhiSiHuiFang)
+    return isTripletInDict(dizhis, C_DiZhiSiHuiFang)
 
 
 def getDiZhiHuiJu(dizhis):
-    HuiJu = isTripletInDict(dizhis, DiZhiWuHuiJu)
-    BanHuiJu = isPairInDict(dizhis, DiZhiBanHuiJu)
+    HuiJu = isTripletInDict(dizhis, C_DiZhiWuHuiJu)
+    BanHuiJu = isPairInDict(dizhis, C_DiZhiBanHuiJu)
+
     return HuiJu, BanHuiJu
 
 
 def isDeLing(RG, YZ, isInJi):
-    wuxing, _ = getTianGanWuXing(RG)
-    wuxing_YZ, _ = getDiZhiWuXing(YZ)
-    wangshi = WuXingSiShi[wuxing]['旺']
+    wuxing, C_ = getTianGanWuXing(RG)
+    wuxing_YZ, C_ = getDiZhiWuXing(YZ)
+    wangshi = C_WuXingSiShi[wuxing]['旺']
     if wangshi == '季':
         if isInJi:
             return True, [YZ, wuxing_YZ, '旺']
         else:
             return False, None
-    siji = DiZhiSiJi[wangshi]
+    siji = C_DiZhiSiJi[wangshi]
     if YZ in siji:
         return True, [YZ, wuxing_YZ, '旺']
-    xiangshi = WuXingSiShi[wuxing]['相']
+    xiangshi = C_WuXingSiShi[wuxing]['相']
     if xiangshi == '季':
         if isInJi:
-            return True,[YZ, wuxing_YZ, '相']
+            return True, [YZ, wuxing_YZ, '相']
         else:
             return False, None
-    siji = DiZhiSiJi[xiangshi]
+    siji = C_DiZhiSiJi[xiangshi]
     if YZ in siji:
         return True, [YZ, wuxing_YZ, '相']
     return False, None
 
 
 def isDeDi(RG, dizhis):
-    changsheng = ShiErChangSheng[RG]['长生']
-    lu = ShiErChangSheng[RG]['临官']
-    yangren = ShiErChangSheng[RG]['帝旺']
+    changsheng = C_ShiErChangSheng[RG]['长生']
+    lu = C_ShiErChangSheng[RG]['临官']
+    yangren = C_ShiErChangSheng[RG]['帝旺']
     D = {
         changsheng: '长生',
         lu: '禄',
@@ -187,7 +270,7 @@ def isDeDi(RG, dizhis):
     DiInfo = {}
     for i in [NZ, YZ, SZ]:
         if i in D:
-            wuxing, _ = getDiZhiWuXing(i)
+            wuxing, C_ = getDiZhiWuXing(i)
             k = D[i]
             if k not in DiInfo:
                 DiInfo[k] = [[i, wuxing]]
@@ -199,16 +282,16 @@ def isDeShi(tiangans, dizhis):
     wuxing_tiangan = []
     wuxing_dizhi = []
     for G in tiangans:
-        GWX, _ = _getWuXing(WuXingTianGan, G)
+        GWX, C_ = C_getWuXing(C_WuXingTianGan, G)
         wuxing_tiangan.append(GWX)
     RGWX = wuxing_tiangan.pop(-2)
     wuxing_tiangan.insert(-1, '')
     for Z in dizhis:
-        ZWX, _ = _getWuXing(WuXingDiZhi, Z)
+        ZWX, C_ = C_getWuXing(C_WuXingDiZhi, Z)
         wuxing_dizhi.append(ZWX)
 
-    for k in WuXingSheng:
-        if WuXingSheng[k] == RGWX:
+    for k in C_WuXingSheng:
+        if C_WuXingSheng[k] == RGWX:
             SRGWX = k
             break
     valid_keys = [RGWX, SRGWX]
@@ -247,26 +330,26 @@ def isYongShenExists(body, tiangans, dizhis):
     wuxing_tiangan = []
     wuxing_dizhi = []
     for G in tiangans:
-        GWX, _ = _getWuXing(WuXingTianGan, G)
+        GWX, C_ = C_getWuXing(C_WuXingTianGan, G)
         wuxing_tiangan.append(GWX)
     RGWX = wuxing_tiangan.pop(-2)
     wuxing_tiangan.insert(-1, '')
     for Z in dizhis:
-        ZWX, _ = _getWuXing(WuXingDiZhi, Z)
+        ZWX, C_ = C_getWuXing(C_WuXingDiZhi, Z)
         wuxing_dizhi.append(ZWX)
     if '弱' in body:
-        for k in WuXingSheng:
-            if WuXingSheng[k] == RGWX:
+        for k in C_WuXingSheng:
+            if C_WuXingSheng[k] == RGWX:
                 SRGWX = k
                 break
         valid_keys = [RGWX, SRGWX]
     else:
 
-        for k in WuXingKe:
-            if WuXingKe[k] == RGWX:
+        for k in C_WuXingKe:
+            if C_WuXingKe[k] == RGWX:
                 KRGWX = k
                 break
-        valid_keys = [KRGWX, WuXingSheng[RGWX], WuXingKe[RGWX]]
+        valid_keys = [KRGWX, C_WuXingSheng[RGWX], C_WuXingKe[RGWX]]
 
     YongShen = []
     for idx, WX in enumerate(wuxing_tiangan):
@@ -277,7 +360,59 @@ def isYongShenExists(body, tiangans, dizhis):
         if WX in valid_keys:
             Z = dizhis[idx]
             YongShen.append([Z] + getDiZhiWuXing(Z))
-    return len(YongShen) > 0, YongShen
+    return len(YongShen) > 0, YongShen, valid_keys
+
+def getNaYin(bazi):
+    NY = []
+    for idx in range(0, len(bazi), 2):
+        NY.append(C_NaYin[bazi[idx:idx+2]])
+    return NY
+
+def getKongWang(bazi):
+    KW = []
+    for idx in range(0, len(bazi), 2):
+        KW.append(C_KongWang[bazi[idx:idx+2]])
+    return KW
+
+def getBaZiKongWang(bazi):
+    KW = getKongWang(bazi)
+    RKW = KW[2]
+    dizhis = bazi[1::2]
+    isKW = []
+    for dz in dizhis:
+        if dz in RKW:
+            wuxing, yiyang = getDiZhiWuXing(dz)
+            isKW.append((dz, wuxing, yiyang))
+        else:
+            isKW.append(None)
+    return KW, isKW
+
+def isSanQi(tiangans):
+    SanQi = isTripletInDict(tiangans[:-1][::-1], C_SanQi, False)
+    t = None
+    if len(SanQi) == 0:
+        SanQi = isTripletInDict(tiangans[:-1], C_SanQi, False)
+        if len(SanQi) > 0:
+            t = '富'
+    else:
+        t = '贵'
+    if t is None:
+        return False, None
+    else:
+        sanqi = list(SanQi[0])
+        return True, [EmptyFormat(sanqi[:-1]), sanqi[-1], t]
+
+def isKuiGang(bazi):
+    RGZ = bazi[4:6]
+    for item in C_KuiGang:
+        if RGZ == item:
+            return True
+    return False
+
+
+
+
+
 
 
 
