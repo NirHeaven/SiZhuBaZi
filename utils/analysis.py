@@ -188,6 +188,11 @@ def isTripletInDict(keys, D, permutate=True):
     return list(results)
 
 
+def insertValueByIndex(datas, index, v):
+    for idx in range(len(datas)):
+        datas[idx] = list(datas[idx])
+        datas[idx].insert(index, v)
+
 def replaceNoneByKey(datas, key):
     rdata = []
     for item in datas:
@@ -196,6 +201,31 @@ def replaceNoneByKey(datas, key):
             item[-1] = key
         rdata.append(item)
     return rdata
+
+def getNaYin(bazi):
+    NY = []
+    for idx in range(0, len(bazi), 2):
+        NY.append(C_NaYin[bazi[idx:idx+2]])
+    return NY
+
+def getKongWang(bazi):
+    KW = []
+    for idx in range(0, len(bazi), 2):
+        KW.append(C_KongWang[bazi[idx:idx+2]])
+    return KW
+
+def getBaZiKongWang(bazi):
+    KW = getKongWang(bazi)
+    RKW = KW[2]
+    dizhis = bazi[1::2]
+    isKW = []
+    for dz in dizhis:
+        if dz in RKW:
+            wuxing, yiyang = getDiZhiWuXing(dz)
+            isKW.append((dz, wuxing, yiyang))
+        else:
+            isKW.append(None)
+    return KW, isKW
 
 def getTianGanHeChong(tiangans):
     He = isPairInDict(tiangans, C_TianGanWuHe)
@@ -229,8 +259,72 @@ def getDiZhiHuiFang(dizhis):
 def getDiZhiHuiJu(dizhis):
     HuiJu = isTripletInDict(dizhis, C_DiZhiWuHuiJu)
     BanHuiJu = isPairInDict(dizhis, C_DiZhiBanHuiJu)
-
+    insertValueByIndex(HuiJu, -1, '合')
+    insertValueByIndex(BanHuiJu, -1, '半合')
     return HuiJu, BanHuiJu
+
+def getGeJu(baizi):
+    YZ = baizi[3]
+    GeJuGanShen = []
+    GeJuGanShenTianGan = []
+    for canggan in getCangGan(YZ):
+        canggan_wuxing, canggang_yinyang = getTianGanWuXing(canggan)
+        tiangan_wo_RG = baizi[::2]
+        tiangan_wo_RG = tiangan_wo_RG[0] + tiangan_wo_RG[1] + tiangan_wo_RG[3]
+        for tiangan in tiangan_wo_RG:
+            wuxing, yiyang = getTianGanWuXing(tiangan)
+            if wuxing == canggan_wuxing:
+                GeJuGanShenTianGan.append((tiangan, yiyang, yiyang==canggang_yinyang))
+                GeJuGanShen.append(getShiShen(baizi[4], tiangan))
+    if len(GeJuGanShen) == 0:
+        GeJuGanShen = None
+        GeJuGanShenTianGan = None
+    elif len(GeJuGanShen) == 1:
+        GeJuGanShen = GeJuGanShen[0][0]
+        GeJuGanShenTianGan = GeJuGanShenTianGan[0][0]
+    else:
+        t_idx = 0
+        for idx in range(len(GeJuGanShenTianGan)):
+            if GeJuGanShenTianGan[idx][-1]:
+                t_idx = idx
+                break
+        GeJuGanShen = GeJuGanShen[t_idx][0]
+        GeJuGanShenTianGan = GeJuGanShenTianGan[t_idx][0]
+    GeJu = ''
+    if GeJuGanShen is None:
+        result = getDiZhiHuiFang(baizi[1::2])
+        if len(result) == 0:
+            result, _ = getDiZhiHuiJu(baizi[1::2])
+            if len(result) == 0:
+                return GeJu, None
+        assert len(result) == 1
+        flag = False
+        for Z in result[0]:
+            if YZ == Z:
+                flag = True
+                _, yinyang = getDiZhiWuXing(YZ)
+                wuxing = result[0][-1]
+                wuxingtiangan, yinyangtiangang = baizi[4]
+                GeJuGanShen = C_getShiShen(wuxingtiangan, yinyangtiangang, wuxing, yinyang)[0]
+                break
+        if not flag:
+            return GeJu, None
+    if GeJuGanShen == '比肩':
+        GeJu = '建禄格'
+    elif GeJuGanShen == '劫财':
+        if GeJuGanShenTianGan in C_TianGanWYangRen:
+            GeJu =  '羊刃格'
+        else:
+            GeJu = ''
+    else:
+        GeJu = GeJuGanShen + '格'
+    GeJuInfo = C_GeJu[GeJu]
+    GeJuInfoLs = []
+    for k, v in GeJuInfo.items():
+        GeJuInfoLs.append([k, v])
+    return GeJu, GeJuInfoLs
+
+
 
 
 def isDeLing(RG, YZ, isInJi):
@@ -260,15 +354,17 @@ def isDeLing(RG, YZ, isInJi):
 def isDeDi(RG, dizhis):
     changsheng = C_ShiErChangSheng[RG]['长生']
     lu = C_ShiErChangSheng[RG]['临官']
-    yangren = C_ShiErChangSheng[RG]['帝旺']
+
     D = {
         changsheng: '长生',
-        lu: '禄',
-        yangren: '羊刃',
+        lu: '禄'
     }
-    NZ, YZ, SZ = dizhis[0], dizhis[1], dizhis[3]
+    if RG in C_TianGanWYangRen:
+        yangren = C_ShiErChangSheng[RG]['帝旺']
+        D.update({yangren: '羊刃'})
+    NZ, RZ, SZ = dizhis[0], dizhis[2], dizhis[3]
     DiInfo = {}
-    for i in [NZ, YZ, SZ]:
+    for i in [NZ, RZ, SZ]:
         if i in D:
             wuxing, C_ = getDiZhiWuXing(i)
             k = D[i]
@@ -362,30 +458,6 @@ def isYongShenExists(body, tiangans, dizhis):
             YongShen.append([Z] + getDiZhiWuXing(Z))
     return len(YongShen) > 0, YongShen, valid_keys
 
-def getNaYin(bazi):
-    NY = []
-    for idx in range(0, len(bazi), 2):
-        NY.append(C_NaYin[bazi[idx:idx+2]])
-    return NY
-
-def getKongWang(bazi):
-    KW = []
-    for idx in range(0, len(bazi), 2):
-        KW.append(C_KongWang[bazi[idx:idx+2]])
-    return KW
-
-def getBaZiKongWang(bazi):
-    KW = getKongWang(bazi)
-    RKW = KW[2]
-    dizhis = bazi[1::2]
-    isKW = []
-    for dz in dizhis:
-        if dz in RKW:
-            wuxing, yiyang = getDiZhiWuXing(dz)
-            isKW.append((dz, wuxing, yiyang))
-        else:
-            isKW.append(None)
-    return KW, isKW
 
 def isSanQi(tiangans):
     SanQi = isTripletInDict(tiangans[:-1][::-1], C_SanQi, False)

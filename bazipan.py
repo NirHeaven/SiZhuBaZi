@@ -1,7 +1,7 @@
 
 from utils import *
 
-def baziAnalysis(year, month, day, hour, minute, zone, bazi=None):
+def baziAnalysis(year, month, day, hour, minute, zone=None, bazi=None):
     if bazi is None:
         bazi, isInJi = getGanZhi(year, month, day, hour, minute, zone)
     else:
@@ -32,11 +32,7 @@ def baziAnalysis(year, month, day, hour, minute, zone, bazi=None):
             tCangGanWuXing.append([CG] + getTianGanWuXing(CG))
         CangGanWuXing.append(tCangGanWuXing)
         ZhiShen.append(tZhiShen)
-    # print(GanShen)
-    # print(TianGanWuXing)
-    # print(DiZhiWuXing)
-    # print(CangGanWuXing)
-    # print(ZhiShen)
+    GeJu, GeJuInfo = getGeJu(bazi)
     TianGanHe, TianGanChong = getTianGanHeChong(TianGan)
     # print(TianGanHe)
     # print(TianGanChong)
@@ -75,6 +71,11 @@ def baziAnalysis(year, month, day, hour, minute, zone, bazi=None):
 
     format_canggan = []
     format_zhishen = []
+    format_geju = [GeJu]
+    if GeJu != '':
+        format_gejuinfo = GeJuInfo
+    else:
+        format_gejuinfo = ['']
     n_max = 0
     for cangan in CangGanWuXing:
         t = list(map(lambda a:DotFormatWColor(a), cangan))
@@ -176,8 +177,11 @@ def baziAnalysis(year, month, day, hour, minute, zone, bazi=None):
         ['地'] + format_dedi,
         ['势'] + format_deshi,
         ['身'] + format_body,
-        ['用神'] + format_yongshen,
-        ['喜'] + format_yongshenNeed,
+        # ['用神'] + format_yongshen,
+        # ['喜'] + format_yongshenNeed,
+        ['------------------------------------------------------------------'],
+        ['格局'] + format_geju,
+        *format_gejuinfo,
         ['------------------------------------------------------------------'],
         (['三奇'] + format_sanqi) if format_sanqi is not None else '',
         (['魁罡'] + format_kuigang) if format_kuigang is not None else '',
@@ -197,10 +201,11 @@ if __name__ == '__main__':
     # ZHANG
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='己卯乙亥丁亥甲辰')
     # yy
-    # baziAnalysis(1993, 5, 13, 19, 5, bazi='甲戌己巳癸巳丁巳')
+    # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲戌己巳癸巳丁巳')
     baziAnalysis(1993, 5, 13, 19, 5, '襄樊')
-    # baziAnalysis('丙子辛丑癸亥乙卯')
-    # print(getGanZhi(1993, 5, 13, 18))
+    # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='丁亥丙午壬寅己酉')
+    # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='己巳乙亥壬子乙巳')
+    # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='癸巳丁巳丁卯丙午')
     # import numpy as np
     # N = 31 + 28 + 31 + 30 + 13
     # year = 1993
