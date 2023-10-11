@@ -195,14 +195,14 @@ if __name__ == '__main__':
     # harding
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='丙子丙申乙酉戊寅')
     # harding对象
-    # baziAnalysis(1993, 5, 13, 19, 5, bazi='乙亥丙戌丁酉丁未')
+    baziAnalysis(1993, 5, 13, 19, 5, bazi='乙亥丙戌丁酉丁未')
     # ZHOU
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='癸酉乙卯丙申甲午')
     # ZHANG
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='己卯乙亥丁亥甲辰')
     # yy
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲戌己巳癸巳丁巳')
-    baziAnalysis(1993, 5, 13, 19, 5, '襄樊')
+    # baziAnalysis(1993, 5, 13, 19, 5, '襄樊')
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='丁亥丙午壬寅己酉')
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='己巳乙亥壬子乙巳')
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='癸巳丁巳丁卯丙午')
