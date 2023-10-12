@@ -1,8 +1,7 @@
-from .constant import *
 import itertools as it
 from .formater import *
-
-import sxtwl, json, math, os
+from .constant import *
+import sxtwl, json, math
 
 
 def getTrueSolarTime(year, month, day, hour, minute, isLunarLeap, zone):
@@ -237,19 +236,21 @@ def getTianGanHeChong(tiangans):
 
 def getDiZhiHeChongXingHai(dizhis):
     He = isPairInDict(dizhis, C_DiZhiLiuHe)
+    AnHe = isPairInDict(dizhis, C_DiZhiSanAnHe)
     Chong = isPairInDict(dizhis, C_DiZhiLiuChong)
     Hai = isPairInDict(dizhis, C_DiZhiLiuHai)
     Xing = isPairInDict(dizhis, C_DiZhiSiXing)
     Po = isPairInDict(dizhis, C_DiZhiLiuPo)
     Gong = isAdjacentPairInDict(dizhis, C_DiZhiGong)
     He = replaceNoneByKey(He, '合')
+    AnHe = replaceNoneByKey(AnHe, '暗合')
     Chong = replaceNoneByKey(Chong, '冲')
     Hai = replaceNoneByKey(Hai, '害')
     Xing = replaceNoneByKey(Xing, '刑')
     Po = replaceNoneByKey(Po, '破')
     Gong = replaceNoneByKey(Gong, '拱')
 
-    return He, Chong, Hai, Xing, Po, Gong
+    return He, AnHe, Chong, Hai, Xing, Po, Gong
 
 
 def getDiZhiHuiFang(dizhis):
@@ -270,6 +271,7 @@ def getGeJu(baizi):
     GeJuGanShenTianGan = []
     YZCG = getCangGan(YZ)
     wuxingRG, yinyangRG = getTianGanWuXing(RG)
+    inDoubtFlag = False
     if C_ShiErChangSheng[RG]['帝旺'] == YZ and RG in C_YangTianGan:
         GeJuGanShen = '羊刃'
     elif C_ShiErChangSheng[RG]['临官'] == YZ:
@@ -314,13 +316,14 @@ def getGeJu(baizi):
             benqi = YZCG[0]
             benqi_wuxing, benqi_yinyang = getTianGanWuXing(benqi)
             GeJuGanShen = C_getShiShen(wuxingRG, yinyangRG, benqi_wuxing, benqi_yinyang)[0]
+            inDoubtFlag = True
 
     GeJu = GeJuGanShen + '格'
     GeJuInfo = C_GeJu[GeJu]
     GeJuInfoLs = []
     for k, v in GeJuInfo.items():
         GeJuInfoLs.append([k, v])
-    return GeJu, GeJuInfoLs
+    return GeJu, GeJuInfoLs, inDoubtFlag
 
 
 def isDeLing(RG, YZ, isInJi):
@@ -468,7 +471,7 @@ def isSanQi(tiangans):
         return False, None
     else:
         sanqi = list(SanQi[0])
-        return True, [EmptyFormat(sanqi[:-1]), sanqi[-1], t]
+        return True, [Format(sanqi[:-1], sep='⋅', color_idx=None, align=None), sanqi[-1], t]
 
 def isKuiGang(bazi):
     RGZ = bazi[4:6]
@@ -478,10 +481,44 @@ def isKuiGang(bazi):
     return False
 
 
+# 合盘
+def getTianGanRelation(M, F):
+    if (M, F) in C_TianGanWuHe or (F, M) in C_TianGanWuHe:
+        return '合'
+    if M == F:
+        return '比合'
+    if (M, F) in C_TianGanSiChong or (F, M) in C_TianGanSiChong:
+        return '冲'
+    return '无'
+
+
+def getDiZhiRelation(M, F):
+    if (M, F) in C_DiZhiLiuHe or (F, M) in C_DiZhiLiuHe:
+        return '合'
+    if (M, F) in C_DiZhiSanAnHe or (F, M) in C_DiZhiSanAnHe:
+        return '暗合'
+    if (M, F) in C_DiZhiBanHuiJu or (F, M) in C_DiZhiBanHuiJu:
+        return '半合'
+    if M == F:
+        return '比合'
+    if (M, F) in C_DiZhiLiuChong or (F, M) in C_DiZhiLiuChong:
+        return '冲'
+    if (M, F) in C_DiZhiSiXing or (F, M) in C_DiZhiLiuChong:
+        return '刑'
+    if (M, F) in C_DiZhiLiuHai or (F, M) in C_DiZhiLiuHai:
+        return '害'
+    if (M, F) in C_DiZhiLiuPo or (F, M) in C_DiZhiLiuPo:
+        return '破'
+    return '无'
 
 
 
-
+def getNaYinRelation(mZhu, fZhu):
+    mNaYin = C_NaYin[mZhu]
+    fNaYin = C_NaYin[fZhu]
+    mNaYinWuXing = mNaYin[-1]
+    fNaYinWuXing = fNaYin[-1]
+    return mNaYin, fNaYin, C_NNayinHeHui[mNaYinWuXing][fNaYinWuXing]
 
 
 
