@@ -1,7 +1,12 @@
 
 from utils import *
 
-def baziAnalysis(year, month, day, hour, minute, zone=None, bazi=None):
+def baziAnalysis(year=None, month=None, day=None, hour=None, minute=None, gender=None, zone=None, bazi=None):
+    if year is not None:
+        qiYunNian, qiYunYue, qiYueRi, qiYunDiffNian, qiYunDiffYue, DaYunLiuNianInfo = getDaYun(year, month, day, gender)
+        useDaYun = True
+    else:
+        useDaYun = False
     if bazi is None:
         bazi, isInJi = getGanZhi(year, month, day, hour, minute, zone)
     else:
@@ -156,6 +161,8 @@ def baziAnalysis(year, month, day, hour, minute, zone=None, bazi=None):
     if KuiGang:
         format_kuigang = [EmptyFormat(bazi[4:6])]
 
+
+
     print_str = [
         ['  ', '年柱', '月柱', '日柱', '时柱'],
         ['=================================================================='],
@@ -189,25 +196,60 @@ def baziAnalysis(year, month, day, hour, minute, zone=None, bazi=None):
         (['三奇'] + format_sanqi) if format_sanqi is not None else '',
         (['魁罡'] + format_kuigang) if format_kuigang is not None else '',
     ]
+    if useDaYun:
+        print_str_yun = []
+        # print_str_yun.append(['大运', ' ' * 20 + '{}年{}月{}日({}年{}个月) 起运'.format(qiYunNian, int(qiYunYue), qiYueRi, qiYunDiffNian, qiYunDiffYue)])
+        print_str_yun.append(['大运', ' ' * 20 + '{}年{}月({}年{}个月) 起运'.format(qiYunNian, int(qiYunYue), qiYunDiffNian, qiYunDiffYue)])
+        for k1 in DaYunLiuNianInfo:
+            print_str_yun.append([k1[0] + '(' + k1[1] + ')'])
+            v1 = DaYunLiuNianInfo[k1]
+            for k2 in v1:
+                v2 = v1[k2]
+                for item in k2:
+                    item = [item[0], '(' + item[1] + ')']
+                    print_str_yun.append([Format(item, color_idx=0, sep='')])
+                G_ls = []
+                Z_ls = []
+                sui_nian_ls = []
+                for idx, k3 in enumerate(v2):
+                    if idx < 4 or idx > 7:
+                        n_space = 2
+                    else:
+                        n_space = 3
+                    G, Z, sui, nian = k3
+                    G = [' ' * n_space, G[0], '(' + G[1] + ')']
+                    Z = [' ' * n_space, Z[0], '(' + Z[1] + ')']
+                    sui_nian = [' ' * (3 - len(sui)),  sui,  '(' + nian + ')']
+                    G_ls.append(Format(G, color_idx=1, sep=''))
+                    Z_ls.append(Format(Z, color_idx=1, sep=''))
+                    sui_nian_ls.append(sui_nian)
+                print_str_yun.append(sui_nian_ls)
+                print_str_yun.append(G_ls)
+                print_str_yun.append(Z_ls)
+            print_str_yun.append(['==============================================================='])
+
+        print_str.extend(print_str_yun)
     for idx, s in enumerate(print_str):
-        print(Format(list(map(lambda a:Format(a, sep='', align_w=8, color_idx=None), s)), sep='    ', color_idx=None))
+        print(Format(list(map(lambda a:Format(a, sep='', align_w=8, color_idx=None), s)), sep=' ' * 4, color_idx=None))
         pass
 if __name__ == '__main__':
     # XU
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='甲戌丙子己丑丁卯')
+    # baziAnalysis(1994, 12, 29, 7, 5, '女', '咸阳')
     # 柯
-    # baziAnalysis(1994, 3, 5, 13, 45, '十堰')
+    # baziAnalysis(1994, 3, 5, 13, 45, '男', '十堰')
     # harding
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='丙子丙申乙酉戊寅')
     # harding对象
-    baziAnalysis(1993, 5, 13, 19, 5, bazi='乙亥丙戌丁酉丁未')
+    # baziAnalysis(1993, 5, 13, 19, 5, bazi='乙亥丙戌丁酉丁未')
     # ZHOU
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='癸酉乙卯丙申甲午')
     # ZHANG
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='己卯乙亥丁亥甲辰')
     # yy
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲戌己巳癸巳丁巳')
-    # baziAnalysis(1993, 5, 13, 19, 5, '襄樊')
+    baziAnalysis(1994, 5, 7, 10, 25, '女', '咸阳')
+    # baziAnalysis(1993, 5, 13, 19, 5, '男', '襄樊')
     # 官印相生--身弱，官强，印为相，见印化官生身
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='戊戌辛酉癸巳癸亥')
 
@@ -226,14 +268,13 @@ if __name__ == '__main__':
     # 反面例子:无财
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='庚申壬午庚戌壬午')
 
-    # 伤官佩印格--身弱，伤官在月令且藏干透出天干，身弱不从，日主有根，印透且强， 日主和根不被刑冲合化
+    # 伤官佩印格--身弱，伤官在月令且藏干透出天干，身弱不从，日主有根，印透且强， 日主和印不被刑冲合化
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='丁亥庚戌己巳庚午')
     # 伤官生财格--身强
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲辰丁卯癸未甲寅')
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲午丁卯甲子壬申')
     # 康熙
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲午戊辰戊申丁巳')
-
     # import numpy as np
     # N = 31 + 28 + 31 + 30 + 13
     # year = 1993

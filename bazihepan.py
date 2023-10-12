@@ -33,8 +33,8 @@ def baziAnalysis(m_info=None, f_info=None, m_bazi=None, f_bazi=None):
     # 晚年关系
     SZRelation = getDiZhiRelation(mSZ, fSZ)
 
-    format_mbazi = [Format(list(map(lambda a: Format(a, sep='', align=None), m_bazi)), n=2, sep='||', align=None)]
-    format_fbazi = [Format(list(map(lambda a: Format(a, sep='', align=None), f_bazi)), n=2, sep='||', align=None)]
+    format_mbazi = [mSX + '  ' + Format(list(map(lambda a: Format(a, sep='', align=None), m_bazi)), n=2, sep='||', align=None)]
+    format_fbazi = [fSX + '  ' + Format(list(map(lambda a: Format(a, sep='', align=None), f_bazi)), n=2, sep='||', align=None)]
     format_mshengxiaoruwei = [
         Format([mNZ, '(', mSX, ')'], sep='', color_idx=0, align=None) + Format([fRZ], sep='', color_idx=0,
                                                                                align=None) + '⋅' + MIsFSXBeiWei]
@@ -66,14 +66,15 @@ def baziAnalysis(m_info=None, f_info=None, m_bazi=None, f_bazi=None):
         ['女入男位'] + format_fshengxiaoruwei,
         ['生肖合克'] + format_shengxiaoheke,
         ['------------------------------------------------------------------'],
-        ['日主关系'] + format_rizhurelation,
+        ['日主'] + format_rizhurelation,
         ['------------------------------------------------------------------'],
-        ['夫妻宫关系'] + format_fuqirelation,
+        ['夫妻宫'] + format_fuqirelation,
         ['------------------------------------------------------------------'],
-        ['年纳音关系'] + format_nayinrelation,
-        ['------------------------------------------------------------------'],
+        # ['年纳音'] + format_nayinrelation,
+        # ['------------------------------------------------------------------'],
         ['晚年关系'] + format_wannianrelation,
         ['------------------------------------------------------------------'],
+        ['备注：无代表没有合冲刑亥']
     ]
     for idx, s in enumerate(print_str):
         print(Format(list(map(lambda a:Format(a, sep='', align_w=12, color_idx=None), s)), sep='    ', color_idx=None))
@@ -82,4 +83,6 @@ def baziAnalysis(m_info=None, f_info=None, m_bazi=None, f_bazi=None):
 if __name__ == '__main__':
     # baziAnalysis([1993, 5, 13, 19, 5, '襄樊'], f_bazi='甲戌丙子己丑丁卯')
     baziAnalysis(m_bazi='癸酉乙卯丙申甲午', f_bazi='己卯乙亥丁亥甲辰')
+    # baziAnalysis(m_bazi='丙子丙申乙酉戊寅', f_bazi='乙亥丙戌丁酉丁未')
+
 

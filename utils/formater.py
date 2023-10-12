@@ -35,12 +35,11 @@ def Format(strs, sep='', align='^', align_w=7, space_pad_num=0, color_idx=0, col
         if strs[color_idx] in color_map:
             f_color = color_map[strs[color_idx]]
         elif strs[color_idx] in C_TianGan:
-            f_color = color_map[C_WuXingTianGan[strs[color_idx]][color_idx]]
+            f_color = color_map[C_WuXingTianGan[strs[color_idx]][0]]
         elif strs[color_idx] in C_DiZhi:
-            f_color = color_map[C_WuXingDiZhi[strs[color_idx]][color_idx]]
+            f_color = color_map[C_WuXingDiZhi[strs[color_idx]][0]]
         else:
             f_color = '{}'
-
     return f_space.join(f_color.format(f_align.format(sep.join(strs))))
 
 

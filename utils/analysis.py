@@ -1,6 +1,9 @@
 import itertools as it
+
 from .formater import *
 from .constant import *
+# from formater import *
+# from constant import *
 import sxtwl, json, math
 
 
@@ -63,10 +66,10 @@ def getGanZhi(year, month, day, hour, minute, zone):
     print('真太阳时:', year, month, day, hour, minute)
 
     info = sxtwl.fromSolar(year, month, day)
-    yTG = info.getYearGZ(True)
-    mTG = info.getMonthGZ()
-    dTG = info.getDayGZ()
-    hTG = sxtwl.getShiGz(dTG.tg, hour)
+    yGZ = info.getYearGZ(True)
+    mGZ = info.getMonthGZ()
+    dGZ = info.getDayGZ()
+    hGZ = sxtwl.getShiGz(dGZ.tg, hour)
     isInJi = False
     for i in range(18):
         if info.hasJieQi():
@@ -75,10 +78,10 @@ def getGanZhi(year, month, day, hour, minute, zone):
                 isInJi = True
                 break
         info = info.after(1)
-    return EmptyFormat([C_TianGan[yTG.tg], C_DiZhi[yTG.dz],
-            C_TianGan[mTG.tg], C_DiZhi[mTG.dz],
-            C_TianGan[dTG.tg], C_DiZhi[dTG.dz],
-            C_TianGan[hTG.tg], C_DiZhi[hTG.dz]]), isInJi
+    return EmptyFormat([C_TianGan[yGZ.tg], C_DiZhi[yGZ.dz],
+            C_TianGan[mGZ.tg], C_DiZhi[mGZ.dz],
+            C_TianGan[dGZ.tg], C_DiZhi[dGZ.dz],
+            C_TianGan[hGZ.tg], C_DiZhi[hGZ.dz]]), isInJi
 
 def C_getShiShen(wuxingA, yinyangA, wuxingB, yinyangB):
     # 印
@@ -519,6 +522,131 @@ def getNaYinRelation(mZhu, fZhu):
     mNaYinWuXing = mNaYin[-1]
     fNaYinWuXing = fNaYin[-1]
     return mNaYin, fNaYin, C_NNayinHeHui[mNaYinWuXing][fNaYinWuXing]
+
+
+
+
+def isShun(year, month, day, gender):
+    info = sxtwl.fromSolar(year, month, day)
+    yGZ = info.getYearGZ(True)
+    yZ = C_DiZhi[yGZ.dz]
+
+    return not ((gender == '男') ^ C_WuXingDiZhi[yZ][1])
+
+def getQiYunNianYue(year, month, day, isShunFlag):
+    info = sxtwl.fromSolar(year, month, day)
+    mGZ = info.getMonthGZ()
+    mZ = C_DiZhi[mGZ.dz]
+    diff = -1
+    while True:
+        if C_DiZhi[info.getMonthGZ().dz] != mZ:
+            break
+        diff += 1
+        if isShunFlag:
+            info = info.after(1)
+        else:
+            info = info.before(1)
+    qiYunDiffNian = diff // 3
+    qiYunDiffYue = (diff % 3) * 4
+    month += qiYunDiffYue
+    year += qiYunDiffNian
+    return qiYunDiffNian, qiYunDiffYue, year, month, day
+
+def getNextTianGan(tiangan):
+    return C_TianGan[(C_TianGan.index(tiangan) + 1) % len(C_TianGan)]
+
+def getNextDizhi(dizhi):
+    return C_DiZhi[(C_DiZhi.index(dizhi) + 1) % len(C_DiZhi)]
+
+def getPreTianGan(tiangan):
+    return C_TianGan[(C_TianGan.index(tiangan) + 9) % len(C_TianGan)]
+
+def getPreDizhi(dizhi):
+    return C_DiZhi[(C_DiZhi.index(dizhi) + 11) % len(C_DiZhi)]
+
+def getLiChunYueGZ(year):
+    info = sxtwl.fromSolar(year, 12, 31)
+    while True:
+        if info.hasJieQi():
+            JQ = C_JQMC[info.getJieQi()]
+            if JQ == '立春':
+                mGZ = info.getMonthGZ()
+                LiuYueG = C_TianGan[mGZ.tg]
+                LiuYueZ = C_DiZhi[mGZ.dz]
+                break
+        info = info.before(1)
+    return LiuYueG, LiuYueZ
+
+
+def getDaYun(year, month, day, gender):
+    # 正排逆排
+    isShunFlag = isShun(year, month, day, gender)
+    # 起运时间
+    qiYunDiffNian, qiYunDiffYue, qiYunNian, qiYunYue, qiYueRi = getQiYunNianYue(year, month, day, isShunFlag)
+    QiYunNian = qiYunDiffNian + int(qiYunDiffYue > 6)
+    # 大运开始的干支
+    info = sxtwl.fromSolar(year, month, day)
+    mGZ = info.getMonthGZ()
+    DaYunG = C_TianGan[mGZ.tg]
+    DaYunZ = C_DiZhi[mGZ.dz]
+
+    yGZ = info.getYearGZ(True)
+    LiuNianG = C_TianGan[yGZ.tg]
+    LiuNianZ = C_DiZhi[yGZ.dz]
+
+
+    dGZ = info.getDayGZ()
+    RG = C_TianGan[dGZ.tg]
+
+    DaYunLiuNianInfo = {}
+    s = 1
+    ckey_reg = '{}~{}岁'
+    info_dayun_years = [(s, max(s, QiYunNian))] + [(s, s + 9) for s in range(QiYunNian + 1, QiYunNian + 1 + 90, 10)]
+    for idx, (s, e) in enumerate(info_dayun_years):
+        ckey = (ckey_reg.format(s, e), str(year + s - 1))
+        if idx == 0:
+            ganshen = '小'
+            zhishen = '运'
+        else:
+            canggan = getCangGan(DaYunZ)[0]
+            ganshen = getShiShen(RG, DaYunG)[0]
+            zhishen = getShiShen(RG, canggan)[0]
+        k1 = ((DaYunG, ganshen), (DaYunZ, zhishen))
+        DaYunLiuNianInfo[ckey] = {k1: {}}
+        for i in range(s, e + 1):
+            canggan = getCangGan(LiuNianZ)[0]
+            ganshen = getShiShen(RG, LiuNianG)[0]
+            zhishen = getShiShen(RG, canggan)[0]
+            k2 = ((LiuNianG, ganshen), (LiuNianZ, zhishen), str(i)+'岁', str(year + i - 1))
+            DaYunLiuNianInfo[ckey][k1][k2] = []
+            LiuYueG, LiuYueZ = getLiChunYueGZ(year + i - 1)
+            for j in range(12):
+                canggan = getCangGan(LiuYueZ)[0]
+                ganshen = getShiShen(RG, LiuYueG)[0]
+                zhishen = getShiShen(RG, canggan)[0]
+                DaYunLiuNianInfo[ckey][k1][k2].append(((LiuYueG, ganshen), (LiuYueZ, zhishen)))
+                LiuYueG = getNextTianGan(LiuYueG)
+                LiuYueZ = getNextDizhi(LiuYueZ)
+            if QiYunNian == 0 and idx == 0:
+                continue
+            LiuNianG = getNextTianGan(LiuNianG)
+            LiuNianZ = getNextDizhi(LiuNianZ)
+        if isShunFlag:
+            DaYunG = getNextTianGan(DaYunG)
+            DaYunZ = getNextDizhi(DaYunZ)
+        else:
+            DaYunG = getPreTianGan(DaYunG)
+            DaYunZ = getPreDizhi(DaYunZ)
+
+    return qiYunNian, qiYunYue, qiYueRi, qiYunDiffNian, qiYunDiffYue, DaYunLiuNianInfo
+    # for k1 in DaYunLiuNianInfo:
+    #     print(k1)
+    #     v1 = DaYunLiuNianInfo[k1]
+    #     for k2 in v1:
+    #         v2 = v1[k2]
+    #         print(k2)
+    #         for k3 in v2:
+    #             print(k3, v2[k3])
 
 
 
