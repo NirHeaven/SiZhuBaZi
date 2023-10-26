@@ -106,3 +106,11 @@ C_GeJu = {
         '备注': '羊刃架杀'
     },
 }
+C_ShengZhengKuL = {
+    ('寅', '申', '巳', '亥'): '四生',
+    ('子', '午', '卯', '酉'): '四正',
+    ('辰', '戌', '丑', '未'): '四库',
+}
+C_ShengZhengKu = {}
+for k in C_ShengZhengKuL:
+    C_ShengZhengKu[tuple(sorted(list(k)))] = C_ShengZhengKuL[k]
