@@ -289,7 +289,7 @@ def baziAnalysis(year=None, month=None, day=None, hour=None, minute=None, gender
 if __name__ == '__main__':
     # XU
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='甲戌丙子己丑丁卯')
-    baziAnalysis(1994, 12, 29, 7, 5, '女', '咸阳')
+    # baziAnalysis(1994, 12, 29, 7, 5, '女', '咸阳')
     # 柯
     # baziAnalysis(1994, 3, 5, 13, 45, '男', '十堰')
     # YangYu
@@ -301,7 +301,7 @@ if __name__ == '__main__':
     # ZHOU
     # baziAnalysis(1993, 3, 16, 12, 5, '男', '襄樊')
     # ZHANG
-    # baziAnalysis(1993, 5, 13, 19, 5, '女', bazi='己卯乙亥丁亥甲辰')
+    # baziAnalysis(1999, 12, 1, 9, 20, '女', '重庆')
     # ZHOU peer
     # baziAnalysis(1990, 8, 20, 9, 50, '男', '无锡')
     # yy
@@ -338,4 +338,3 @@ if __name__ == '__main__':
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲午戊辰戊申丁巳')
     # baziAnalysis(bazi=C_BaZi['张三丰'])
     # baziAnalysis(bazi='辛亥庚子丁丑乙巳')
-    import torch.nn as nn

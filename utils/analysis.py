@@ -646,7 +646,6 @@ def isShun(year, month, day, gender):
     info = sxtwl.fromSolar(year, month, day)
     yGZ = info.getYearGZ(True)
     yZ = C_DiZhi[yGZ.dz]
-
     return not ((gender == '男') ^ C_WuXingDiZhi[yZ][1])
 
 def getQiYunNianYue(year, month, day, isShunFlag):
@@ -666,6 +665,9 @@ def getQiYunNianYue(year, month, day, isShunFlag):
     qiYunDiffYue = (diff % 3) * 4
     month += qiYunDiffYue
     year += qiYunDiffNian
+    while month > 12:
+        month -= 12
+        year += 1
     return qiYunDiffNian, qiYunDiffYue, year, month, day
 
 def getNextTianGan(tiangan):
@@ -724,6 +726,9 @@ def getDaYun(year, month, day, gender, dizhis):
     # 起运时间
     qiYunDiffNian, qiYunDiffYue, qiYunNian, qiYunYue, qiYueRi = getQiYunNianYue(year, month, day, isShunFlag)
     QiYunNian = qiYunDiffNian + int(qiYunDiffYue > 6)
+    diff = 0
+    if sxtwl.fromSolar(year, month, day).getLunarMonth() > 6:
+        diff = 1
     # 大运开始的干支
     info = sxtwl.fromSolar(year, month, day)
 
@@ -740,11 +745,11 @@ def getDaYun(year, month, day, gender, dizhis):
 
     DaYunLiuNianInfo = {}
     SiZhengShengKuInfo = []
-    s = 1
+    s = 1 - diff
     ckey_reg = '{}~{}岁'
     info_dayun_years = [(s, max(s, QiYunNian))] + [(s, s + 9) for s in range(QiYunNian + 1, QiYunNian + 1 + 90, 10)]
     for idx, (s, e) in enumerate(info_dayun_years):
-        ckey = (ckey_reg.format(s, e), str(year + s - 1))
+        ckey = (ckey_reg.format(s, e), str(year + s - 1 + diff))
         if idx == 0:
             ganshen = '小'
             zhishen = '运'
@@ -758,12 +763,12 @@ def getDaYun(year, month, day, gender, dizhis):
             canggan = getCangGan(LiuNianZ)[0]
             ganshen = getShiShen(RG, LiuNianG)[0]
             zhishen = getShiShen(RG, canggan)[0]
-            k2 = ((LiuNianG, ganshen), (LiuNianZ, zhishen), str(i)+'岁', str(year + i - 1))
+            k2 = ((LiuNianG, ganshen), (LiuNianZ, zhishen), str(i)+'岁', str(year + i - 1 + diff))
             DaYunLiuNianInfo[ckey][k1][k2] = []
             LiuYueG, LiuYueZ = getLiChunYueGZ(year + i - 1)
             isInInfo = isInShengZhengKu(dizhis, DaYunZ, LiuNianZ)
             if isInInfo is not None:
-                SiZhengShengKuInfo.append([isInInfo, str(i)+'岁',  str(year + i - 1)])
+                SiZhengShengKuInfo.append([isInInfo, str(i)+'岁',  str(year + i - 1 + diff)])
             for j in range(12):
                 canggan = getCangGan(LiuYueZ)[0]
                 ganshen = getShiShen(RG, LiuYueG)[0]
