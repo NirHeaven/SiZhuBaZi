@@ -288,7 +288,6 @@ def baziAnalysis(year=None, month=None, day=None, hour=None, minute=None, gender
         pass
 if __name__ == '__main__':
     # XU
-    # baziAnalysis(1993, 5, 13, 19, 5, bazi='甲戌丙子己丑丁卯')
     # baziAnalysis(1994, 12, 29, 7, 5, '女', '咸阳')
     # 柯
     # baziAnalysis(1994, 3, 5, 13, 45, '男', '十堰')
@@ -299,7 +298,7 @@ if __name__ == '__main__':
     # harding对象
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='乙亥丙戌丁酉丁未')
     # ZHOU
-    # baziAnalysis(1993, 3, 16, 12, 5, '男', '襄樊')
+    baziAnalysis(1993, 3, 16, 12, 5, '男', '襄樊')
     # ZHANG
     # baziAnalysis(1999, 12, 1, 9, 20, '女', '重庆')
     # ZHOU peer
