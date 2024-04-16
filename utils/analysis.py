@@ -281,129 +281,128 @@ def getDiZhiSanHeJu(dizhis):
 
 def getGeJu(baizi):
 
-    _geju_map = {
-        '比肩': '建禄',
-        '劫财': '羊刃'
-    }
-    YZ = baizi[3]
-    RG = baizi[4]
-    YZCG = getCangGan(YZ)
-    wuxingRG, yinyangRG = getTianGanWuXing(RG)
-    wuxingYZBenQi, yinyangYZBenQi = getTianGanWuXing(YZCG[0])
-
-    GeJuGanShen = None
-
-    # 是否有合会局
-    result, _ = getDiZhiSanHuiFang(baizi[1::2])
-    if len(result) == 0:
-        result, _, _ = getDiZhiSanHeJu(baizi[1::2])
-    # 如果有，本格用和会后的五行
-    if len(result) != 0:
-        assert len(result) == 1
-        info = result[0]
-        Ju_Dizhi = info[0]
-        HeHuaWuXing = info[1][-1]
-        flag = False
-        for Z in Ju_Dizhi:
-            if YZ == Z:
-                flag = True
-                break
-        if flag:
-            GeJuGanShen = C_getShiShen(wuxingRG, yinyangRG, HeHuaWuXing, '阴' if yinyangRG == '阳' else '阳')[0]
-    # 如果没有，以月令取
-    if GeJuGanShen is None:
-        GeJuGanShen = C_getShiShen(wuxingRG, yinyangRG, wuxingYZBenQi, yinyangYZBenQi)[0]
-    tiangans = baizi[::2]
-    reordered_tiangans = [tiangans[1], tiangans[0], tiangans[2], tiangans[3]]
-
-    GeJuGanShen1 = None
-
-    for CG in YZCG:
-        find_flag = False
-        for TG in reordered_tiangans:
-            if CG == TG:
-                wuxingCG, yinyangCG = getTianGanWuXing(CG)
-                GeJuGanShen1 = C_getShiShen(wuxingRG, yinyangRG, wuxingCG, yinyangCG)[0]
-                find_flag = True
-                break
-        if find_flag:
-            break
-    if GeJuGanShen in _geju_map:
-        GeJuGanShen = _geju_map[GeJuGanShen]
-    if GeJuGanShen1 in _geju_map:
-        GeJuGanShen1 = _geju_map[GeJuGanShen1]
-    if GeJuGanShen1 == GeJuGanShen:
-        GeJuGanShen1 = None
-    return GeJuGanShen, GeJuGanShen1
-
-
+    # _geju_map = {
+    #     '比肩': '建禄',
+    #     '劫财': '羊刃'
+    # }
     # YZ = baizi[3]
     # RG = baizi[4]
-    # GeJuGanShen = []
-    # GeJuGanShenTianGan = []
     # YZCG = getCangGan(YZ)
     # wuxingRG, yinyangRG = getTianGanWuXing(RG)
-    # inDoubtFlag = False
-    # if C_ShiErChangSheng[RG]['帝旺'] == YZ and RG in C_YangTianGan:
-    #     GeJuGanShen = '羊刃'
-    # elif C_ShiErChangSheng[RG]['临官'] == YZ:
-    #     GeJuGanShen = '建禄'
-    # else:
-    #     DiZhiCangGans = [YZCG]
-    #     for i in [0, 1, 3]:
-    #         DiZhiCangGans.append(getCangGan(baizi[i*2 + 1])[0:1])
-    #     for DiZhiCangGan in DiZhiCangGans:
-    #         for canggan in DiZhiCangGan:
-    #             canggan_wuxing, canggang_yinyang = getTianGanWuXing(canggan)
-    #             tiangan_wo_RG = baizi[::2]
-    #             tiangan_wo_RG = tiangan_wo_RG[0] + tiangan_wo_RG[1] + tiangan_wo_RG[3]
-    #             for tiangan in baizi[::2]:
-    #                 wuxing, yiyang = getTianGanWuXing(tiangan)
-    #                 if wuxing == canggan_wuxing:
-    #                     GanShen = getShiShen(RG, tiangan)
-    #                     if GanShen[0] in ['比肩', '劫财']:
-    #                         continue
-    #                     GeJuGanShen.append(getShiShen(RG, tiangan))
-    #                     GeJuGanShenTianGan.append((tiangan, yiyang, yiyang==canggang_yinyang))
-    #     if len(GeJuGanShen) == 0:
-    #         GeJuGanShen = None
-    #     elif len(GeJuGanShen) >= 1:
-    #         GeJuGanShen = GeJuGanShen[0][0]
-    #     else:
-    #         t_idx = 0
-    #         for idx in range(len(GeJuGanShenTianGan)):
-    #             if GeJuGanShenTianGan[idx][-1]:
-    #                 t_idx = idx
-    #                 break
-    #         GeJuGanShen = GeJuGanShen[t_idx][0]
-    #     if GeJuGanShen is None:
-    #         result = getDiZhiSanHuiFang(baizi[1::2])
-    #         if len(result) == 0:
-    #             result, _ = getDiZhiSanHeJu(baizi[1::2])
-    #         if len(result) != 0:
-    #             assert len(result) == 1
-    #             for Z in result[0]:
-    #                 if YZ == Z:
-    #                     _, yinyang = getDiZhiWuXing(YZ)
-    #                     wuxing = result[0][-1]
-    #                     if len(wuxing) > 1:
-    #                         wuxing = wuxing[-1]
-    #                     GeJuGanShen = C_getShiShen(wuxingRG, yinyangRG, wuxing, yinyang)[0]
-    #                     break
-    #     if GeJuGanShen is None:
-    #         benqi = YZCG[0]
-    #         benqi_wuxing, benqi_yinyang = getTianGanWuXing(benqi)
-    #         GeJuGanShen = C_getShiShen(wuxingRG, yinyangRG, benqi_wuxing, benqi_yinyang)[0]
-    #         inDoubtFlag = True
+    # wuxingYZBenQi, yinyangYZBenQi = getTianGanWuXing(YZCG[0])
     #
-    # GeJu = GeJuGanShen + '格'
-    # if GeJuGanShen in ['比肩', '劫财']:
-    #     return GeJu, '', True
-    # GeJuInfo = C_GeJu[GeJu]
-    # GeJuInfoLs = []
-    # for k, v in GeJuInfo.items():
-    #     GeJuInfoLs.append([k, v])
-    # return GeJu, GeJuInfoLs, inDoubtFlag
+    # GeJuGanShen = None
+    #
+    # # 是否有合会局
+    # result, _ = getDiZhiSanHuiFang(baizi[1::2])
+    # if len(result) == 0:
+    #     result, _, _ = getDiZhiSanHeJu(baizi[1::2])
+    # # 如果有，本格用和会后的五行
+    # if len(result) != 0:
+    #     assert len(result) == 1
+    #     info = result[0]
+    #     Ju_Dizhi = info[0]
+    #     HeHuaWuXing = info[1][-1]
+    #     flag = False
+    #     for Z in Ju_Dizhi:
+    #         if YZ == Z:
+    #             flag = True
+    #             break
+    #     if flag:
+    #         GeJuGanShen = C_getShiShen(wuxingRG, yinyangRG, HeHuaWuXing, '阴' if yinyangRG == '阳' else '阳')[0]
+    # # 如果没有，以月令取
+    # if GeJuGanShen is None:
+    #     GeJuGanShen = C_getShiShen(wuxingRG, yinyangRG, wuxingYZBenQi, yinyangYZBenQi)[0]
+    # tiangans = baizi[::2]
+    # reordered_tiangans = [tiangans[1], tiangans[0], tiangans[2], tiangans[3]]
+    #
+    # GeJuGanShen1 = None
+    #
+    # for CG in YZCG:
+    #     find_flag = False
+    #     for TG in reordered_tiangans:
+    #         if CG == TG:
+    #             wuxingCG, yinyangCG = getTianGanWuXing(CG)
+    #             GeJuGanShen1 = C_getShiShen(wuxingRG, yinyangRG, wuxingCG, yinyangCG)[0]
+    #             find_flag = True
+    #             break
+    #     if find_flag:
+    #         break
+    # if GeJuGanShen in _geju_map:
+    #     GeJuGanShen = _geju_map[GeJuGanShen]
+    # if GeJuGanShen1 in _geju_map:
+    #     GeJuGanShen1 = _geju_map[GeJuGanShen1]
+    # if GeJuGanShen1 == GeJuGanShen:
+    #     GeJuGanShen1 = None
+    # return GeJuGanShen, GeJuGanShen1
+
+    YZ = baizi[3]
+    RG = baizi[4]
+    GeJuGanShen = []
+    GeJuGanShenTianGan = []
+    YZCG = getCangGan(YZ)
+    wuxingRG, yinyangRG = getTianGanWuXing(RG)
+    inDoubtFlag = False
+    if C_ShiErChangSheng[RG]['帝旺'] == YZ and RG in C_YangTianGan:
+        GeJuGanShen = '羊刃'
+    elif C_ShiErChangSheng[RG]['临官'] == YZ:
+        GeJuGanShen = '建禄'
+    else:
+        DiZhiCangGans = [YZCG]
+        for i in [0, 1, 3]:
+            DiZhiCangGans.append(getCangGan(baizi[i*2 + 1])[0:1])
+        for DiZhiCangGan in DiZhiCangGans:
+            for canggan in DiZhiCangGan:
+                canggan_wuxing, canggang_yinyang = getTianGanWuXing(canggan)
+                tiangan_wo_RG = baizi[::2]
+                tiangan_wo_RG = tiangan_wo_RG[0] + tiangan_wo_RG[1] + tiangan_wo_RG[3]
+                for tiangan in baizi[::2]:
+                    wuxing, yiyang = getTianGanWuXing(tiangan)
+                    if wuxing == canggan_wuxing:
+                        GanShen = getShiShen(RG, tiangan)
+                        if GanShen[0] in ['比肩', '劫财']:
+                            continue
+                        GeJuGanShen.append(getShiShen(RG, tiangan))
+                        GeJuGanShenTianGan.append((tiangan, yiyang, yiyang==canggang_yinyang))
+        if len(GeJuGanShen) == 0:
+            GeJuGanShen = None
+        elif len(GeJuGanShen) >= 1:
+            GeJuGanShen = GeJuGanShen[0][0]
+        else:
+            t_idx = 0
+            for idx in range(len(GeJuGanShenTianGan)):
+                if GeJuGanShenTianGan[idx][-1]:
+                    t_idx = idx
+                    break
+            GeJuGanShen = GeJuGanShen[t_idx][0]
+        if GeJuGanShen is None:
+            result = getDiZhiSanHuiFang(baizi[1::2])
+            if len(result) == 0:
+                result, _ = getDiZhiSanHeJu(baizi[1::2])
+            if len(result) != 0:
+                assert len(result) == 1
+                for Z in result[0]:
+                    if YZ == Z:
+                        _, yinyang = getDiZhiWuXing(YZ)
+                        wuxing = result[0][-1]
+                        if len(wuxing) > 1:
+                            wuxing = wuxing[-1]
+                        GeJuGanShen = C_getShiShen(wuxingRG, yinyangRG, wuxing, yinyang)[0]
+                        break
+        if GeJuGanShen is None:
+            benqi = YZCG[0]
+            benqi_wuxing, benqi_yinyang = getTianGanWuXing(benqi)
+            GeJuGanShen = C_getShiShen(wuxingRG, yinyangRG, benqi_wuxing, benqi_yinyang)[0]
+            inDoubtFlag = True
+
+    GeJu = GeJuGanShen + '格'
+    if GeJuGanShen in ['比肩', '劫财']:
+        return GeJu, '', True
+    GeJuInfo = C_GeJu[GeJu]
+    GeJuInfoLs = []
+    for k, v in GeJuInfo.items():
+        GeJuInfoLs.append([k, v])
+    return GeJu, GeJuInfoLs, inDoubtFlag
 
 
 def isDeLing(RG, YZ, isInJi):

@@ -1,6 +1,8 @@
 
 from utils import *
 
+
+
 def baziAnalysis(year=None, month=None, day=None, hour=None, minute=None, gender=None, zone=None, bazi=None):
 
     if bazi is None:
@@ -40,10 +42,10 @@ def baziAnalysis(year=None, month=None, day=None, hour=None, minute=None, gender
             tCangGanWuXing.append([CG] + getTianGanWuXing(CG))
         CangGanWuXing.append(tCangGanWuXing)
         ZhiShen.append(tZhiShen)
-    # GeJu, GeJuInfo, GeJuIndoubt = getGeJu(bazi)
-    # if GeJuIndoubt:
-    #     GeJu = '(存疑)' + GeJu
-    GeJu, GeJu1 = getGeJu(bazi)
+    GeJu, GeJuInfo, GeJuIndoubt = getGeJu(bazi)
+    if GeJuIndoubt:
+        GeJu = '(存疑)' + GeJu
+    # GeJu, GeJu1 = getGeJu(bazi)
     TianGanHe, TianGanChong = getTianGanHeChong(TianGan)
     # print(TianGanHe)
     # print(TianGanChong)
@@ -84,14 +86,14 @@ def baziAnalysis(year=None, month=None, day=None, hour=None, minute=None, gender
 
     format_canggan = []
     format_zhishen = []
-    # format_geju = [GeJu if not GeJuIndoubt else Format(GeJu, align=None, color='火', sep='')]
-    # if GeJu != '':
-    #     format_gejuinfo = GeJuInfo
-    # else:
-    #     format_gejuinfo = ['']
-    format_geju = [GeJu + '格']
-    if GeJu1 is not None:
-        format_geju = [GeJu + '格', GeJu1 + '格']
+    format_geju = [GeJu if not GeJuIndoubt else Format(GeJu, align=None, color='火', sep='')]
+    if GeJu != '':
+        format_gejuinfo = GeJuInfo
+    else:
+        format_gejuinfo = ['']
+    # format_geju = [GeJu + '格']
+    # if GeJu1 is not None:
+    #     format_geju = [GeJu + '格', GeJu1 + '格']
 
     n_max = 0
     for cangan in CangGanWuXing:
@@ -298,7 +300,7 @@ if __name__ == '__main__':
     # harding对象
     # baziAnalysis(1993, 5, 13, 19, 5, bazi='乙亥丙戌丁酉丁未')
     # ZHOU
-    baziAnalysis(1993, 3, 16, 12, 5, '男', '襄樊')
+    # baziAnalysis(1993, 3, 16, 12, 5, '男', '襄樊')
     # ZHANG
     # baziAnalysis(1999, 12, 1, 9, 20, '女', '重庆')
     # ZHOU peer
@@ -307,6 +309,7 @@ if __name__ == '__main__':
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲戌己巳癸巳丁巳')
     # baziAnalysis(1994, 5, 7, 10, 25, '女', '咸阳')
     # baziAnalysis(1993, 5, 13, 19, 5, '男', '襄樊')
+    baziAnalysis(2011, 4, 12, 14, 35, '男', '北京')
     # baziAnalysis(2023, 10, 25, 11, 7, '男', '北京')
     # yushuo
     # baziAnalysis(1997, 1, 6, 7, 5, '男', '石家庄')
@@ -335,5 +338,7 @@ if __name__ == '__main__':
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲午丁卯甲子壬申')
     # 康熙
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲午戊辰戊申丁巳')
-    # baziAnalysis(bazi=C_BaZi['张三丰'])
+    # baziAnalysis(bazi=C_BaZi['诸葛亮'])
     # baziAnalysis(bazi='辛亥庚子丁丑乙巳')
+    # baziAnalysis(2023, 12, 29, 12, 46, '男', '南京')
+    # baziAnalysis(2022, 12, 5, 16, 2, '男', '上海')
