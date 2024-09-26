@@ -408,7 +408,11 @@ def getGeJu(baizi):
 def isDeLing(RG, YZ, isInJi):
     wuxing, C_ = getTianGanWuXing(RG)
     wuxing_YZ, C_ = getDiZhiWuXing(YZ)
-    for k in ['长生', '沐浴', '冠带', '临官', '帝旺'][::-1]:
+    if RG in C_YangTianGan:
+        keys = ['长生', '沐浴', '冠带', '临官', '帝旺'][::-1]
+    else:
+        keys = ['临官', '帝旺', '衰', '病', '死']
+    for k in keys:
     # for k in ['长生', '临官', '帝旺', '衰', '墓'][::-1]:
     # for k in ['长生', '临官', '帝旺'][::-1]:
         if C_ShiErChangSheng[RG][k] == YZ:
