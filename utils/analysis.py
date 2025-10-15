@@ -376,9 +376,9 @@ def getGeJu(baizi):
                     break
             GeJuGanShen = GeJuGanShen[t_idx][0]
         if GeJuGanShen is None:
-            result = getDiZhiSanHuiFang(baizi[1::2])
+            result, _ = getDiZhiSanHuiFang(baizi[1::2])
             if len(result) == 0:
-                result, _ = getDiZhiSanHeJu(baizi[1::2])
+                result, _, _ = getDiZhiSanHeJu(baizi[1::2])
             if len(result) != 0:
                 assert len(result) == 1
                 for Z in result[0]:
@@ -766,7 +766,7 @@ def getDaYun(year, month, day, gender, dizhis):
             canggan = getCangGan(LiuNianZ)[0]
             ganshen = getShiShen(RG, LiuNianG)[0]
             zhishen = getShiShen(RG, canggan)[0]
-            k2 = ((LiuNianG, ganshen), (LiuNianZ, zhishen), str(i)+'岁', str(year + i - 1 + diff))
+            k2 = (str(i)+'岁', str(year + i - 1 + diff), (LiuNianG, ganshen), (LiuNianZ, zhishen))
             DaYunLiuNianInfo[ckey][k1][k2] = []
             LiuYueG, LiuYueZ = getLiChunYueGZ(year + i - 1)
             isInInfo = isInShengZhengKu(dizhis, DaYunZ, LiuNianZ)

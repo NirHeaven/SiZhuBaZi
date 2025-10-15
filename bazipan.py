@@ -289,6 +289,18 @@ def baziAnalysis(year=None, month=None, day=None, hour=None, minute=None, gender
         print(Format(list(map(lambda a:Format(a, sep='', align_w=8, color_idx=None), s)), sep=' ' * 4, color_idx=None))
         pass
 if __name__ == '__main__':
+    # 光恩
+    import sys
+    # Y, M, D, H, M, gender, addr = sys.argv[1:7]
+    # Y = int(Y)
+    # M = int(M)
+    # D = int(D)
+    # H = int(H)
+    # M = int(M)
+#baziAnalysis(1998, 10, 19, 8, 15, '男', '海口')
+    # baziAnalysis(2003, 6, 8, 20, 0, '男', '沈阳')
+    # 光恩
+    #baziAnalysis(1996, 3, 3, 20, 0, '男', '宁德')
     # XU
     # baziAnalysis(1994, 12, 29, 7, 5, '女', '咸阳')
     # 柯
@@ -308,8 +320,8 @@ if __name__ == '__main__':
     # yy
     # baziAnalysis(1993, 5, 13, 19, 5, '襄樊', bazi='甲戌己巳癸巳丁巳')
     # baziAnalysis(1994, 5, 7, 10, 25, '女', '咸阳')
-    # baziAnalysis(1993, 5, 13, 19, 5, '男', '襄樊')
-    baziAnalysis(2011, 4, 12, 14, 35, '男', '北京')
+    baziAnalysis(1993, 5, 13, 19, 5, '男', '襄樊')
+    # baziAnalysis(2011, 4, 12, 14, 35, '男', '北京')
     # baziAnalysis(2023, 10, 25, 11, 7, '男', '北京')
     # yushuo
     # baziAnalysis(1997, 1, 6, 7, 5, '男', '石家庄')
